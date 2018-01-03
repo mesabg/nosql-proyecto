@@ -1,0 +1,7 @@
+{
+    "name": "nosql-proyecto",
+    "description": "NoSQL Proyecto",
+    "repository": "https://github.com/mesabg/nosql-proyecto.git",
+    "keywords": ["NoSQL", "MongoDB", "ExpressJS", "Disney"],
+    "image": "heroku/nodejs"
+}

@@ -24,13 +24,13 @@ var ActorSchema = new Schema({
             type: Schema.Types.Number,
             get: v => Math.round(v),
             set: v => Math.round(v),
-            required: [true, 'Character ID is required']
+            required: [true, 'Movie ID is required']
         }]
     },
     personifies:{
         type:[{
             type: Schema.Types.String,
-            required: [true, 'Movie ID is required']
+            required: [true, 'Character ID is required']
         }]
     }
 }, {collection: 'actor'});

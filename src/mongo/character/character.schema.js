@@ -12,11 +12,11 @@ var CharacterSchema = new Schema({
         type: Schema.Types.Number,
         get: v => Math.round(v),
         set: v => Math.round(v),
-        required: [true, 'ID is required'],
-        unique: true
+        required: [true, 'ID is required']
     },
     name:{
         type: Schema.Types.String,
+        index: true,
         required: [true, 'Name is required']
     },
     appear_in:{

@@ -6,11 +6,11 @@ const mongoose = require('mongoose');
 /**
  * Local dependencies
  */
-const AwardSchema = require('./award.schema');
+const CategorySchema = require('./category.schema');
 
 /**
  * Declare model
  */
-const AwardModel = mongoose.model('AwardModel', AwardSchema);
+const CategoryModel = mongoose.model('CategoryModel', CategorySchema);
 
-module.exports = AwardModel;
+module.exports = CategoryModel;

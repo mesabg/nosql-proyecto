@@ -10,8 +10,7 @@ const Schema = mongoose.Schema;
 var MovieSchema = new Schema({
     _id:{
         type: Schema.Types.String,
-        required: [true, 'ID is required'],
-        unique: true
+        required: [true, 'ID is required']
     },
     name:{
         type:{
@@ -82,21 +81,18 @@ var MovieSchema = new Schema({
     },
     personified_by:{
         type:[{
-            type:{
-                character_id:{
-                    type: Schema.Types.Number,
-                    get: v => Math.round(v),
-                    set: v => Math.round(v),
-                    required: [true, 'Character ID is required']
-                },
-                actor_id:{
-                    type: Schema.Types.Number,
-                    get: v => Math.round(v),
-                    set: v => Math.round(v),
-                    required: [true, 'Actor ID is required']
-                }
+            character_id:{
+                type: Schema.Types.Number,
+                get: v => Math.round(v),
+                set: v => Math.round(v),
+                required: [true, 'Character ID is required']
             },
-            required: [true, 'Character is required']
+            actor_id:{
+                type: Schema.Types.Number,
+                get: v => Math.round(v),
+                set: v => Math.round(v),
+                required: [true, 'Actor ID is required']
+            }
         }]
     },
     directed_by:{
@@ -133,26 +129,23 @@ var MovieSchema = new Schema({
     },
     nominated_in:{
         type:[{
-            type:{
-                category_id:{
-                    type: Schema.Types.Number,
-                    get: v => Math.round(v),
-                    set: v => Math.round(v),
-                    required: [true, 'Character ID is required']
-                },
-                award_id:{
-                    type: Schema.Types.Number,
-                    get: v => Math.round(v),
-                    set: v => Math.round(v),
-                    required: [true, 'Actor ID is required']
-                },
-                won:{
-                    type: Schema.Types.Boolean,
-                    required: [true, 'Won is required'],
-                    default: false
-                }
+            category_id:{
+                type: Schema.Types.Number,
+                get: v => Math.round(v),
+                set: v => Math.round(v),
+                required: [true, 'Character ID is required']
             },
-            required: [true, 'Character is required']
+            award_id:{
+                type: Schema.Types.Number,
+                get: v => Math.round(v),
+                set: v => Math.round(v),
+                required: [true, 'Actor ID is required']
+            },
+            won:{
+                type: Schema.Types.Boolean,
+                required: [true, 'Won is required'],
+                default: false
+            }
         }]
     }
 }, {collection: 'movie'});

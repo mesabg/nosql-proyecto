@@ -118,60 +118,6 @@ const characters = [
         name: 'Julie',
         appear_in: [2],
         personified_by: [20]
-    },
-	 {
-        _id: 21,
-        name: 'Cleveland',
-        appear_in: [2],
-        personified_by: [21]
-    },
-	 {
-        _id: 22,
-        name: 'Hiro',
-        appear_in: [2],
-        personified_by: [22]
-    },
-	 {
-        _id: 23,
-        name: 'Coslough ',
-        appear_in: [2],
-        personified_by: [23]
-    }
-	 {
-        _id: 24,
-        name: 'Benchley',
-        appear_in: [2],
-        personified_by: [24]
-    },
-	 {
-        _id: 25,
-        name: 'Charlotte Braithwaite',
-        appear_in: [2],
-        personified_by: [25]
-    },
-	 {
-        _id: 26,
-        name: 'Leipzig Manager',
-        appear_in: [2],
-        personified_by: [26]
-    }
-	 {
-        _id: 27,
-        name: 'Slabotsky',
-        appear_in: [2],
-        personified_by: [27]
-    },
-	 {
-        _id: 28,
-        name: 'Irate Pilot (as Pete Renaday)',
-        appear_in: [2],
-        personified_by: [28]
-    },
-	 {
-        _id: 29,
-        name: 'Chaplain',
-        appear_in: [2],
-        personified_by: [29]
     }
 
 ];

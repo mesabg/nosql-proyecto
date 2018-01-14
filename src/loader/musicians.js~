@@ -18,11 +18,6 @@ const musicians = [
         _id: 1,
         name: 'Frank De Vol',
         wrote_music_of: [1]
-    },
-    {
-        _id: 2,
-        name: 'Maurice Jarre',
-        wrote_music_of: [2]
     }
 ];
 

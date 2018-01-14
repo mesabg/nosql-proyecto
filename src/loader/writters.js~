@@ -20,12 +20,12 @@ const writters = [
         wrote_in: [1]
     },
     {
-        _id: 2,
+        _id: 1,
         name: 'Don Tait',
         wrote_in: [1]
     },
     {
-        _id: 3,
+        _id: 2,
         name: 'Ernest K. Gann',
         wrote_in: [2]
     }

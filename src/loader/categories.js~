@@ -29,13 +29,8 @@ const categories = [
         present_in: [2]
     },{
         _id: 4,
-        name: 'Best Major Motion Picture - Family Entertainment',
-        present_in: [2]
-    },
-    {
-        _id: 5,
-        name: 'Best Young Actor - Major Motion Picture',
-        present_in: [2]
+        name: 'Worst Performance by a Child in a Featured Role',
+        present_in: [1]
     }
 ];
 

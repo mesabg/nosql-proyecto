@@ -172,7 +172,7 @@ const actors = [
         name: 'Bob Whiting',
         acted_in: [2],
         personifies: [29]
-    }
+    },
 ];
 
 

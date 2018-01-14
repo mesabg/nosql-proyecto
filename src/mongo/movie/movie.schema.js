@@ -8,6 +8,11 @@ const Schema = mongoose.Schema;
  * Movie Schema
  */
 var MovieSchema = new Schema({
+    _id:{
+        type: Schema.Types.String,
+        required: [true, 'ID is required'],
+        unique: true
+    },
     name:{
         type:{
             spanish:{
@@ -44,7 +49,7 @@ var MovieSchema = new Schema({
         default: 'N/A'
     },
     previous_movie:{
-        type: Schema.Types.ObjectId,
+        type: Schema.Types.String,
         default: null
     },
     release:{
@@ -79,11 +84,15 @@ var MovieSchema = new Schema({
         type:[{
             type:{
                 character_id:{
-                    type: Schema.Types.ObjectId,
+                    type: Schema.Types.Number,
+                    get: v => Math.round(v),
+                    set: v => Math.round(v),
                     required: [true, 'Character ID is required']
                 },
                 actor_id:{
-                    type: Schema.Types.ObjectId,
+                    type: Schema.Types.Number,
+                    get: v => Math.round(v),
+                    set: v => Math.round(v),
                     required: [true, 'Actor ID is required']
                 }
             },
@@ -92,25 +101,33 @@ var MovieSchema = new Schema({
     },
     directed_by:{
         type:[{
-            type: Schema.Types.ObjectId,
+            type: Schema.Types.Number,
+            get: v => Math.round(v),
+            set: v => Math.round(v),
             required: [true, 'Director ID is required']
         }]
     },
     produced_by:{
         type:[{
-            type: Schema.Types.ObjectId,
+            type: Schema.Types.Number,
+            get: v => Math.round(v),
+            set: v => Math.round(v),
             required: [true, 'Producer ID is required']
         }]
     },
     written_by:{
         type:[{
-            type: Schema.Types.ObjectId,
+            type: Schema.Types.Number,
+            get: v => Math.round(v),
+            set: v => Math.round(v),
             required: [true, 'Writter ID is required']
         }]
     },
     music_by:{
         type:[{
-            type: Schema.Types.ObjectId,
+            type: Schema.Types.Number,
+            get: v => Math.round(v),
+            set: v => Math.round(v),
             required: [true, 'Musician ID is required']
         }]
     },
@@ -118,11 +135,15 @@ var MovieSchema = new Schema({
         type:[{
             type:{
                 category_id:{
-                    type: Schema.Types.ObjectId,
+                    type: Schema.Types.Number,
+                    get: v => Math.round(v),
+                    set: v => Math.round(v),
                     required: [true, 'Character ID is required']
                 },
                 award_id:{
-                    type: Schema.Types.ObjectId,
+                    type: Schema.Types.Number,
+                    get: v => Math.round(v),
+                    set: v => Math.round(v),
                     required: [true, 'Actor ID is required']
                 },
                 won:{

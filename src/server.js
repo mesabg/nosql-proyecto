@@ -9,6 +9,7 @@ global.Promise = Bluebird;
  * Local dependencies
  */
 const MongoDB = require('./mongo/connect');
+const model = require('./mongo');
 
 
 

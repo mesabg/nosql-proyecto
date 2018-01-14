@@ -30,7 +30,7 @@ var MovieSchema = new Schema({
         index: true,
         required: true
     },
-    rating:{
+    clasification:{
         type: Schema.Types.String,
         enum: [
             'G',
@@ -39,7 +39,11 @@ var MovieSchema = new Schema({
             'R',
             'NC-17'
         ],
-        required: [true, 'Rating is required'],
+        required: [true, 'Clasification is required'],
+    },
+    rating:{
+        type: Schema.Types.Number,
+        required: [true, 'Rating stars are required']
     },
     studio:{
         type: Schema.Types.String,
@@ -63,15 +67,6 @@ var MovieSchema = new Schema({
     genre:{
         type:[{
             type: Schema.Types.String,
-            enum: [
-                'Animation',
-                'Adventure',
-                'Comedy',
-                'Family',
-                'Fantasy',
-                'Music',
-                'Mistery'
-            ],
             required: [true, 'Genre is required']
         }],
         index: true
@@ -106,7 +101,6 @@ var MovieSchema = new Schema({
             },
             role:{
                 type: Schema.Types.String,
-                enum: ['main', 'secondary'],
                 required: [true, 'Role is required']
             }
         }]

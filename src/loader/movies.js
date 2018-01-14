@@ -20,7 +20,8 @@ const movies = [
             spanish: 'Herbie Torero',
             original: 'Herbie Goes Bananas'
         },
-        rating: 'G',
+        clasification: 'G',
+        rating: 4.8,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
         saga: 'Herbie',

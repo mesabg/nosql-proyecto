@@ -21,7 +21,9 @@ var MusicianSchema = new Schema({
     },
     wrote_music_of:{
         type:[{
-            type: Schema.Types.String,
+            type: Schema.Types.Number,
+            get: v => Math.round(v),
+            set: v => Math.round(v),
             required: [true, 'Movie ID is required']
         }]
     }

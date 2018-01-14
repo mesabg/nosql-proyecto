@@ -24,7 +24,7 @@ var DirectorSchema = new Schema({
             type: Schema.Types.Number,
             get: v => Math.round(v),
             set: v => Math.round(v),
-            required: [true, 'Character ID is required']
+            required: [true, 'Movie ID is required']
         }]
     }
 }, {collection: 'director'});

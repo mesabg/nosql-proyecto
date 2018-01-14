@@ -29,7 +29,9 @@ var ActorSchema = new Schema({
     },
     personifies:{
         type:[{
-            type: Schema.Types.String,
+            type: Schema.Types.Number,
+            get: v => Math.round(v),
+            set: v => Math.round(v),
             required: [true, 'Character ID is required']
         }]
     }

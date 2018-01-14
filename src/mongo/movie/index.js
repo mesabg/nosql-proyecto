@@ -3,6 +3,5 @@
  */
 module.exports = {
     model: require('./movie.model'),
-    schema: require('./movie.schema'),
-    management: require('./movie.management')
+    schema: require('./movie.schema')
 };

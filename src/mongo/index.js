@@ -2,5 +2,12 @@
  * Export managements
  */
 module.exports = {
-    MovieManagement: require('./movie').management
+    Actor: require('./actor'),
+    Award: require('./award'),
+    Category: require('./category'),
+    Character: require('./character'),
+    Movie: require('./movie'),
+    Musician: require('./musician'),
+    Producer: require('./producer'),
+    Writter: require('./writter')
 };

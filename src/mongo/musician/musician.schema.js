@@ -19,7 +19,7 @@ var MusicianSchema = new Schema({
         index: true,
         required: [true, 'Name is required']
     },
-    make_music_of:{
+    wrote_music_of:{
         type:[{
             type: Schema.Types.String,
             required: [true, 'Movie ID is required']

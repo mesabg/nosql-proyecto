@@ -6,6 +6,7 @@ module.exports = {
     Award: require('./award'),
     Category: require('./category'),
     Character: require('./character'),
+    Director: require('./director'),
     Movie: require('./movie'),
     Musician: require('./musician'),
     Producer: require('./producer'),

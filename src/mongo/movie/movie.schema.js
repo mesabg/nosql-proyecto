@@ -9,7 +9,9 @@ const Schema = mongoose.Schema;
  */
 var MovieSchema = new Schema({
     _id:{
-        type: Schema.Types.String,
+        type: Schema.Types.Number,
+        get: v => Math.round(v),
+        set: v => Math.round(v),
         required: [true, 'ID is required']
     },
     name:{
@@ -41,15 +43,18 @@ var MovieSchema = new Schema({
     },
     studio:{
         type: Schema.Types.String,
+        index: true,
         required: [true, 'Studio is required']
+    },
+    distributor:{
+        type: Schema.Types.String,
+        index: true,
+        required: [true, 'Distributor is required']
     },
     saga:{
         type: Schema.Types.String,
+        index: true,
         default: 'N/A'
-    },
-    previous_movie:{
-        type: Schema.Types.String,
-        default: null
     },
     release:{
         type: Schema.Types.Date,
@@ -79,6 +84,12 @@ var MovieSchema = new Schema({
         type: Schema.Types.Number,
         required: [true, 'Gross is required']
     },
+    preceded_by:{
+        type: Schema.Types.Number,
+        get: v => Math.round(v),
+        set: v => Math.round(v),
+        default: null
+    },
     personified_by:{
         type:[{
             character_id:{
@@ -92,6 +103,11 @@ var MovieSchema = new Schema({
                 get: v => Math.round(v),
                 set: v => Math.round(v),
                 required: [true, 'Actor ID is required']
+            },
+            role:{
+                type: Schema.Types.String,
+                enum: ['main', 'secondary'],
+                required: [true, 'Role is required']
             }
         }]
     },

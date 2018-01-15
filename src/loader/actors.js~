@@ -829,35 +829,130 @@ const actors = [
     },
 	 {
         _id: 138,
-        name: 'John Fiedler',
-        acted_in: [10],
-        personifies: [141]
-    },
-	 {
-        _id: 139,
-        name: '',
+        name: 'John McIntire',
         acted_in: [10],
         personifies: [142]
     },
 	 {
-        _id: 140,
-        name: '',
+        _id: 139,
+        name: 'Richard Bakalyan',
         acted_in: [10],
         personifies: [143]
     },
 	 {
-        _id: 141,
-        name: '',
+        _id: 140,
+        name: 'Paul Winchell',
         acted_in: [10],
         personifies: [144]
     },
 	 {
-        _id: 142,
-        name: '',
+        _id: 141,
+        name: 'Keith Coogan',
         acted_in: [10],
         personifies: [145]
+    },
+	 {
+        _id: 142,
+        name: 'Corey Feldman',
+        acted_in: [10],
+        personifies: [146]
+    },
+ 	 {
+        _id: 143,
+        name: 'Squeeks the Caterpillar',
+        acted_in: [10],
+        personifies: [147]
+    },
+	 {
+        _id: 144,
+        name: 'John Hurt',
+        acted_in: [11],
+        personifies: []
+    },
+	 {
+        _id: 145,
+        name: 'Jane Alexander',
+        acted_in: [11],
+        personifies: [140]
+    },
+	 {
+        _id: 146,
+        name: 'Doug McKeon',
+        acted_in: [11],
+        personifies: [142]
+    },
+	 {
+        _id: 147,
+        name: 'Keith McKeon',
+        acted_in: [11],
+        personifies: [143]
+    },
+	 {
+        _id: 148,
+        name: 'Beau Bridges',
+        acted_in: [11],
+        personifies: [144]
+    },
+	 {
+        _id: 149,
+        name: 'Glynnis O Connor',
+        acted_in: [11],
+        personifies: [145]
+    },
+	 {
+        _id: 150,
+        name: 'Geoffrey Liesik',
+        acted_in: [11],
+        personifies: [146]
+    },
+ 	 {
+        _id: 151,
+        name: 'Michael Liesik',
+        acted_in: [11],
+        personifies: [147]
+    },
+	 {
+        _id: 152,
+        name: 'Ian Bannen',
+        acted_in: [11],
+        personifies: [144]
+    },
+	 {
+        _id: 153,
+        name: 'Anne Stallybrass',
+        acted_in: [11],
+        personifies: [145]
+    },
+	 {
+        _id: 154,
+        name: 'Matthew Taylor',
+        acted_in: [11],
+        personifies: [146]
+    },
+ 	 {
+        _id: 155,
+        name: 'Klaus Lowitsch',
+        acted_in: [11],
+        personifies: [147]
+    },
+	 {
+        _id: 156,
+        name: 'Gunter Meisner',
+        acted_in: [11],
+        personifies: [144]
+    },
+	 {
+        _id: 157,
+        name: 'Sky du Mont',
+        acted_in: [11],
+        personifies: [145]
+    },
+	 {
+        _id: 158,
+        name: 'Jan Niklas',
+        acted_in: [11],
+        personifies: [146]
     }
-
 
 ];
 

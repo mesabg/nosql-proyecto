@@ -886,6 +886,96 @@ const characters = [
         name: 'Squeeks the Caterpillar',
         appear_in: [10],
         personified_by: [143]
+    },
+	 {
+        _id: 148,
+        name: 'Peter Strelzyk',
+        acted_in: [11],
+        personifies: [144]
+    },
+	 {
+        _id: 149,
+        name: 'Doris Strelzyk',
+        acted_in: [11],
+        personifies: [145]
+    },
+	 {
+        _id: 150,
+        name: 'Frank Strelzyk',
+        acted_in: [11],
+        personifies: [146]
+    },
+	 {
+        _id: 151,
+        name: 'Fitscher Strelzyk',
+        acted_in: [11],
+        personifies: [147]
+    },
+	 {
+        _id: 152,
+        name: 'Gunter Wetzel',
+        acted_in: [11],
+        personifies: [148]
+    },
+	 {
+        _id: 153,
+        name: 'Petra Wetzel',
+        acted_in: [11],
+        personifies: [149]
+    },
+	 {
+        _id: 154,
+        name: 'Little Peter Wetzel ',
+        acted_in: [11],
+        personifies: [150]
+    },
+ 	 {
+        _id: 155,
+        name: 'Andreas Wetzel',
+        acted_in: [11],
+        personifies: [151]
+    },
+	 {
+        _id: 156,
+        name: 'Josef Keller',
+        acted_in: [11],
+        personifies: [152]
+    },
+	 {
+        _id: 157,
+        name: 'Magda Keller',
+        acted_in: [11],
+        personifies: [153]
+    },
+	 {
+        _id: 158,
+        name: 'Lukas Keller',
+        acted_in: [11],
+        personifies: [154]
+    },
+ 	 {
+        _id: 159,
+        name: 'Schmolk',
+        acted_in: [11],
+        personifies: [155]
+    },
+	 {
+        _id: 160,
+        name: 'Major Koerner',
+        acted_in: [11],
+        personifies: [156]
+    },
+	 {
+        _id: 161,
+        name: 'Ziegler (as Sky Dumont)',
+        acted_in: [11],
+        personifies: [157]
+    },
+	 {
+        _id: 162,
+        name: 'Lt. Fehler',
+        acted_in: [11],
+        personifies: [158]
     }
 
 

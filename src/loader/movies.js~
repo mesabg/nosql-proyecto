@@ -932,15 +932,15 @@ const movies = [
             },{
                 character_id: 135,
                 actor_id: 132,
-                role: 'antagonist'
+                role: 'main'
             },{
                 character_id: 136,
                 actor_id: 133,
-                role: 'secondary'
+                role: 'main'
             },{
                 character_id: 137,
                 actor_id: 134,
-                role: 'secondary'
+                role: 'antagonist'
             },{
                 character_id: 138,
                 actor_id: 135,
@@ -997,6 +997,101 @@ const movies = [
             },
  				{
                 category_id: 26,
+                award_id: 2,
+                won: false
+            }
+        ]
+    },
+    {
+        _id: 11,
+        name:{
+            spanish: 'Fuga de Noche',
+            original: 'Night Crossing'
+        },
+        clasification: 'PG-13',
+        rating: 6.4,
+        studio: 'Walt Disney Productions',
+        distributor: 'Bavaria Film',
+        saga: '',
+        release: new Date(1982, 2, 5),
+        genre: [
+				 'Drama', 'History', 'Thriller', 'Family'
+        ],
+        running_time: 105,
+        gross: 8000000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 148,
+                actor_id: 131,
+                role: 'main'
+            },{
+                character_id: 149,
+                actor_id: 132,
+                role: 'main'
+            },{
+                character_id: 150,
+                actor_id: 133,
+                role: 'main'
+            },{
+                character_id: 151,
+                actor_id: 134,
+                role: 'antagonist'
+            },{
+                character_id: 152,
+                actor_id: 135,
+                role: 'secondary'
+            },{
+                character_id: 153,
+                actor_id: 136,
+                role: 'secondary'
+            },{
+                character_id: 154,
+                actor_id: 137,
+                role: 'secondary'
+            },{
+                character_id: 155,
+                actor_id: 56,
+                role: 'secondary'
+            },{
+                character_id: 156,
+                actor_id: 138,
+                role: 'secondary'
+            },{
+                character_id: 157,
+                actor_id: 139,
+                role: 'secondary'
+            },{
+                character_id: 158,
+                actor_id: 140,
+                role: 'secondary'
+            },{
+                character_id: 159,
+                actor_id: 141,
+                role: 'main'
+            },{
+                character_id: 160,
+                actor_id: 142,
+                role: 'main'
+            },{
+                character_id: 161,
+                actor_id: 143,
+                role: 'secondary'
+            },{
+                character_id: 161,
+                actor_id: 143,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [12],
+		  nominated_in:[
+            {
+                category_id: 27,
+                award_id: 2,
+                won: false
+            },
+            {
+                category_id: 16,
                 award_id: 2,
                 won: false
             }

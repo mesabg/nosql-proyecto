@@ -22,7 +22,7 @@ const awards = [
     {
         _id: 2,
         name: 'Young Artist Awards',
-        has_category: [4, 5, 9, 16, 17, 26]
+        has_category: [4, 5, 9, 16, 17, 26, 27]
     },
     {
         _id: 3,

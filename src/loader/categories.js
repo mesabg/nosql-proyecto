@@ -89,7 +89,7 @@ const categories = [
     {
         _id: 16,
         name: 'Best Young Motion Picture Actor',
-        present_in: [6]
+        present_in: [6,11]
     },
     {
         _id: 17,
@@ -140,6 +140,11 @@ const categories = [
         _id: 26,
         name: 'Best Motion Picture - Fantasy or Comedy - Family Enjoyment',
         present_in: [10]
+    },
+    {
+        _id: 27,
+        name: 'Best Family Motion Picture',
+        present_in: [11]
     }
 ];
 

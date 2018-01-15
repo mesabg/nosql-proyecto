@@ -862,6 +862,96 @@ const actors = [
         name: 'Squeeks the Caterpillar',
         acted_in: [10],
         personifies: [147]
+    },
+	 {
+        _id: 144,
+        name: 'John Hurt',
+        acted_in: [11],
+        personifies: [148]
+    },
+	 {
+        _id: 145,
+        name: 'Jane Alexander',
+        acted_in: [11],
+        personifies: [149]
+    },
+	 {
+        _id: 146,
+        name: 'Doug McKeon',
+        acted_in: [11],
+        personifies: [150]
+    },
+	 {
+        _id: 147,
+        name: 'Keith McKeon',
+        acted_in: [11],
+        personifies: [151]
+    },
+	 {
+        _id: 148,
+        name: 'Beau Bridges',
+        acted_in: [11],
+        personifies: [152]
+    },
+	 {
+        _id: 149,
+        name: 'Glynnis O Connor',
+        acted_in: [11],
+        personifies: [153]
+    },
+	 {
+        _id: 150,
+        name: 'Geoffrey Liesik',
+        acted_in: [11],
+        personifies: [154]
+    },
+ 	 {
+        _id: 151,
+        name: 'Michael Liesik',
+        acted_in: [11],
+        personifies: [155]
+    },
+	 {
+        _id: 152,
+        name: 'Ian Bannen',
+        acted_in: [11],
+        personifies: [156]
+    },
+	 {
+        _id: 153,
+        name: 'Anne Stallybrass',
+        acted_in: [11],
+        personifies: [157]
+    },
+	 {
+        _id: 154,
+        name: 'Matthew Taylor',
+        acted_in: [11],
+        personifies: [158]
+    },
+ 	 {
+        _id: 155,
+        name: 'Klaus Lowitsch',
+        acted_in: [11],
+        personifies: [159]
+    },
+	 {
+        _id: 156,
+        name: 'Gunter Meisner',
+        acted_in: [11],
+        personifies: [160]
+    },
+	 {
+        _id: 157,
+        name: 'Sky du Mont',
+        acted_in: [11],
+        personifies: [161]
+    },
+	 {
+        _id: 158,
+        name: 'Jan Niklas',
+        acted_in: [11],
+        personifies: [162]
     }
 
 ];

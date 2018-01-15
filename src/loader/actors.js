@@ -21,7 +21,7 @@ const actors = [
     },{
         _id: 2,
         name: 'Charles Martin Smith',
-        acted_in: [1],
+        acted_in: [1,15],
         personifies: [2,207]
     },{
         _id: 3,
@@ -92,7 +92,7 @@ const actors = [
     {
         _id: 16,
         name: 'Elliott Gould',
-        acted_in: [2],
+        acted_in: [2,9],
         personifies: [16,119]
     },
     {
@@ -140,7 +140,7 @@ const actors = [
     {
         _id: 24,
         name: 'Dana Elcar',
-        acted_in: [2],
+        acted_in: [2,7],
         personifies: [24, 101]
     },
     {
@@ -218,7 +218,7 @@ const actors = [
     {
         _id: 37,
         name: 'Brian Frishman',
-        acted_in: [3],
+        acted_in: [3,6],
         personifies: [37, 92]
     },
     {
@@ -332,7 +332,7 @@ const actors = [
     {
         _id: 56,
         name: 'John Fiedler',
-        acted_in: [3],
+        acted_in: [3,10],
         personifies: [56,141]
     },
     {
@@ -896,7 +896,7 @@ const actors = [
 	 {
         _id: 149,
         name: 'Glynnis O Connor',
-        acted_in: [11],
+        acted_in: [11,18],
         personifies: [153,247]
     },
 	 {
@@ -1406,8 +1406,8 @@ const actors = [
 	 {
         _id: 234,
         name: 'Arthur Hill',
-        acted_in: [18],
-        personifies: [246]
+        acted_in: [18,20],
+        personifies: [246,266]
     },
     {
         _id: 235,
@@ -1498,8 +1498,92 @@ const actors = [
         name: 'Larry Wright',
         acted_in: [19],
         personifies: [262]
+    },
+	 {
+        _id: 250,
+        name: 'Mary Steenburgen',
+        acted_in: [20],
+        personifies: [263]
+    },
+	 {
+        _id: 251,
+        name: 'Gary Basaraba',
+        acted_in: [20],
+        personifies: [264]
+    },
+	 {
+        _id: 252,
+        name: 'Harry Dean Stanton',
+        acted_in: [20],
+        personifies: [265]
+    },
+	 {
+        _id: 253,
+        name: 'Elisabeth Harnois',
+        acted_in: [20],
+        personifies: [267]
+    },
+	 {
+        _id: 254,
+        name: 'Robbie Magwood',
+        acted_in: [20],
+        personifies: [268]
+    },
+	 {
+        _id: 255,
+        name: 'Michelle Meyrink',
+        acted_in: [20],
+        personifies: [269]
+    },
+	 {
+        _id: 256,
+        name: 'Elias Koteas',
+        acted_in: [20],
+        personifies: [270]
+    },
+	 {
+        _id: 257,
+        name: 'Wayne Robson',
+        acted_in: [20],
+        personifies: [271]
+    },
+	 {
+        _id: 258,
+        name: 'Jan Rubes',
+        acted_in: [20],
+        personifies: [272]
+    },
+	 {
+        _id: 259,
+        name: 'Sarah Polley',
+        acted_in: [20],
+        personifies: [273]
+    },
+	 {
+        _id: 260,
+        name: 'Graham Jarvis',
+        acted_in: [20],
+        personifies: [274]
+    },
+ 	 {
+        _id: 261,
+        name: 'Timothy Webber',
+        acted_in: [20],
+        personifies: [275]
+    },
+ 	 {
+        _id: 262,
+        name: 'Joy Thompson',
+        acted_in: [20],
+        personifies: [276]
+    },
+ 	 {
+        _id: 263,
+        name: 'John Friesen',
+        acted_in: [20],
+        personifies: [277]
     }
-	 
+
 ];
 
 

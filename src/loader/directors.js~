@@ -107,7 +107,7 @@ const directors = [
 	 {
         _id: 19,
         name: 'Theodore Thomas',
-        directed_in: [18]
+        directed_in: [19]
     }
 
 

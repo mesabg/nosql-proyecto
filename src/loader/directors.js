@@ -108,8 +108,12 @@ const directors = [
         _id: 19,
         name: 'Theodore Thomas',
         directed_in: [19]
+    },
+ 	 {
+        _id: 20,
+        name: 'Phillip Borsos',
+        directed_in: [20]
     }
-
 
 
 ];

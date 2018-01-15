@@ -239,9 +239,48 @@ const categories = [
 	 {
         _id: 46,
         name: 'Childrens Program',
-        present_in: [16]
+        present_in: [19]
+    },
+	 {
+        _id: 47,
+        name: 'Best Achievement in Sound Editing',
+        present_in: [20]
+    },
+	 {
+        _id: 48,
+        name: 'Best Achievement in Overall Sound',
+        present_in: [20]
+    },
+	 {
+        _id: 49,
+        name: 'Best Motion Picture',
+        present_in: [20]
+    },
+	 {
+        _id: 50,
+        name: 'Best Performance by an Actress in a Leading Role',
+        present_in: [20]
+    },
+ 	 {
+        _id: 51,
+        name: 'Best Achievement in Cinematography',
+        present_in: [20]
+    },
+	 {
+        _id: 52,
+        name: 'Best Achievement in Art Direction',
+        present_in: [20]
+    },
+	 {
+        _id: 53,
+        name: 'Best Achievement in Costume Design',
+        present_in: [20]
+    },
+	 {
+        _id: 54,
+        name: 'Exceptional Feature Film - Family Entertainment - Drama',
+        present_in: [20]
     }
-
 
 
 

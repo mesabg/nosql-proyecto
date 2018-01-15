@@ -1576,6 +1576,96 @@ const characters = [
         name: 'Zoom',
         appear_in: [19],
         personified_by: [249]
+    },
+	 {
+        _id: 263,
+        name: 'Mary Steenburgen',
+        appear_in: [20],
+        personified_by: [250]
+    },
+	 {
+        _id: 264,
+        name: 'Gary Basaraba',
+        appear_in: [20],
+        personified_by: [251]
+    },
+	 {
+        _id: 265,
+        name: 'Harry Dean Stanton',
+        appear_in: [20],
+        personified_by: [252]
+    },
+	 {
+        _id: 266,
+        name: 'Elisabeth Harnois',
+        appear_in: [20],
+        personified_by: [234]
+    },
+	 {
+        _id: 267,
+        name: 'Robbie Magwood',
+        appear_in: [20],
+        personified_by: [253]
+    },
+	 {
+        _id: 268,
+        name: 'Michelle Meyrink',
+        appear_in: [20],
+        personified_by: [254]
+    },
+	 {
+        _id: 269,
+        name: 'Elias Koteas',
+        appear_in: [20],
+        personified_by: [255]
+    },
+	 {
+        _id: 270,
+        name: 'Wayne Robson',
+        appear_in: [20],
+        personified_by: [256]
+    },
+	 {
+        _id: 271,
+        name: 'Jan Rubes',
+        appear_in: [20],
+        personified_by: [257]
+    },
+	 {
+        _id: 272,
+        name: 'Sarah Polley',
+        appear_in: [20],
+        personified_by: [258]
+    },
+	 {
+        _id: 273,
+        name: 'Graham Jarvis',
+        appear_in: [20],
+        personified_by: [259]
+    },
+ 	 {
+        _id: 274,
+        name: 'Timothy Webber',
+        appear_in: [20],
+        personified_by: [260]
+    },
+ 	 {
+        _id: 275,
+        name: 'Joy Thompson',
+        appear_in: [20],
+        personified_by: [261]
+    },
+ 	 {
+        _id: 276,
+        name: 'John Friesen',
+        appear_in: [20],
+        personified_by: [262]
+    },
+ 	 {
+        _id: 277,
+        name: 'John Friesen',
+        appear_in: [20],
+        personified_by: [263]
     }
 
 ];

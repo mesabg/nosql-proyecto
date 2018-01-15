@@ -22,7 +22,7 @@ const awards = [
     {
         _id: 2,
         name: 'Young Artist Awards',
-        has_category: [4, 5, 9, 16, 17, 26, 27,36]
+        has_category: [4, 5, 9, 16, 17, 26, 27,36,54,55]
     },
     {
         _id: 3,
@@ -103,8 +103,12 @@ const awards = [
         _id: 18,
         name: 'San Francisco International Film Festival',
         has_category: [46]
+    },
+	 {
+        _id: 19,
+        name: 'Genie Awards',
+        has_category: [47,48,49,50,51,52,53]
     }
-	
 
 ];
 

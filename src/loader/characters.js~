@@ -1466,116 +1466,206 @@ const characters = [
     {
         _id: 244,
         name: 'Morris Frank',
-        acted_in: [18],
-        personifies: [232]
+        appear_in: [18],
+        personified_by: [232]
     },
 	 {
         _id: 245,
         name: 'Mrs. Eustes',
-        acted_in: [18],
-        personifies: [233]
+        appear_in: [18],
+        personified_by: [233]
     },
 	 {
         _id: 246,
         name: 'Mr. Frank',
-        acted_in: [18],
-        personifies: [234]
+        appear_in: [18],
+        personified_by: [234]
     },
     {
         _id: 247,
         name: 'Lois',
-        acted_in: [18],
-        personifies: [149]
+        appear_in: [18],
+        personified_by: [149]
     },
 	 {
         _id: 248,
         name: 'Beth',
-        acted_in: [18],
-        personifies: [235]
+        appear_in: [18],
+        personified_by: [235]
     },
     {
         _id: 249,
         name: 'Jack',
-        acted_in: [18],
-        personifies: [236]
+        appear_in: [18],
+        personified_by: [236]
     },
 	 {
         _id: 250,
         name: 'Blind Institute Director (as George D. Wallace)',
-        acted_in: [18],
-        personifies: [237]
+        appear_in: [18],
+        personified_by: [237]
     },
 	 {
         _id: 251,
         name: 'Hank',
-        acted_in: [18],
-        personifies: [238]
+        appear_in: [18],
+        personified_by: [238]
     },
  	 {
         _id: 252,
         name: 'Mike McShane',
-        acted_in: [18],
-        personifies: [239]
+        appear_in: [18],
+        personified_by: [239]
     },
 	 {
         _id: 253,
         name: 'Sen. Christi',
-        acted_in: [18],
-        personifies: [240]
+        appear_in: [18],
+        personified_by: [240]
     },
 	 {
         _id: 254,
         name: 'Sen. Brighton',
-        acted_in: [18],
-        personifies: [241]
+        appear_in: [18],
+        personified_by: [241]
     },
 	 {
         _id: 255,
         name: 'Mrs. Frank',
-        acted_in: [18],
-        personifies: [242]
+        appear_in: [18],
+        personified_by: [242]
     },
 	 {
         _id: 256,
         name: 'Buddy',
-        acted_in: [18],
-        personifies: [243]
+        appear_in: [18],
+        personified_by: [243]
     },
     {
         _id: 257,
         name: 'Proprietor',
-        acted_in: [18],
-        personifies: [244]
+        appear_in: [18],
+        personified_by: [244]
     },
 	 {
         _id: 258,
         name: 'Jimmy',
-        acted_in: [18],
-        personifies: [245]
+        appear_in: [18],
+        personified_by: [245]
     },
  	 {
         _id: 259,
         name: 'Kenji, the Designer',
-        acted_in: [19],
-        personifies: [246]
+        appear_in: [19],
+        personified_by: [246]
     },
  	 {
         _id: 260,
         name: 'Robin',
-        acted_in: [19],
-        personifies: [247]
+        appear_in: [19],
+        personified_by: [247]
     },
  	 {
         _id: 261,
         name: 'Peepers',
-        acted_in: [19],
-        personifies: [248]
+        appear_in: [19],
+        personified_by: [248]
     },
   	 {
         _id: 262,
         name: 'Zoom',
-        acted_in: [19],
-        personifies: [249]
+        appear_in: [19],
+        personified_by: [249]
+    },
+	 {
+        _id: 263,
+        name: 'Mary Steenburgen',
+        acted_in: [20],
+        personifies: [250]
+    },
+	 {
+        _id: 264,
+        name: 'Gary Basaraba',
+        acted_in: [20],
+        personifies: [251]
+    },
+	 {
+        _id: 265,
+        name: 'Harry Dean Stanton',
+        acted_in: [20],
+        personifies: [252]
+    },
+	 {
+        _id: 266,
+        name: 'Elisabeth Harnois',
+        acted_in: [20],
+        personifies: [234]
+    },
+	 {
+        _id: 267,
+        name: 'Robbie Magwood',
+        acted_in: [20],
+        personifies: [253]
+    },
+	 {
+        _id: 268,
+        name: 'Michelle Meyrink',
+        acted_in: [20],
+        personifies: [254]
+    },
+	 {
+        _id: 269,
+        name: 'Elias Koteas',
+        acted_in: [20],
+        personifies: [255]
+    },
+	 {
+        _id: 270,
+        name: 'Wayne Robson',
+        acted_in: [20],
+        personifies: [256]
+    },
+	 {
+        _id: 271,
+        name: 'Jan Rubes',
+        acted_in: [20],
+        personifies: [257]
+    },
+	 {
+        _id: 272,
+        name: 'Sarah Polley',
+        acted_in: [20],
+        personifies: [258]
+    },
+	 {
+        _id: 273,
+        name: 'Graham Jarvis',
+        acted_in: [20],
+        personifies: [259]
+    },
+ 	 {
+        _id: 274,
+        name: 'Timothy Webber',
+        acted_in: [20],
+        personifies: [260]
+    },
+ 	 {
+        _id: 275,
+        name: 'Joy Thompson',
+        acted_in: [20],
+        personifies: [261]
+    },
+ 	 {
+        _id: 276,
+        name: 'John Friesen',
+        acted_in: [20],
+        personifies: [262]
+    },
+ 	 {
+        _id: 277,
+        name: 'John Friesen',
+        acted_in: [20],
+        personifies: [263]
     }
 
 ];

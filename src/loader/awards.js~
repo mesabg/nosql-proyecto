@@ -98,8 +98,17 @@ const awards = [
         _id: 17,
         name: 'Western Heritage Awards',
         has_category: [44]
+    },
+ 	 {
+        _id: 18,
+        name: 'San Francisco International Film Festival',
+        has_category: [46]
+    },
+	 {
+        _id: 19,
+        name: 'Genie Awards',
+        has_category: [47,48,49,50,51,52,53]
     }
-	
 
 ];
 

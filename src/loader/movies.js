@@ -1848,6 +1848,93 @@ const movies = [
             }
            
         ]
+    },
+	 {
+        _id: 20,
+        name:{
+            spanish: 'Navidades Magicas',
+            original: 'One Magic Christmas'
+        },
+        clasification: 'G',
+        rating: 6.6,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1985, 11, 22),
+        genre: [
+				  'Fantasy', 'Family'
+        ],
+        running_time: 89,
+        gross:  13677222,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 259,
+                actor_id: 246,
+                role: 'main'
+            },{
+                character_id: 260,
+                actor_id:  247,
+                role: 'main'
+            },{
+                character_id: 261,
+                actor_id: 248,
+                role: 'main'
+            },{
+                character_id: 262,
+                actor_id: 249,
+                role: 'main'
+            }
+        ],
+        directed_by: [19],
+		  nominated_in:[
+            {
+                category_id: 47,
+                award_id: 19,
+                won: true
+            },
+			   {
+                category_id: 48,
+                award_id: 19,
+                won: true
+            },
+				{
+                category_id: 49,
+                award_id: 19,
+                won: false
+            },
+				{
+                category_id: 50,
+                award_id: 19,
+                won: false
+            },
+				{
+                category_id: 51,
+                award_id: 19,
+                won: false
+            },
+				{
+                category_id: 52,
+                award_id: 19,
+                won: false
+            },
+				{
+                category_id: 53,
+                award_id: 19,
+                won: false
+            },
+				{
+                category_id: 54,
+                award_id: 2,
+                won: false
+            },
+				{
+                category_id: 55,
+                award_id: 2,
+                won: false
+            }
+           
+        ]
     }
 	
 	 

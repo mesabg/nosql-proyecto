@@ -109,7 +109,7 @@ const categories = [
     {
         _id: 20,
         name: 'Best Fantasy Film',
-        present_in: [6]
+        present_in: [6,10]
     },
     {
         _id: 21,
@@ -130,8 +130,17 @@ const categories = [
         _id: 24,
         name: 'Best Dramatic Presentation',
         present_in: [8]
+    },
+    {
+        _id: 25,
+        name: 'Golden Screen',
+        present_in: [10]
+    },
+    {
+        _id: 26,
+        name: 'Best Motion Picture - Fantasy or Comedy - Family Enjoyment',
+        present_in: [10]
     }
-
 ];
 
 

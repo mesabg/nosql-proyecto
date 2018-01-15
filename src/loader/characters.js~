@@ -721,87 +721,171 @@ const characters = [
     },
 	 {
         _id: 120,
-        name: 'Bill Cosby',
+        name: 'Barney Satin',
         acted_in: [9],
         personifies: [117]
     },
 	 {
         _id: 121,
-        name: 'Susan Anspach',
+        name: 'Penny Hart',
         acted_in: [9],
         personifies: [118]
     },
 	 {
         _id: 122,
-        name: 'Adam Rich',
+        name: 'Toby Hart',
         acted_in: [9],
         personifies: [119]
     },
 	 {
         _id: 123,
-        name: 'Julie Budd',
+        name: 'Stella Summers',
         acted_in: [9],
         personifies: [120]
     },
 	 {
         _id: 124,
-        name: 'Sonny Shroyer',
+        name: 'Big Billy Hunniker',
         acted_in: [9],
         personifies: [121]
     },
 	 {
         _id: 125,
-        name: 'David Knell',
+        name: 'Nerve Nordlinger',
         acted_in: [9],
         personifies: [122]
     },
 	 {
         _id: 126,
-        name: 'Chuck Shamata',
+        name: 'Jerry Nadler',
         acted_in: [9],
         personifies: [123]
     },
 	 {
         _id: 127,
-        name: 'Deborah Baltzell',
+        name: 'Heidi',
         acted_in: [9],
         personifies: [124]
     },
 	 {
         _id: 128,
-        name: 'Ronnie Schell',
+        name: 'Greg Weems',
         acted_in: [9],
         personifies: [125]
     },
 	 {
         _id: 129,
-        name: 'Jeannie Wilson',
+        name: 'Laverne Hunniker',
         acted_in: [9],
         personifies: [126]
     },
 	 {
         _id: 130,
-        name: 'Stanley Brock',
+        name: 'The Counterman',
         acted_in: [9],
         personifies: [127]
     },
 	 {
         _id: 131,
-        name: 'Ted Zeigler',
+        name: 'Mr. Billings',
         acted_in: [9],
         personifies: [128]
     },
 	 {
         _id: 132,
-        name: 'Vic Dunlop',
+        name: 'Brian',
         acted_in: [9],
         personifies: [129]
     },
 	 {
         _id: 133,
-        name: 'Reggie Nalder',
+        name: 'Chairman of Devils Council',
         acted_in: [9],
         personifies: [130]
+    },
+    {
+        _id: 134,
+        name: 'Tod (voice)',
+        acted_in: [10],
+        personifies: [131]
+    },
+	 {
+        _id: 135,
+        name: 'Cooper (voice) ',
+        acted_in: [10],
+        personifies: [132]
+    },
+	 {
+        _id: 136,
+        name: 'Big Mama (voice)',
+        acted_in: [10],
+        personifies: [133]
+    },
+	 {
+        _id: 137,
+        name: 'Amos Slade (voice)',
+        acted_in: [10],
+        personifies: [134]
+    },
+	 {
+        _id: 138,
+        name: 'Sandy Duncan',
+        acted_in: [10],
+        personifies: [135]
+    },
+	 {
+        _id: 139,
+        name: 'Jeanette Nolan',
+        acted_in: [10],
+        personifies: [136]
+    },
+	 {
+        _id: 140,
+        name: 'Pat Buttram',
+        acted_in: [10],
+        personifies: [137]
+    },
+	 {
+        _id: 141,
+        name: 'John McIntire',
+        acted_in: [10],
+        personifies: [56]
+    },
+	 {
+        _id: 142,
+        name: 'Richard Bakalyan',
+        acted_in: [10],
+        personifies: [138]
+    },
+	 {
+        _id: 143,
+        name: 'Paul Winchell',
+        acted_in: [10],
+        personifies: [139]
+    },
+	 {
+        _id: 144,
+        name: 'Keith Coogan',
+        acted_in: [10],
+        personifies: [140]
+    },
+	 {
+        _id: 145,
+        name: 'Corey Feldman',
+        acted_in: [10],
+        personifies: [141]
+    },
+ 	 {
+        _id: 146,
+        name: 'Squeeks the Caterpillar',
+        acted_in: [10],
+        personifies: [142]
+    },
+ 	 {
+        _id: 147,
+        name: 'Squeeks the Caterpillar',
+        acted_in: [10],
+        personifies: [143]
     }
 
 

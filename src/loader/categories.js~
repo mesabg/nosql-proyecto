@@ -105,6 +105,36 @@ const categories = [
         _id: 19,
         name: 'Best Music, Original Score',
         present_in: [8]
+    },
+    {
+        _id: 20,
+        name: 'Best Fantasy Film',
+        present_in: [6,10]
+    },
+    {
+        _id: 21,
+        name: 'Best Supporting Actor',
+        present_in: [8]
+    },
+    {
+        _id: 22,
+        name: 'Best Costumes',
+        present_in: [8]
+    },
+    {
+        _id: 23,
+        name: 'Best Special Effects',
+        present_in: [8]
+    },
+    {
+        _id: 24,
+        name: 'Best Dramatic Presentation',
+        present_in: [8]
+    },
+    {
+        _id: 25,
+        name: 'Golden Screen',
+        present_in: [10]
     }
 ];
 

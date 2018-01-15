@@ -333,7 +333,7 @@ const actors = [
         _id: 56,
         name: 'John Fiedler',
         acted_in: [3],
-        personifies: [56]
+        personifies: [56,141]
     },
     {
         _id: 57,
@@ -711,79 +711,151 @@ const actors = [
         _id: 118,
         name: 'Susan Anspach',
         acted_in: [9],
-        personifies: [120]
+        personifies: [121]
     },
 	 {
         _id: 119,
         name: 'Adam Rich',
         acted_in: [9],
-        personifies: [120]
+        personifies: [122]
     },
 	 {
         _id: 120,
         name: 'Julie Budd',
         acted_in: [9],
-        personifies: [120]
+        personifies: [123]
     },
 	 {
         _id: 121,
         name: 'Sonny Shroyer',
         acted_in: [9],
-        personifies: [120]
+        personifies: [124]
     },
 	 {
         _id: 122,
         name: 'David Knell',
         acted_in: [9],
-        personifies: [120]
+        personifies: [125]
     },
 	 {
         _id: 123,
         name: 'Chuck Shamata',
         acted_in: [9],
-        personifies: [120]
+        personifies: [126]
     },
 	 {
         _id: 124,
         name: 'Deborah Baltzell',
         acted_in: [9],
-        personifies: [120]
+        personifies: [127]
     },
 	 {
         _id: 125,
         name: 'Ronnie Schell',
         acted_in: [9],
-        personifies: [120]
+        personifies: [128]
     },
 	 {
         _id: 126,
         name: 'Jeannie Wilson',
         acted_in: [9],
-        personifies: [120]
+        personifies: [129]
     },
 	 {
         _id: 127,
         name: 'Stanley Brock',
         acted_in: [9],
-        personifies: [120]
+        personifies: [130]
     },
 	 {
         _id: 128,
         name: 'Ted Zeigler',
         acted_in: [9],
-        personifies: [120]
+        personifies: [131]
     },
 	 {
         _id: 129,
         name: 'Vic Dunlop',
         acted_in: [9],
-        personifies: [120]
+        personifies: [132]
     },
 	 {
         _id: 130,
         name: 'Reggie Nalder',
         acted_in: [9],
-        personifies: [120]
+        personifies: [133]
+    },
+    {
+        _id: 131,
+        name: 'Mickey Rooney',
+        acted_in: [10],
+        personifies: [134]
+    },
+	 {
+        _id: 132,
+        name: 'Kurt Russell',
+        acted_in: [10],
+        personifies: [135]
+    },
+	 {
+        _id: 133,
+        name: 'Pearl Bailey',
+        acted_in: [10],
+        personifies: [136]
+    },
+	 {
+        _id: 134,
+        name: 'Jack Albertson',
+        acted_in: [10],
+        personifies: [137]
+    },
+	 {
+        _id: 135,
+        name: 'Sandy Duncan',
+        acted_in: [10],
+        personifies: [138]
+    },
+	 {
+        _id: 136,
+        name: 'Jeanette Nolan',
+        acted_in: [10],
+        personifies: [139]
+    },
+	 {
+        _id: 137,
+        name: 'Pat Buttram',
+        acted_in: [10],
+        personifies: [140]
+    },
+	 {
+        _id: 138,
+        name: 'John Fiedler',
+        acted_in: [10],
+        personifies: [141]
+    },
+	 {
+        _id: 139,
+        name: '',
+        acted_in: [10],
+        personifies: [142]
+    },
+	 {
+        _id: 140,
+        name: '',
+        acted_in: [10],
+        personifies: [143]
+    },
+	 {
+        _id: 141,
+        name: '',
+        acted_in: [10],
+        personifies: [144]
+    },
+	 {
+        _id: 142,
+        name: '',
+        acted_in: [10],
+        personifies: [145]
     }
 
 

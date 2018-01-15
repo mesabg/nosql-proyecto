@@ -22,7 +22,7 @@ const awards = [
     {
         _id: 2,
         name: 'Young Artist Awards',
-        has_category: [4, 5, 9, 16, 17]
+        has_category: [4, 5, 9, 16, 17, 26]
     },
     {
         _id: 3,
@@ -38,6 +38,11 @@ const awards = [
         _id: 5,
         name: 'Hugo Awards',
         has_category: [24]
+    },
+	 {
+        _id: 6,
+        name: 'Golden Screen, Germany',
+        has_category: [25]
     }
 
 ];

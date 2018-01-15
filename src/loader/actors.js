@@ -333,7 +333,7 @@ const actors = [
         _id: 56,
         name: 'John Fiedler',
         acted_in: [3],
-        personifies: [56]
+        personifies: [56,141]
     },
     {
         _id: 57,
@@ -784,8 +784,85 @@ const actors = [
         name: 'Reggie Nalder',
         acted_in: [9],
         personifies: [133]
+    },
+    {
+        _id: 131,
+        name: 'Mickey Rooney',
+        acted_in: [10],
+        personifies: [134]
+    },
+	 {
+        _id: 132,
+        name: 'Kurt Russell',
+        acted_in: [10],
+        personifies: [135]
+    },
+	 {
+        _id: 133,
+        name: 'Pearl Bailey',
+        acted_in: [10],
+        personifies: [136]
+    },
+	 {
+        _id: 134,
+        name: 'Jack Albertson',
+        acted_in: [10],
+        personifies: [137]
+    },
+	 {
+        _id: 135,
+        name: 'Sandy Duncan',
+        acted_in: [10],
+        personifies: [138]
+    },
+	 {
+        _id: 136,
+        name: 'Jeanette Nolan',
+        acted_in: [10],
+        personifies: [139]
+    },
+	 {
+        _id: 137,
+        name: 'Pat Buttram',
+        acted_in: [10],
+        personifies: [140]
+    },
+	 {
+        _id: 138,
+        name: 'John McIntire',
+        acted_in: [10],
+        personifies: [142]
+    },
+	 {
+        _id: 139,
+        name: 'Richard Bakalyan',
+        acted_in: [10],
+        personifies: [143]
+    },
+	 {
+        _id: 140,
+        name: 'Paul Winchell',
+        acted_in: [10],
+        personifies: [144]
+    },
+	 {
+        _id: 141,
+        name: 'Keith Coogan',
+        acted_in: [10],
+        personifies: [145]
+    },
+	 {
+        _id: 142,
+        name: 'Corey Feldman',
+        acted_in: [10],
+        personifies: [146]
+    },
+ 	 {
+        _id: 143,
+        name: 'Squeeks the Caterpillar',
+        acted_in: [10],
+        personifies: [147]
     }
-
 
 ];
 

@@ -904,8 +904,103 @@ const movies = [
                 role: 'secondary'
             }
         ],
-        directed_by: [8]
-		 
+        directed_by: [8] 
+    },
+	 {
+        _id: 10,
+        name:{
+            spanish: 'Tod y Toby/El Zorro y el Sabueso',
+            original: 'The Fox and the Hound'
+        },
+        clasification: 'G',
+        rating: 7.3,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: 'The Fox and the Hound',
+        release: new Date(1981, 11,27),
+        genre: [
+				 'Animation', 'Adventure', 'Drama', 'Family'
+        ],
+        running_time: 83,
+        gross: 63456988,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 134,
+                actor_id: 131,
+                role: 'main'
+            },{
+                character_id: 135,
+                actor_id: 132,
+                role: 'antagonist'
+            },{
+                character_id: 136,
+                actor_id: 133,
+                role: 'secondary'
+            },{
+                character_id: 137,
+                actor_id: 134,
+                role: 'secondary'
+            },{
+                character_id: 138,
+                actor_id: 135,
+                role: 'secondary'
+            },{
+                character_id: 139,
+                actor_id: 136,
+                role: 'secondary'
+            },{
+                character_id: 140,
+                actor_id: 137,
+                role: 'secondary'
+            },{
+                character_id: 141,
+                actor_id: 56,
+                role: 'secondary'
+            },{
+                character_id: 142,
+                actor_id: 138,
+                role: 'secondary'
+            },{
+                character_id: 143,
+                actor_id: 139,
+                role: 'secondary'
+            },{
+                character_id: 144,
+                actor_id: 140,
+                role: 'secondary'
+            },{
+                character_id: 145,
+                actor_id: 141,
+                role: 'main'
+            },{
+                character_id: 146,
+                actor_id: 142,
+                role: 'main'
+            },{
+                character_id: 147,
+                actor_id: 143,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [9,10,11],
+		  nominated_in:[
+            {
+                category_id: 20,
+                award_id: 3,
+                won: false
+            },
+            {
+                category_id: 25,
+                award_id: 6,
+                won: true
+            },
+ 				{
+                category_id: 26,
+                award_id: 2,
+                won: false
+            }
+        ]
     }
 	 
 ];

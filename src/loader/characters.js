@@ -802,6 +802,90 @@ const characters = [
         name: 'Chairman of Devils Council',
         acted_in: [9],
         personifies: [130]
+    },
+    {
+        _id: 134,
+        name: 'Tod (voice)',
+        acted_in: [10],
+        personifies: [131]
+    },
+	 {
+        _id: 135,
+        name: 'Cooper (voice) ',
+        acted_in: [10],
+        personifies: [132]
+    },
+	 {
+        _id: 136,
+        name: 'Big Mama (voice)',
+        acted_in: [10],
+        personifies: [133]
+    },
+	 {
+        _id: 137,
+        name: 'Amos Slade (voice)',
+        acted_in: [10],
+        personifies: [134]
+    },
+	 {
+        _id: 138,
+        name: 'Vixey (voice)',
+        acted_in: [10],
+        personifies: [135]
+    },
+	 {
+        _id: 139,
+        name: 'Widow Tweed (voice)',
+        acted_in: [10],
+        personifies: [136]
+    },
+	 {
+        _id: 140,
+        name: 'Chief (voice)',
+        acted_in: [10],
+        personifies: [137]
+    },
+	 {
+        _id: 141,
+        name: 'Porcupine (voice)',
+        acted_in: [10],
+        personifies: [56]
+    },
+	 {
+        _id: 142,
+        name: 'Badger (voice)',
+        acted_in: [10],
+        personifies: [138]
+    },
+	 {
+        _id: 143,
+        name: 'Dinky (voice) (as Dick Bakalyan) ',
+        acted_in: [10],
+        personifies: [139]
+    },
+	 {
+        _id: 144,
+        name: 'Boomer (voice)',
+        acted_in: [10],
+        personifies: [140]
+    },
+	 {
+        _id: 145,
+        name: 'Young Tod (voice) (as Keith Mitchell)',
+        acted_in: [10],
+        personifies: [141]
+    },
+ 	 {
+        _id: 146,
+        name: 'Young Copper (voice)',
+        acted_in: [10],
+        personifies: [142]
+    },
+ 	 {
+        _id: 147,
+        name: 'Squeeks the Caterpillar',
+        acted_in: [10],
+        personifies: [143]
     }
 
 

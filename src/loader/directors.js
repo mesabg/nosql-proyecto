@@ -53,7 +53,23 @@ const directors = [
         _id: 8,
         name: 'Steven Hilliard Stern',
         directed_in: [9]
+    },
+	 {
+        _id: 9,
+        name: 'Ted Berman',
+        directed_in: [10]
+    },
+	 {
+        _id: 10,
+        name: 'Richard Rich',
+        directed_in: [10]
+    },
+	 {
+        _id: 11,
+        name: 'Art Stevens',
+        directed_in: [10]
     }
+
 
 ];
 

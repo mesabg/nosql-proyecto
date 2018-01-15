@@ -43,6 +43,11 @@ const directors = [
         _id: 6,
         name: 'Robert Altman',
         directed_in: [5]
+    },
+	 {
+        _id: 7,
+        name: 'Matthew Robbins',
+        directed_in: [8]
     }
 ];
 

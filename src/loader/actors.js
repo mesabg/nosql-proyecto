@@ -610,7 +610,99 @@ const actors = [
         name: 'Robert Arden',
         acted_in: [7],
         personifies: [103]
+    },
+    {
+        _id: 102,
+        name: 'Peter MacNicol',
+        acted_in: [8],
+        personifies: [104]
+    },
+    {
+        _id: 103,
+        name: 'Caitlin Clarke',
+        acted_in: [8],
+        personifies: [105]
+    },
+    {
+        _id: 104,
+        name: 'Ralph Richardson',
+        acted_in: [8],
+        personifies: [106]
+    },
+    {
+        _id: 105,
+        name: 'John Hallam',
+        acted_in: [8],
+        personifies: [107]
+    },
+    {
+        _id: 106,
+        name: 'Peter Eyre',
+        acted_in: [8],
+        personifies: [108]
+    },
+    {
+        _id: 107,
+        name: 'Albert Salmi',
+        acted_in: [8],
+        personifies: [109]
+    },
+    {
+        _id: 108,
+        name: 'Sydney Bromley',
+        acted_in: [8],
+        personifies: [110]
+    },
+    {
+        _id: 109,
+        name: 'Chloe Salaman',
+        acted_in: [8],
+        personifies: [111]
+    },
+    {
+        _id: 110,
+        name: 'Emrys James',
+        acted_in: [8],
+        personifies: [112]
+    },
+    {
+        _id: 111,
+        name: 'Roger Kemp',
+        acted_in: [8],
+        personifies: [113]
+    },
+    {
+        _id: 112,
+        name: 'Ian McDiarmid',
+        acted_in: [8],
+        personifies: [114]
+    },
+    {
+        _id: 113,
+        name: 'Ken Shorter',
+        acted_in: [8],
+        personifies: [115]
+    },
+	 {
+        _id: 114,
+        name: 'Jason White',
+        acted_in: [8],
+        personifies: [116]
+    },
+    {
+        _id: 115,
+        name: 'Yolande Palfrey',
+        acted_in: [8],
+        personifies: [117]
+    },
+	 {
+        _id: 116,
+        name: 'Douglas Cooper',
+        acted_in: [8],
+        personifies: [118]
     }
+
+
 
 ];
 

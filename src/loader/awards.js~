@@ -17,7 +17,7 @@ const awards = [
     {
         _id: 1,
         name: 'The Stinkers Bad Movie Awards',
-        has_category: [1, 2, 3, 8, 10, 11, 12, 13,14,15]
+        has_category: [1, 2, 3, 8, 10, 11, 12, 13, 14, 15]
     }, 
     {
         _id: 2,
@@ -27,8 +27,19 @@ const awards = [
     {
         _id: 3,
         name: 'Academy of Science Fiction, Fantasy & Horror Films, USA',
+        has_category: [6, 7, 20, 21, 22, 23]
+    },
+    {
+        _id: 4,
+        name: 'Academy Awards',
+        has_category: [18, 19]
+    },
+	 {
+        _id: 5,
+        name: 'Hugo Awards',
         has_category: [6, 7]
     }
+
 ];
 
 

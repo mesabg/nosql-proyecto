@@ -561,69 +561,158 @@ const characters = [
         _id: 93,
         name: 'Molly Tribble',
         appear_in: [6],
-        personified_by: [93]
+        personified_by: [92]
     },
     {
         _id: 94,
         name: 'Caroline Chapman',
         appear_in: [6],
-        personified_by: [94]
+        personified_by: [93]
     },
  	 {
         _id: 95,
         name: 'Mrs. Lindey',
         appear_in: [6],
-        personified_by: [95]
+        personified_by: [94]
     },
     {
         _id: 96,
         name: 'Woody Wilkins',
-        acted_in: [7],
-        personifies: [96]
+        appear_in: [7],
+        personified_by: [95]
     },
     {
         _id: 97,
         name: 'Krokov',
-        acted_in: [7],
-        personifies: [97]
+        appear_in: [7],
+        personified_by: [96]
     },
     {
         _id: 98,
         name: 'Natalia',
-        acted_in: [7],
-        personifies: [98]
+        appear_in: [7],
+        personified_by: [97]
     },
     {
         _id: 99,
         name: 'Harry Oslo',
-        acted_in: [7],
-        personifies: [99]
+        appear_in: [7],
+        personified_by: [98]
     },
     {
         _id: 100,
         name: 'Morovich',
-        acted_in: [7],
-        personifies: [100]
+        appear_in: [7],
+        personified_by: [99]
     },
     {
         _id: 101,
         name: 'Russ Devlin',
-        acted_in: [7],
-        personifies: [24]
+        appear_in: [7],
+        personified_by: [24]
     },
     {
         _id: 102,
         name: 'Russian Agent',
-        acted_in: [7],
-        personifies: [102]
+        appear_in: [7],
+        personified_by: [100]
     },
     {
         _id: 103,
         name: 'CIA Chief',
-        acted_in: [7],
-        personifies: [103]
+        appear_in: [7],
+        personified_by: [101]
+    },
+    {
+        _id: 104,
+        name: 'Galen',
+        appear_in: [8],
+        personified_by: [102]
+    },
+    {
+        _id: 105,
+        name: 'Valerian',
+        appear_in: [8],
+        personified_by: [103]
+    },
+    {
+        _id: 106,
+        name: 'Ulrich',
+        appear_in: [8],
+        personified_by: [104]
+    },
+    {
+        _id: 107,
+        name: 'Tyrian',
+        appear_in: [8],
+        personified_by: [105]
+    },
+    {
+        _id: 108,
+        name: 'Casiodorus Rex',
+        appear_in: [8],
+        personified_by: [106]
+    },
+    {
+        _id: 109,
+        name: 'Greil',
+        appear_in: [8],
+        personified_by: [107]
+    },
+    {
+        _id: 110,
+        name: 'Hodge',
+        appear_in: [8],
+        personified_by: [108]
+    },
+    {
+        _id: 111,
+        name: 'Princess Elspeth',
+        appear_in: [8],
+        personified_by: [109]
+    },
+    {
+        _id: 112,
+        name: 'Valerian Father',
+        appear_in: [8],
+        personified_by: [110]
+    },
+    {
+        _id: 113,
+        name: 'Horsrik',
+        appear_in: [8],
+        personified_by: [111]
+    },
+    {
+        _id: 114,
+        name: 'Brother Jacopus',
+        appear_in: [8],
+        personified_by: [112]
+    },
+    {
+        _id: 115,
+        name: 'Henchman',
+        appear_in: [8],
+        personified_by: [113]
+    },
+	 {
+        _id: 116,
+        name: 'Henchman',
+        appear_in: [8],
+        personified_by: [114]
+    },
+    {
+        _id: 117,
+        name: 'Victim',
+        appear_in: [8],
+        personified_by: [115]
+    },
+	 {
+        _id: 118,
+        name: 'Urlander',
+        appear_in: [8],
+        personified_by: [116]
     }
-
 ];
 
 

@@ -141,7 +141,7 @@ const actors = [
         _id: 24,
         name: 'Dana Elcar',
         acted_in: [2],
-        personifies: [24, 102]
+        personifies: [24, 101]
     },
     {
         _id: 25,
@@ -582,35 +582,108 @@ const actors = [
         personifies: [97]
     },
     {
-        _id: 98,
+        _id: 97,
         name: 'Barbara Carrera',
+        acted_in: [7],
+        personifies: [98]
+    },
+    {
+        _id: 98,
+        name: 'James Hampton',
         acted_in: [7],
         personifies: [99]
     },
     {
         _id: 99,
-        name: 'James Hampton',
+        name: 'Jean-Pierre Kalfon',
         acted_in: [7],
         personifies: [100]
     },
     {
         _id: 100,
-        name: 'Jean-Pierre Kalfon',
+        name: 'Vernon Dobtcheff',
         acted_in: [7],
-        personifies: [101]
+        personifies: [102]
     },
     {
         _id: 101,
-        name: 'Vernon Dobtcheff',
+        name: 'Robert Arden',
         acted_in: [7],
         personifies: [103]
     },
     {
         _id: 102,
-        name: 'Robert Arden',
-        acted_in: [7],
-        personifies: [104]
+        name: '',
+        acted_in: [8],
+        personifies: [100]
+    },
+    {
+        _id: 103,
+        name: '',
+        acted_in: [8],
+        personifies: [102]
+    },
+    {
+        _id: 104,
+        name: '',
+        acted_in: [8],
+        personifies: [103]
+    },
+    {
+        _id: 105,
+        name: '',
+        acted_in: [8],
+        personifies: [100]
+    },
+    {
+        _id: 106,
+        name: '',
+        acted_in: [8],
+        personifies: [102]
+    },
+    {
+        _id: 107,
+        name: '',
+        acted_in: [8],
+        personifies: [103]
+    },
+    {
+        _id: 108,
+        name: '',
+        acted_in: [8],
+        personifies: [100]
+    },
+    {
+        _id: 109,
+        name: '',
+        acted_in: [8],
+        personifies: [102]
+    },
+    {
+        _id: 110,
+        name: '',
+        acted_in: [8],
+        personifies: [103]
+    },
+    {
+        _id: 111,
+        name: '',
+        acted_in: [8],
+        personifies: [100]
+    },
+    {
+        _id: 112,
+        name: '',
+        acted_in: [8],
+        personifies: [102]
+    },
+    {
+        _id: 113,
+        name: '',
+        acted_in: [8],
+        personifies: [103]
     }
+
 
 ];
 

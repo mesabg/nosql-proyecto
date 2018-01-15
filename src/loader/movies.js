@@ -616,15 +616,15 @@ const movies = [
                 role: 'secondary'
             },{
                 character_id: 93,
-                actor_id: 93,
+                actor_id: 92,
                 role: 'secondary'
             },{
                 character_id: 94,
-                actor_id: 94,
+                actor_id: 93,
                 role: 'secondary'
             },{
                 character_id: 95,
-                actor_id: 95,
+                actor_id: 94,
                 role: 'secondary'
             }
         ],
@@ -665,23 +665,23 @@ const movies = [
         personified_by: [
             {
                 character_id: 96,
-                actor_id: 96,
+                actor_id: 95,
                 role: 'main'
             },{
                 character_id: 97,
-                actor_id: 97,
+                actor_id: 96,
                 role: 'antagonist'
             },{
                 character_id: 98,
-                actor_id: 98,
+                actor_id: 97,
                 role: 'main'
             },{
                 character_id: 99,
-                actor_id: 99,
+                actor_id: 98,
                 role: 'secondary'
             },{
                 character_id: 100,
-                actor_id: 100,
+                actor_id: 99,
                 role: 'secondary'
             },{
                 character_id: 101,
@@ -689,15 +689,137 @@ const movies = [
                 role: 'secondary'
             },{
                 character_id: 102,
-                actor_id: 102,
+                actor_id: 100,
                 role: 'secondary'
             },{
                 character_id: 103,
-                actor_id: 103,
+                actor_id: 101,
                 role: 'secondary'
             }
         ],
         directed_by: [2]
+    },
+	 {
+        _id: 8,
+        name:{
+            spanish: 'El Dragon del Lago de Fuego',
+            original: 'Dragonslayer'
+        },
+        clasification: 'PG-13',
+        rating: 6.7,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1982, 9, 3),
+        genre: [
+				 'Action', 
+				 'Adventure', 
+				 'Fantasy' 
+        ],
+        running_time: 108,
+        gross: 14110013,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 104,
+                actor_id: 102,
+                role: 'main'
+            },{
+                character_id: 105,
+                actor_id: 103,
+                role: 'main'
+            },{
+                character_id: 106,
+                actor_id: 104,
+                role: 'main'
+            },{
+                character_id: 107,
+                actor_id: 105,
+                role: 'antagonist'
+            },{
+                character_id: 108,
+                actor_id: 106,
+                role: 'secondary'
+            },{
+                character_id: 109,
+                actor_id: 107,
+                role: 'secondary'
+            },{
+                character_id: 110,
+                actor_id: 108,
+                role: 'secondary'
+            },{
+                character_id: 111,
+                actor_id: 109,
+                role: 'secondary'
+            },{
+                character_id: 112,
+                actor_id: 110,
+                role: 'secondary'
+            },{
+                character_id: 113,
+                actor_id: 111,
+                role: 'secondary'
+            },{
+                character_id: 114,
+                actor_id: 112,
+                role: 'secondary'
+            },{
+                character_id: 115,
+                actor_id: 113,
+                role: 'secondary'
+            },{
+                character_id: 116,
+                actor_id: 114,
+                role: 'secondary'
+            },{
+                character_id: 117,
+                actor_id: 115,
+                role: 'secondary'
+            },{
+                character_id: 118,
+                actor_id: 116,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [7],
+		  nominated_in:[
+            {
+                category_id: 18,
+                award_id: 4,
+                won: false
+            },
+            {
+                category_id: 19,
+                award_id: 4,
+                won: false
+            },
+ 				{
+                category_id: 20,
+                award_id: 3,
+                won: false
+            },
+            {
+                category_id: 21,
+                award_id: 3,
+                won: false
+            },
+			   {
+                category_id: 22,
+                award_id: 3,
+                won: false
+            },
+            {
+                category_id: 23,
+                award_id: 3,
+                won: false
+            },
+            {
+                category_id: 24,
+                award_id: 5,
+                won: false
+            }
+        ]
     }
 	 
 ];

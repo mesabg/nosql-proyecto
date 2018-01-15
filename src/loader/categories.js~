@@ -92,9 +92,19 @@ const categories = [
         present_in: [6]
     },
     {
-        _id: 16,
-        name: 'Worst Screenplay',
+        _id: 17,
+        name: 'Best Motion Picture - Family Enjoyment',
         present_in: [6]
+    },
+    {
+        _id: 18,
+        name: 'Best Effects, Visual Effects',
+        present_in: [8]
+    },
+    {
+        _id: 19,
+        name: 'Best Music, Original Score',
+        present_in: [8]
     }
 ];
 

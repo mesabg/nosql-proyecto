@@ -17,7 +17,7 @@ const directors = [
     {
         _id: 1,
         name: 'Vincent McEveety',
-        directed_in: [1,4]
+        directed_in: [1,4,6]
     },
     {
         _id: 2,

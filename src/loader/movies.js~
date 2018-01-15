@@ -1666,15 +1666,15 @@ const movies = [
             },{
                 character_id: 231,
                 actor_id: 219,
-                role: 'main'
+                role: 'secondary'
             },{
                 character_id: 232,
                 actor_id: 220,
-                role: 'main'
+                role: 'secondary'
             },{
                 character_id: 233,
                 actor_id: 221,
-                role: 'main'
+                role: 'secondary'
             },{
                 character_id: 234,
                 actor_id: 222,
@@ -1753,11 +1753,11 @@ const movies = [
             },{
                 character_id: 247,
                 actor_id: 129,
-                role: 'main'
+                role: 'secondary'
             },{
                 character_id: 248,
                 actor_id: 235,
-                role: 'main'
+                role: 'secondary'
             },{
                 character_id: 249,
                 actor_id: 236,
@@ -1824,11 +1824,11 @@ const movies = [
             {
                 character_id: 259,
                 actor_id: 246,
-                role: 'main'
+                role: 'secondary'
             },{
                 character_id: 260,
                 actor_id:  247,
-                role: 'main'
+                role: 'secondary'
             },{
                 character_id: 261,
                 actor_id: 248,
@@ -1869,24 +1869,68 @@ const movies = [
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
         personified_by: [
             {
-                character_id: 259,
-                actor_id: 246,
+                character_id: 263,
+                actor_id: 250,
                 role: 'main'
             },{
-                character_id: 260,
-                actor_id:  247,
+                character_id: 264,
+                actor_id:  251,
                 role: 'main'
             },{
-                character_id: 261,
-                actor_id: 248,
+                character_id: 265,
+                actor_id: 252,
                 role: 'main'
             },{
-                character_id: 262,
-                actor_id: 249,
+                character_id: 266,
+                actor_id: 234,
                 role: 'main'
+            },{
+                character_id: 267,
+                actor_id: 253,
+                role: 'main'
+            },{
+                character_id: 268,
+                actor_id:  254,
+                role: 'main'
+            },{
+                character_id: 269,
+                actor_id: 255,
+                role: 'main'
+            },{
+                character_id: 270,
+                actor_id: 256,
+                role: 'main'
+            },{
+                character_id: 271,
+                actor_id: 257,
+                role: 'secondary'
+            },{
+                character_id: 272,
+                actor_id:  258,
+                role: 'secondary'
+            },{
+                character_id: 273,
+                actor_id: 259,
+                role: 'secondary'
+            },{
+                character_id: 274,
+                actor_id: 260,
+                role: 'secondary'
+            },{
+                character_id: 275,
+                actor_id: 261,
+                role: 'secondary'
+            },{
+                character_id: 276,
+                actor_id:  262,
+                role: 'secondary'
+            },{
+                character_id: 277,
+                actor_id: 263,
+                role: 'secondary'
             }
         ],
-        directed_by: [19],
+        directed_by: [20],
 		  nominated_in:[
             {
                 category_id: 47,
@@ -1921,6 +1965,16 @@ const movies = [
 				{
                 category_id: 53,
                 award_id: 19,
+                won: false
+            },
+				{
+                category_id: 54,
+                award_id: 2,
+                won: false
+            },
+				{
+                category_id: 55,
+                award_id: 2,
                 won: false
             }
            

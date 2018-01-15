@@ -172,7 +172,176 @@ const characters = [
         name: 'Chaplain',
         appear_in: [2],
         personified_by: [29]
+    },
+    {
+        _id: 30,
+        name: 'Adam Larson - Yellow Team Leader',
+        appear_in: [3],
+        personified_by: [30]
+    },
+    {
+        _id: 31,
+        name: 'Laura - Yellow Team',
+        appear_in: [3],
+        personified_by: [31]
+    },
+    {
+        _id: 32,
+        name: 'Marvin - Yellow Team',
+        appear_in: [3],
+        personified_by: [32]
+    },
+    {
+        _id: 33,
+        name: 'Scott Larson',
+        appear_in: [3],
+        personified_by: [33]
+    },
+    {
+        _id: 34,
+        name: 'Harold - Blue Team Leader',
+        appear_in: [3],
+        personified_by: [34]
+    },
+    {
+        _id: 35,
+        name: 'Lucille - Blue Team',
+        appear_in: [3],
+        personified_by: [35]
+    },
+    {
+        _id: 36,
+        name: 'Melio - Blue Team',
+        appear_in: [3],
+        personified_by: [36]
+    },
+    {
+        _id: 37,
+        name: 'Barf - Blue Team',
+        appear_in: [3],
+        personified_by: [37]
+    },
+    {
+        _id: 38,
+        name: 'Flynch - Yellow Team (as Joel P. Kenney)',
+        appear_in: [3],
+        personified_by: [38]
+    },
+    {
+        _id: 39,
+        name: 'Blade - Blue Team',
+        appear_in: [3],
+        personified_by: [39]
+    },
+    {
+        _id: 40,
+        name: 'Donna - Red Team Leader',
+        appear_in: [3],
+        personified_by: [40]
+    },
+    {
+        _id: 41,
+        name: 'Berle - Red Team',
+        appear_in: [3],
+        personified_by: [41]
+    },
+    {
+        _id: 42,
+        name: 'Peggy - Red Team',
+        appear_in: [3],
+        personified_by: [42]
+    },
+    {
+        _id: 43,
+        name: 'Lulu - Red Team',
+        appear_in: [3],
+        personified_by: [43]
+    },
+    {
+        _id: 44,
+        name: 'Wesley - White Team Leader',
+        appear_in: [3],
+        personified_by: [44]
+    },
+    {
+        _id: 45,
+        name: 'Debater #1 - White Team',
+        appear_in: [3],
+        personified_by: [45]
+    },
+    {
+        _id: 46,
+        name: 'Debater #2 - White Team',
+        appear_in: [3],
+        personified_by: [46]
+    },
+    {
+        _id: 47,
+        name: 'Debater #3 - White Teamr',
+        appear_in: [3],
+        personified_by: [47]
+    },
+    {
+        _id: 48,
+        name: 'Lavitas - Green Team Leader',
+        appear_in: [3],
+        personified_by: [48]
+    },
+    {
+        _id: 49,
+        name: 'Blaylak - Green Team',
+        appear_in: [3],
+        personified_by: [49]
+    },
+    {
+        _id: 50,
+        name: 'Cudzo - Green Team',
+        appear_in: [3],
+        personified_by: [50]
+    },
+    {
+        _id: 51,
+        name: 'Gerber - Green Team',
+        appear_in: [3],
+        personified_by: [51]
+    },
+    {
+        _id: 52,
+        name: 'Mrs. Grimhaus',
+        appear_in: [3],
+        personified_by: [52]
+    },
+    {
+        _id: 53,
+        name: 'Leon',
+        appear_in: [3],
+        personified_by: [53]
+    },
+    {
+        _id: 54,
+        name: 'Candy (as Debi Richter)',
+        appear_in: [3],
+        personified_by: [54]
+    },
+    {
+        _id: 55,
+        name: 'Sunshine',
+        appear_in: [3],
+        personified_by: [55]
     }
+    {
+        _id: 56,
+        name: 'Wally Thorpe',
+        appear_in: [3],
+        personified_by: [56]
+    },
+    {
+        _id: 57,
+        name: 'Mrs. Thorpe',
+        appear_in: [3],
+        personified_by: [57]
+    }
+
 
 ];
 

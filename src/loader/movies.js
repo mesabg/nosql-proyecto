@@ -213,6 +213,142 @@ const movies = [
                 won: false
             }
         ]
+    },
+    {
+        _id: 3,
+        name:{
+            spanish: 'Locuras de Medianoche',
+            original: 'Midnight Madness'
+        },
+        clasification: 'PG-13',
+        rating: 6.5,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1980, 2, 8),
+        genre: [
+            'Comedy'
+        ],
+        running_time: 112,
+        gross: 2900000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 30,
+                actor_id: 30,
+                role: 'main'
+            },{
+                character_id: 31,
+                actor_id: 31,
+                role: 'main'
+            },{
+                character_id: 32,
+                actor_id: 32,
+                role: 'main'
+            },{
+                character_id: 33,
+                actor_id: 33,
+                role: 'main'
+            },{
+                character_id: 34,
+                actor_id: 34,
+                role: 'main'
+            },{
+                character_id: 35,
+                actor_id: 35,
+                role: 'main'
+            },{
+                character_id: 36,
+                actor_id: 36,
+                role: 'main'
+            },{
+                character_id: 37,
+                actor_id: 37,
+                role: 'main'
+            },{
+                character_id: 38,
+                actor_id: 38,
+                role: 'main'
+            },{
+                character_id: 39,
+                actor_id: 39,
+                role: 'main'
+            },{
+                character_id: 40,
+                actor_id: 40,
+                role: 'main'
+            },{
+                character_id: 41,
+                actor_id: 41,
+                role: 'main'
+            },{
+                character_id: 42,
+                actor_id: 42,
+                role: 'main'
+            },{
+                character_id: 43,
+                actor_id: 43,
+                role: 'main'
+            },{
+                character_id: 44,
+                actor_id: 44,
+                role: 'main'
+            },{
+                character_id: 45,
+                actor_id: 45,
+                role: 'main'
+            },{
+                character_id: 46,
+                actor_id: 46,
+                role: 'main'
+            },{
+                character_id: 47,
+                actor_id: 47,
+                role: 'main'
+            },{
+                character_id: 48,
+                actor_id: 48,
+                role: 'main'
+            },
+{
+                character_id: 49,
+                actor_id: 49,
+                role: 'main'
+            },{
+                character_id: 50,
+                actor_id: 50,
+                role: 'main'
+            },{
+                character_id: 51,
+                actor_id: 51,
+                role: 'main'
+            },{
+                character_id: 52,
+                actor_id: 52,
+                role: 'secondary'
+            },{
+                character_id: 53,
+                actor_id: 53,
+                role: 'secondary'
+            },{
+                character_id: 54,
+                actor_id: 54,
+                role: 'secondary'
+            },{
+                character_id: 55,
+                actor_id: 55,
+                role: 'secondary'
+            },{
+                character_id: 56,
+                actor_id: 56,
+                role: 'secondary'
+            },{
+                character_id: 57,
+                actor_id: 57,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [3,4]
     }
 	 
 ];

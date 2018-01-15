@@ -23,6 +23,16 @@ const directors = [
         _id: 2,
         name: 'Charles Jarrott',
         directed_in: [2]
+    },
+    {
+        _id: 3,
+        name: 'Michael Nankin',
+        directed_in: [3]
+    },
+    {
+        _id: 4,
+        name: 'David Wechter',
+        directed_in: [3]
     }
 ];
 

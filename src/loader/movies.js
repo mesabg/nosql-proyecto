@@ -1011,7 +1011,7 @@ const movies = [
         clasification: 'PG-13',
         rating: 6.4,
         studio: 'Walt Disney Productions',
-        distributor: 'Bavaria Film',
+        distributor: 'Buena Vista Distribution',
         saga: '',
         release: new Date(1982, 2, 5),
         genre: [
@@ -1092,6 +1092,141 @@ const movies = [
             },
             {
                 category_id: 16,
+                award_id: 2,
+                won: false
+            }
+        ]
+    },
+    {
+        _id: 12,
+        name:{
+            spanish: 'Tron',
+            original: 'Tron'
+        },
+        clasification: 'PG-13',
+        rating: 6.8,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: 'Tron Series',
+        release: new Date(1982, 7, 11),
+        genre: [
+				 'Action', 'Adventure', 'Sci-Fi'
+        ],
+        running_time: 96,
+        gross: 33000000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 163,
+                actor_id: 159,
+                role: 'main'
+            },{
+                character_id: 164,
+                actor_id: 160,
+                role: 'main'
+            },{
+                character_id: 165,
+                actor_id: 161,
+                role: 'antagonist'
+            },{
+                character_id: 166,
+                actor_id: 162,
+                role: 'main'
+            },{
+                character_id: 167,
+                actor_id: 163,
+                role: 'secondary'
+            },{
+                character_id: 168,
+                actor_id: 164,
+                role: 'secondary'
+            },{
+                character_id: 169,
+                actor_id: 165,
+                role: 'secondary'
+            },{
+                character_id: 170,
+                actor_id: 166,
+                role: 'secondary'
+            },{
+                character_id: 171,
+                actor_id: 167,
+                role: 'antagonist'
+            },{
+                character_id: 172,
+                actor_id: 168,
+                role: 'antagonist'
+            },{
+                character_id: 173,
+                actor_id: 169,
+                role: 'secondary'
+            },{
+                character_id: 174,
+                actor_id: 170,
+                role: 'secondary'
+            },{
+                character_id: 175,
+                actor_id: 171,
+                role: 'secondary'
+            },{
+                character_id: 176,
+                actor_id: 172,
+                role: 'secondary'
+            },{
+                character_id: 177,
+                actor_id: 173,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [13],
+		  nominated_in:[
+            {
+                category_id: 28,
+                award_id: 4,
+                won: false
+            },
+            {
+                category_id: 29,
+                award_id: 4,
+                won: false
+            },
+ 			   {
+                category_id: 30,
+                award_id: 7,
+                won: false
+            },
+            {
+                category_id: 22,
+                award_id: 3,
+                won: true
+            },
+				{
+                category_id: 31,
+                award_id: 3,
+                won: false
+            },
+				{
+                category_id: 32,
+                award_id: 3,
+                won: false
+            },
+				{
+                category_id: 33,
+                award_id: 8,
+                won: false
+            },
+			   {
+                category_id: 34,
+                award_id: 8,
+                won: false
+            },
+				{
+                category_id: 35,
+                award_id: 9,
+                won: true
+            },
+				{
+                category_id: 36,
                 award_id: 2,
                 won: false
             }

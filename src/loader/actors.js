@@ -952,8 +952,98 @@ const actors = [
         name: 'Jan Niklas',
         acted_in: [11],
         personifies: [162]
-    }
-
+    },
+	 {
+        _id: 159,
+        name: 'Jeff Bridges',
+        acted_in: [12],
+        personifies: [163]
+    },
+ 	 {
+        _id: 160,
+        name: 'Bruce Boxleitner',
+        acted_in: [12],
+        personifies: [164]
+    },
+	 {
+        _id: 161,
+        name: 'David Warner',
+        acted_in: [12],
+        personifies: [165]
+    },
+	 {
+        _id: 162,
+        name: 'Cindy Morgan',
+        acted_in: [12],
+        personifies: [166]
+    },
+	 {
+        _id: 163,
+        name: 'Barnard Hughes',
+        acted_in: [12],
+        personifies: [167]
+    },
+ 	 {
+        _id: 164,
+        name: 'Dan Shor',
+        acted_in: [12],
+        personifies: [168]
+    },
+	 {
+        _id: 165,
+        name: 'Peter Jurasik',
+        acted_in: [12],
+        personifies: [169]
+    },
+	 {
+        _id: 166,
+        name: 'Tony Stephano',
+        acted_in: [12],
+        personifies: [170]
+    },
+	 {
+        _id: 167,
+        name: 'Craig Chudy',
+        acted_in: [12],
+        personifies: [171]
+    },
+ 	 {
+        _id: 168,
+        name: 'Vince Deadrick Jr.',
+        acted_in: [12],
+        personifies: [172]
+    },
+	 {
+        _id: 169,
+        name: 'Sam Schatz',
+        acted_in: [12],
+        personifies: [173]
+    },
+	 {
+        _id: 170,
+        name: 'Jackson Bostwick',
+        acted_in: [12],
+        personifies: [174]
+    },
+	 {
+        _id: 171,
+        name: 'David S. Cass Sr.',
+        acted_in: [12],
+        personifies: [175]
+    },
+ 	 {
+        _id: 172,
+        name: 'Gerald Berns',
+        acted_in: [12],
+        personifies: [176]
+    },
+	 {
+        _id: 173,
+        name: 'Bob Neill',
+        acted_in: [12],
+        personifies: [177]
+	 }
+	 
 ];
 
 

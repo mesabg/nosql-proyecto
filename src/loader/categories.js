@@ -119,7 +119,7 @@ const categories = [
     {
         _id: 22,
         name: 'Best Costumes',
-        present_in: [8]
+        present_in: [8,12]
     },
     {
         _id: 23,
@@ -145,7 +145,54 @@ const categories = [
         _id: 27,
         name: 'Best Family Motion Picture',
         present_in: [11]
+    },
+	 {
+        _id: 28,
+        name: 'Best Costume Design',
+        present_in: [12]
+    },
+	 {
+        _id: 29,
+        name: 'Best Sound',
+        present_in: [12]
+    },
+	 {
+        _id: 30,
+        name: 'Best Special Visual Effects',
+        present_in: [12]
+    },
+	 {
+        _id: 31,
+        name: 'Best Science Fiction Film',
+        present_in: [12]
+    },
+	 {
+        _id: 32,
+        name: 'Best Animated Film',
+        present_in: [12]
+    },
+	 {
+        _id: 33,
+        name: 'Best Overall New Extra Features, Library Release',
+        present_in: [12]
+    },
+ 	 {
+        _id: 34,
+        name: 'Original Retrospective Documentary, Library Release',
+        present_in: [12]
+    },
+	 {
+        _id: 35,
+        name: 'First Use of Computer-Generated Animation',
+        present_in: [12]
+    },
+	 {
+        _id: 36,
+        name: 'Best Family Feature - Animated, Musical or Fantasy',
+        present_in: [12]
     }
+
+
 ];
 
 

@@ -976,7 +976,97 @@ const characters = [
         name: 'Lt. Fehler',
         appear_in: [11],
         personified_by: [158]
-    }
+    },
+	 {
+        _id: 163,
+        name: 'Kevin Flynn / Clu',
+        acted_in: [12],
+        personifies: [159]
+    },
+ 	 {
+        _id: 164,
+        name: 'Alan Bradley / Tron',
+        acted_in: [12],
+        personifies: [160]
+    },
+	 {
+        _id: 165,
+        name: 'Ed Dillinger / Sark / Master Control Program',
+        acted_in: [12],
+        personifies: [161]
+    },
+	 {
+        _id: 166,
+        name: 'Lora / Yori',
+        acted_in: [12],
+        personifies: [162]
+    },
+	 {
+        _id: 167,
+        name: 'Dr. Walter Gibbs / Dumont',
+        acted_in: [12],
+        personifies: [163]
+    },
+ 	 {
+        _id: 168,
+        name: 'Ram / Popcorn Co-Worker',
+        acted_in: [12],
+        personifies: [164]
+    },
+	 {
+        _id: 169,
+        name: 'Crom',
+        acted_in: [12],
+        personifies: [165]
+    },
+	 {
+        _id: 170,
+        name: 'Peter / Sarks Lieutenant',
+        acted_in: [12],
+        personifies: [166]
+    },
+	 {
+        _id: 171,
+        name: 'Warrior 1',
+        acted_in: [12],
+        personifies: [167]
+    },
+ 	 {
+        _id: 172,
+        name: 'Warrior 2',
+        acted_in: [12],
+        personifies: [168]
+    },
+	 {
+        _id: 173,
+        name: 'Expert Disc Warrior ',
+        acted_in: [12],
+        personifies: [169]
+    },
+	 {
+        _id: 174,
+        name: 'Head Guard',
+        acted_in: [12],
+        personifies: [170]
+    },
+	 {
+        _id: 175,
+        name: 'Factory Guard (as Dave Cass)',
+        acted_in: [12],
+        personifies: [171]
+    },
+ 	 {
+        _id: 176,
+        name: 'Guard 1',
+        acted_in: [12],
+        personifies: [172]
+    },
+	 {
+        _id: 177,
+        name: 'Guard 2',
+        acted_in: [12],
+        personifies: [173]
+	 }
 
 
 ];

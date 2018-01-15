@@ -867,93 +867,182 @@ const actors = [
         _id: 144,
         name: 'John Hurt',
         acted_in: [11],
-        personifies: []
+        personifies: [148]
     },
 	 {
         _id: 145,
         name: 'Jane Alexander',
         acted_in: [11],
-        personifies: [140]
+        personifies: [149]
     },
 	 {
         _id: 146,
         name: 'Doug McKeon',
         acted_in: [11],
-        personifies: [142]
+        personifies: [150]
     },
 	 {
         _id: 147,
         name: 'Keith McKeon',
         acted_in: [11],
-        personifies: [143]
+        personifies: [151]
     },
 	 {
         _id: 148,
         name: 'Beau Bridges',
         acted_in: [11],
-        personifies: [144]
+        personifies: [152]
     },
 	 {
         _id: 149,
         name: 'Glynnis O Connor',
         acted_in: [11],
-        personifies: [145]
+        personifies: [153]
     },
 	 {
         _id: 150,
         name: 'Geoffrey Liesik',
         acted_in: [11],
-        personifies: [146]
+        personifies: [154]
     },
  	 {
         _id: 151,
         name: 'Michael Liesik',
         acted_in: [11],
-        personifies: [147]
+        personifies: [155]
     },
 	 {
         _id: 152,
         name: 'Ian Bannen',
         acted_in: [11],
-        personifies: [144]
+        personifies: [156]
     },
 	 {
         _id: 153,
         name: 'Anne Stallybrass',
         acted_in: [11],
-        personifies: [145]
+        personifies: [157]
     },
 	 {
         _id: 154,
         name: 'Matthew Taylor',
         acted_in: [11],
-        personifies: [146]
+        personifies: [158]
     },
  	 {
         _id: 155,
         name: 'Klaus Lowitsch',
         acted_in: [11],
-        personifies: [147]
+        personifies: [159]
     },
 	 {
         _id: 156,
         name: 'Gunter Meisner',
         acted_in: [11],
-        personifies: [144]
+        personifies: [160]
     },
 	 {
         _id: 157,
         name: 'Sky du Mont',
         acted_in: [11],
-        personifies: [145]
+        personifies: [161]
     },
 	 {
         _id: 158,
         name: 'Jan Niklas',
         acted_in: [11],
-        personifies: [146]
-    }
-
+        personifies: [162]
+    },
+	 {
+        _id: 159,
+        name: 'Jeff Bridges',
+        acted_in: [12],
+        personifies: [163]
+    },
+ 	 {
+        _id: 160,
+        name: 'Bruce Boxleitner',
+        acted_in: [12],
+        personifies: [164]
+    },
+	 {
+        _id: 161,
+        name: 'David Warner',
+        acted_in: [12],
+        personifies: [165]
+    },
+	 {
+        _id: 162,
+        name: 'Cindy Morgan',
+        acted_in: [12],
+        personifies: [166]
+    },
+	 {
+        _id: 163,
+        name: 'Barnard Hughes',
+        acted_in: [12],
+        personifies: [167]
+    },
+ 	 {
+        _id: 164,
+        name: 'Dan Shor',
+        acted_in: [12],
+        personifies: [168]
+    },
+	 {
+        _id: 165,
+        name: 'Peter Jurasik',
+        acted_in: [12],
+        personifies: [169]
+    },
+	 {
+        _id: 166,
+        name: 'Tony Stephano',
+        acted_in: [12],
+        personifies: [170]
+    },
+	 {
+        _id: 167,
+        name: 'Craig Chudy',
+        acted_in: [12],
+        personifies: [171]
+    },
+ 	 {
+        _id: 168,
+        name: 'Vince Deadrick Jr.',
+        acted_in: [12],
+        personifies: [172]
+    },
+	 {
+        _id: 169,
+        name: 'Sam Schatz',
+        acted_in: [12],
+        personifies: [173]
+    },
+	 {
+        _id: 170,
+        name: 'Jackson Bostwick',
+        acted_in: [12],
+        personifies: [174]
+    },
+	 {
+        _id: 171,
+        name: 'David S. Cass Sr.',
+        acted_in: [12],
+        personifies: [175]
+    },
+ 	 {
+        _id: 172,
+        name: 'Gerald Berns',
+        acted_in: [12],
+        personifies: [176]
+    },
+	 {
+        _id: 173,
+        name: 'Bob Neill',
+        acted_in: [12],
+        personifies: [177]
+	 
 ];
 
 

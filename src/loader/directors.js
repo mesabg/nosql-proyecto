@@ -73,6 +73,11 @@ const directors = [
         _id: 12,
         name: 'Delbert Mann',
         directed_in: [11]
+    },
+    {
+        _id: 13,
+        name: 'Steven Lisberger',
+        directed_in: [12]
     }
 
 

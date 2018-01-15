@@ -1011,7 +1011,7 @@ const movies = [
         clasification: 'PG-13',
         rating: 6.4,
         studio: 'Walt Disney Productions',
-        distributor: 'Bavaria Film',
+        distributor: 'Buena Vista Distribution',
         saga: '',
         release: new Date(1982, 2, 5),
         genre: [
@@ -1023,64 +1023,64 @@ const movies = [
         personified_by: [
             {
                 character_id: 148,
-                actor_id: 131,
+                actor_id: 144,
                 role: 'main'
             },{
                 character_id: 149,
-                actor_id: 132,
+                actor_id: 145,
                 role: 'main'
             },{
                 character_id: 150,
-                actor_id: 133,
+                actor_id: 146,
                 role: 'main'
             },{
                 character_id: 151,
-                actor_id: 134,
-                role: 'antagonist'
+                actor_id: 147,
+                role: 'main'
             },{
                 character_id: 152,
-                actor_id: 135,
-                role: 'secondary'
+                actor_id: 148,
+                role: 'main'
             },{
                 character_id: 153,
-                actor_id: 136,
-                role: 'secondary'
+                actor_id: 149,
+                role: 'main'
             },{
                 character_id: 154,
-                actor_id: 137,
-                role: 'secondary'
+                actor_id: 150,
+                role: 'main'
             },{
                 character_id: 155,
-                actor_id: 56,
-                role: 'secondary'
+                actor_id: 151,
+                role: 'main'
             },{
                 character_id: 156,
-                actor_id: 138,
+                actor_id: 152,
                 role: 'secondary'
             },{
                 character_id: 157,
-                actor_id: 139,
+                actor_id: 153,
                 role: 'secondary'
             },{
                 character_id: 158,
-                actor_id: 140,
+                actor_id: 154,
                 role: 'secondary'
             },{
                 character_id: 159,
-                actor_id: 141,
-                role: 'main'
+                actor_id: 155,
+                role: 'secondary'
             },{
                 character_id: 160,
-                actor_id: 142,
-                role: 'main'
-            },{
-                character_id: 161,
-                actor_id: 143,
+                actor_id: 156,
                 role: 'secondary'
             },{
                 character_id: 161,
-                actor_id: 143,
+                actor_id: 157,
                 role: 'secondary'
+            },{
+                character_id: 162,
+                actor_id: 158,
+                role: 'antagonist'
             }
         ],
         directed_by: [12],
@@ -1092,6 +1092,141 @@ const movies = [
             },
             {
                 category_id: 16,
+                award_id: 2,
+                won: false
+            }
+        ]
+    },
+    {
+        _id: 12,
+        name:{
+            spanish: 'Tron',
+            original: 'Tron'
+        },
+        clasification: 'PG-13',
+        rating: 6.8,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: 'Tron Series',
+        release: new Date(1982, 7, 11),
+        genre: [
+				 'Action', 'Adventure', 'Sci-Fi'
+        ],
+        running_time: 96,
+        gross: 33000000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 148,
+                actor_id: 144,
+                role: 'main'
+            },{
+                character_id: 149,
+                actor_id: 145,
+                role: 'main'
+            },{
+                character_id: 150,
+                actor_id: 146,
+                role: 'main'
+            },{
+                character_id: 151,
+                actor_id: 147,
+                role: 'main'
+            },{
+                character_id: 152,
+                actor_id: 148,
+                role: 'main'
+            },{
+                character_id: 153,
+                actor_id: 149,
+                role: 'main'
+            },{
+                character_id: 154,
+                actor_id: 150,
+                role: 'main'
+            },{
+                character_id: 155,
+                actor_id: 151,
+                role: 'main'
+            },{
+                character_id: 156,
+                actor_id: 152,
+                role: 'secondary'
+            },{
+                character_id: 157,
+                actor_id: 153,
+                role: 'secondary'
+            },{
+                character_id: 158,
+                actor_id: 154,
+                role: 'secondary'
+            },{
+                character_id: 159,
+                actor_id: 155,
+                role: 'secondary'
+            },{
+                character_id: 160,
+                actor_id: 156,
+                role: 'secondary'
+            },{
+                character_id: 161,
+                actor_id: 157,
+                role: 'secondary'
+            },{
+                character_id: 162,
+                actor_id: 158,
+                role: 'antagonist'
+            }
+        ],
+        directed_by: [13],
+		  nominated_in:[
+            {
+                category_id: 28,
+                award_id: 4,
+                won: false
+            },
+            {
+                category_id: 29,
+                award_id: 4,
+                won: false
+            },
+ 			   {
+                category_id: 30,
+                award_id: 7,
+                won: false
+            },
+            {
+                category_id: 22,
+                award_id: 3,
+                won: true
+            },
+				{
+                category_id: 31,
+                award_id: 3,
+                won: false
+            },
+				{
+                category_id: 32,
+                award_id: 3,
+                won: false
+            },
+				{
+                category_id: 33,
+                award_id: 8,
+                won: false
+            },
+			   {
+                category_id: 34,
+                award_id: 8,
+                won: false
+            },
+				{
+                category_id: 35,
+                award_id: 9,
+                won: true
+            },
+				{
+                category_id: 36,
                 award_id: 2,
                 won: false
             }

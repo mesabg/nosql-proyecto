@@ -722,170 +722,170 @@ const characters = [
 	 {
         _id: 120,
         name: 'Barney Satin',
-        acted_in: [9],
-        personifies: [117]
+        appear_in: [9],
+        personified_by: [117]
     },
 	 {
         _id: 121,
         name: 'Penny Hart',
-        acted_in: [9],
-        personifies: [118]
+        appear_in: [9],
+        personified_by: [118]
     },
 	 {
         _id: 122,
         name: 'Toby Hart',
-        acted_in: [9],
-        personifies: [119]
+        appear_in: [9],
+        personified_by: [119]
     },
 	 {
         _id: 123,
         name: 'Stella Summers',
-        acted_in: [9],
-        personifies: [120]
+        appear_in: [9],
+        personified_by: [120]
     },
 	 {
         _id: 124,
         name: 'Big Billy Hunniker',
-        acted_in: [9],
-        personifies: [121]
+        appear_in: [9],
+        personified_by: [121]
     },
 	 {
         _id: 125,
         name: 'Nerve Nordlinger',
-        acted_in: [9],
-        personifies: [122]
+        appear_in: [9],
+        personified_by: [122]
     },
 	 {
         _id: 126,
         name: 'Jerry Nadler',
-        acted_in: [9],
-        personifies: [123]
+        appear_in: [9],
+        personified_by: [123]
     },
 	 {
         _id: 127,
         name: 'Heidi',
-        acted_in: [9],
-        personifies: [124]
+        appear_in: [9],
+        personified_by: [124]
     },
 	 {
         _id: 128,
         name: 'Greg Weems',
-        acted_in: [9],
-        personifies: [125]
+        appear_in: [9],
+        personified_by: [125]
     },
 	 {
         _id: 129,
         name: 'Laverne Hunniker',
-        acted_in: [9],
-        personifies: [126]
+        appear_in: [9],
+        personified_by: [126]
     },
 	 {
         _id: 130,
         name: 'The Counterman',
-        acted_in: [9],
-        personifies: [127]
+        appear_in: [9],
+        personified_by: [127]
     },
 	 {
         _id: 131,
         name: 'Mr. Billings',
-        acted_in: [9],
-        personifies: [128]
+        appear_in: [9],
+        personified_by: [128]
     },
 	 {
         _id: 132,
         name: 'Brian',
-        acted_in: [9],
-        personifies: [129]
+        appear_in: [9],
+        personified_by: [129]
     },
 	 {
         _id: 133,
         name: 'Chairman of Devils Council',
-        acted_in: [9],
-        personifies: [130]
+        appear_in: [9],
+        personified_by: [130]
     },
     {
         _id: 134,
         name: 'Tod (voice)',
-        acted_in: [10],
-        personifies: [131]
+        appear_in: [10],
+        personified_by: [131]
     },
 	 {
         _id: 135,
         name: 'Cooper (voice) ',
-        acted_in: [10],
-        personifies: [132]
+        appear_in: [10],
+        personified_by: [132]
     },
 	 {
         _id: 136,
         name: 'Big Mama (voice)',
-        acted_in: [10],
-        personifies: [133]
+        appear_in: [10],
+        personified_by: [133]
     },
 	 {
         _id: 137,
         name: 'Amos Slade (voice)',
-        acted_in: [10],
-        personifies: [134]
+        appear_in: [10],
+        personified_by: [134]
     },
 	 {
         _id: 138,
         name: 'Vixey (voice)',
-        acted_in: [10],
-        personifies: [135]
+        appear_in: [10],
+        personified_by: [135]
     },
 	 {
         _id: 139,
         name: 'Widow Tweed (voice)',
-        acted_in: [10],
-        personifies: [136]
+        appear_in: [10],
+        personified_by: [136]
     },
 	 {
         _id: 140,
         name: 'Chief (voice)',
-        acted_in: [10],
-        personifies: [137]
+        appear_in: [10],
+        personified_by: [137]
     },
 	 {
         _id: 141,
         name: 'Porcupine (voice)',
-        acted_in: [10],
-        personifies: [56]
+        appear_in: [10],
+        personified_by: [56]
     },
 	 {
         _id: 142,
         name: 'Badger (voice)',
-        acted_in: [10],
-        personifies: [138]
+        appear_in: [10],
+        personified_by: [138]
     },
 	 {
         _id: 143,
         name: 'Dinky (voice) (as Dick Bakalyan) ',
-        acted_in: [10],
-        personifies: [139]
+        appear_in: [10],
+        personified_by: [139]
     },
 	 {
         _id: 144,
         name: 'Boomer (voice)',
-        acted_in: [10],
-        personifies: [140]
+        appear_in: [10],
+        personified_by: [140]
     },
 	 {
         _id: 145,
         name: 'Young Tod (voice) (as Keith Mitchell)',
-        acted_in: [10],
-        personifies: [141]
+        appear_in: [10],
+        personified_by: [141]
     },
  	 {
         _id: 146,
         name: 'Young Copper (voice)',
-        acted_in: [10],
-        personifies: [142]
+        appear_in: [10],
+        personified_by: [142]
     },
  	 {
         _id: 147,
         name: 'Squeeks the Caterpillar',
-        acted_in: [10],
-        personifies: [143]
+        appear_in: [10],
+        personified_by: [143]
     }
 
 

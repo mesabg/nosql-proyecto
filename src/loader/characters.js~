@@ -829,55 +829,55 @@ const characters = [
     },
 	 {
         _id: 138,
-        name: 'Sandy Duncan',
+        name: 'Vixey (voice)',
         acted_in: [10],
         personifies: [135]
     },
 	 {
         _id: 139,
-        name: 'Jeanette Nolan',
+        name: 'Widow Tweed (voice)',
         acted_in: [10],
         personifies: [136]
     },
 	 {
         _id: 140,
-        name: 'Pat Buttram',
+        name: 'Chief (voice)',
         acted_in: [10],
         personifies: [137]
     },
 	 {
         _id: 141,
-        name: 'John McIntire',
+        name: 'Porcupine (voice)',
         acted_in: [10],
         personifies: [56]
     },
 	 {
         _id: 142,
-        name: 'Richard Bakalyan',
+        name: 'Badger (voice)',
         acted_in: [10],
         personifies: [138]
     },
 	 {
         _id: 143,
-        name: 'Paul Winchell',
+        name: 'Dinky (voice) (as Dick Bakalyan) ',
         acted_in: [10],
         personifies: [139]
     },
 	 {
         _id: 144,
-        name: 'Keith Coogan',
+        name: 'Boomer (voice)',
         acted_in: [10],
         personifies: [140]
     },
 	 {
         _id: 145,
-        name: 'Corey Feldman',
+        name: 'Young Tod (voice) (as Keith Mitchell)',
         acted_in: [10],
         personifies: [141]
     },
  	 {
         _id: 146,
-        name: 'Squeeks the Caterpillar',
+        name: 'Young Copper (voice)',
         acted_in: [10],
         personifies: [142]
     },

@@ -57,17 +57,22 @@ const directors = [
 	 {
         _id: 9,
         name: 'Ted Berman',
-        directed_in: [5]
+        directed_in: [10]
     },
 	 {
         _id: 10,
         name: 'Richard Rich',
-        directed_in: [8]
+        directed_in: [10]
     },
 	 {
         _id: 11,
         name: 'Art Stevens',
-        directed_in: [9]
+        directed_in: [10]
+    },		 
+    {
+        _id: 12,
+        name: 'Delbert Mann',
+        directed_in: [10]
     }
 
 

@@ -1455,7 +1455,401 @@ const movies = [
            
            
         ]
+    },
+	{
+        _id: 15,
+        name:{
+            spanish: 'Los Lobos No Lloran',
+            original: 'Never Cry Wolf'
+        },
+        clasification: 'PG-13',
+        rating: 7.6,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1983, 10, 10),
+        genre: [
+				 'Drama', 'Adventure'
+        ],
+        running_time: 105,
+        gross: 29600000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 207,
+                actor_id: 2,
+                role: 'main'
+            },{
+                character_id: 208,
+                actor_id: 203,
+                role: 'main'
+            },{
+                character_id: 209,
+                actor_id: 204,
+                role: 'main'
+            },{
+                character_id: 210,
+                actor_id: 205,
+                role: 'main'
+            },{
+                character_id: 211,
+                actor_id: 206,
+                role: 'secondary'
+            },{
+                character_id: 212,
+                actor_id: 207,
+                role: 'secondary'
+            },{
+                character_id: 213,
+                actor_id: 208,
+                role: 'secondary'
+            },{
+                character_id: 214,
+                actor_id: 209,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [16],
+		  nominated_in:[
+            {
+                category_id: 29,
+                award_id: 4,
+                won: false
+            },
+            {
+                category_id: 41,
+                award_id: 12,
+                won: true
+            },
+ 			   {
+                category_id: 41,
+                award_id: 13,
+                won: false
+            },
+				{
+                category_id: 42,
+                award_id: 14,
+                won: true
+            },
+            {
+                category_id: 41,
+                award_id: 15,
+                won: true
+            },
+ 			   {
+                category_id: 43,
+                award_id: 16,
+                won: false
+            },
+				{
+                category_id: 44,
+                award_id: 17,
+                won: true
+            }
+           
+        ]
+    },
+	 {
+        _id: 16,
+        name:{
+            spanish: 'Una Navidad con Mickey',
+            original: 'Mickeys Christmas Carol'
+        },
+        clasification: 'G',
+        rating: 8.1,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1983, 12, 16),
+        genre: [
+				 'Animation', 'Short', 'Comedy'
+        ],
+        running_time: 26,
+        gross:  21000000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 215,
+                actor_id: 210,
+                role: 'main'
+            },{
+                character_id: 216,
+                actor_id: 211,
+                role: 'main'
+            },{
+                character_id: 217,
+                actor_id: 211,
+                role: 'main'
+            },{
+                character_id: 218,
+                actor_id: 211,
+                role: 'secondary'
+            },{
+                character_id: 219,
+                actor_id: 212,
+                role: 'main'
+            },{
+                character_id: 220,
+                actor_id: 212,
+                role: 'secondary'
+            },{
+                character_id: 221,
+                actor_id: 212,
+                role: 'secondary'
+            },{
+                character_id: 222,
+                actor_id: 213,
+                role: 'secondary'
+            },{
+                character_id: 223,
+                actor_id: 213,
+                role: 'secondary'
+            },{
+                character_id: 224,
+                actor_id: 213,
+                role: 'antagonist'
+            },{
+                character_id: 225,
+                actor_id: 213,
+                role: 'secondary'
+            },{
+                character_id: 226,
+                actor_id: 214,
+                role: 'secondary'
+            },{
+                character_id: 227,
+                actor_id: 215,
+                role: 'secondary'
+            },{
+                character_id: 228,
+                actor_id: 216,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [17],
+		  nominated_in:[
+            {
+                category_id: 45,
+                award_id: 4,
+                won: false
+            }
+           
+        ]
+    },
+    {
+        _id: 17,
+        name:{
+            spanish: 'Misterio en Malta / Intriga en Malta',
+            original: 'Trenchcoat'
+        },
+        clasification: 'PG-13',
+        rating: 5.2,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1983, 3, 11),
+        genre: [
+				 'Comedy', 'Mystery', 'Thriller'
+        ],
+        running_time: 91,
+        gross:  4304286,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 229,
+                actor_id: 217,
+                role: 'main'
+            },{
+                character_id: 230,
+                actor_id: 218,
+                role: 'main'
+            },{
+                character_id: 231,
+                actor_id: 219,
+                role: 'main'
+            },{
+                character_id: 232,
+                actor_id: 220,
+                role: 'main'
+            },{
+                character_id: 233,
+                actor_id: 221,
+                role: 'main'
+            },{
+                character_id: 234,
+                actor_id: 222,
+                role: 'secondary'
+            },{
+                character_id: 235,
+                actor_id: 223,
+                role: 'secondary'
+            },{
+                character_id: 236,
+                actor_id: 224,
+                role: 'secondary'
+            },{
+                character_id: 237,
+                actor_id: 225,
+                role: 'secondary'
+            },{
+                character_id: 238,
+                actor_id: 226,
+                role: 'secondary'
+            },{
+                character_id: 239,
+                actor_id: 227,
+                role: 'secondary'
+            },{
+                character_id: 240,
+                actor_id: 228,
+                role: 'secondary'
+            },{
+                character_id: 241,
+                actor_id: 229,
+                role: 'secondary'
+            },{
+                character_id: 242,
+                actor_id: 230,
+                role: 'secondary'
+            },{
+                character_id: 243,
+                actor_id: 231,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [18]
+    },
+	 {
+        _id: 18,
+        name:{
+            spanish: 'A través de la oscuridad',
+            original: 'Love Leads the Way: A True Story'
+        },
+        clasification: 'PG-13',
+        rating: 7.7,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1984, 10, 7),
+        genre: [
+				 'Drama', 'Family', 'History'
+        ],
+        running_time: 99,
+        gross:  0,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 244,
+                actor_id: 232,
+                role: 'main'
+            },{
+                character_id: 245,
+                actor_id: 233,
+                role: 'main'
+            },{
+                character_id: 246,
+                actor_id: 234,
+                role: 'main'
+            },{
+                character_id: 247,
+                actor_id: 129,
+                role: 'main'
+            },{
+                character_id: 248,
+                actor_id: 235,
+                role: 'main'
+            },{
+                character_id: 249,
+                actor_id: 236,
+                role: 'secondary'
+            },{
+                character_id: 250,
+                actor_id: 237,
+                role: 'secondary'
+            },{
+                character_id: 251,
+                actor_id: 238,
+                role: 'secondary'
+            },{
+                character_id: 252,
+                actor_id: 239,
+                role: 'secondary'
+            },{
+                character_id: 253,
+                actor_id: 240,
+                role: 'secondary'
+            },{
+                character_id: 254,
+                actor_id: 241,
+                role: 'secondary'
+            },{
+                character_id: 255,
+                actor_id: 242,
+                role: 'secondary'
+            },{
+                character_id: 256,
+                actor_id: 243,
+                role: 'secondary'
+            },{
+                character_id: 257,
+                actor_id: 244,
+                role: 'secondary'
+            },{
+                character_id: 258,
+                actor_id: 245,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [12]
+    },
+	 {
+        _id: 19,
+        name:{
+            spanish: 'Where the Toys Come from',
+            original: 'Where the Toys Come from'
+        },
+        clasification: 'G',
+        rating: 7.3,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1984, 11, 6),
+        genre: [
+				  'Animation', 'Adventure', 'Family'
+        ],
+        running_time: 58,
+        gross:  0,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 259,
+                actor_id: 246,
+                role: 'main'
+            },{
+                character_id: 260,
+                actor_id:  247,
+                role: 'main'
+            },{
+                character_id: 261,
+                actor_id: 248,
+                role: 'main'
+            },{
+                character_id: 262,
+                actor_id: 249,
+                role: 'main'
+            }
+        ],
+        directed_by: [19],
+		  nominated_in:[
+            {
+                category_id: 46,
+                award_id: 18,
+                won: true
+            }
+           
+        ]
     }
+	
 	 
 ];
 

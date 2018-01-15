@@ -1240,8 +1240,343 @@ const characters = [
         name: 'Ed, The Bartender',
         appear_in: [14],
         personified_by: [202]
+    },
+	 {
+        _id: 207,
+        name: 'Farley Mowat / Tyler',
+        appear_in: [15],
+        personified_by: [2]
+	 },
+	 {
+        _id: 208,
+        name: 'Rosie',
+        appear_in: [15],
+        personified_by: [203]
+    },
+	 {
+        _id: 209,
+        name: 'Ootek',
+        appear_in: [15],
+        personified_by: [204]
+    },
+	 {
+        _id: 210,
+        name: 'Mike',
+        appear_in: [15],
+        personified_by: [205]
+    },
+	 {
+        _id: 211,
+        name: 'Drunk',
+        appear_in: [15],
+        personified_by: [206]
+    },
+ 	 {
+        _id: 212,
+        name: 'Woman',
+        appear_in: [15],
+        personified_by: [207]
+    },
+    {
+        _id: 213,
+        name: 'Hunter 1',
+        appear_in: [15],
+        personified_by: [208]
+    },
+	 {
+	      _id: 214,
+        name: 'Hunter 2',
+        appear_in: [15],
+        personified_by: [209]
+    },
+	 {
+        _id: 215,
+        name: 'Scrooge - Scrooge McDuck (voice)',
+        appear_in: [16],
+        personified_by: [210]
+    },
+	 {
+        _id: 216,
+        name: 'Bob Cratchit - Mickey Mouse',
+        appear_in: [16],
+        personified_by: [211]
+    },
+	 {
+        _id: 217,
+        name: 'Weasel Gravedigger',
+        appear_in: [16],
+        personified_by: [211]
+    },
+	 {
+        _id: 218,
+        name: 'Begger Dog (voice)',
+        appear_in: [16],
+        personified_by: [211]
+    },
+ 	 {
+        _id: 219,
+        name: 'Jacob Marleys Ghost - Goofy',
+        appear_in: [16],
+        personified_by: [212]
+    },
+	 {
+        _id: 220,
+        name: 'Collector for the Poor 1 (voice)',
+        appear_in: [16],
+        personified_by: [212]
+    },
+	 {
+        _id: 221,
+        name: 'Collector for the Poor 2',
+        appear_in: [16],
+        personified_by: [213]
+    },
+ 	 {
+        _id: 222,
+        name: 'Ghost of Christmas Present (Willie the Giant)',
+        appear_in: [16],
+        personified_by: [213]
+    },
+	 {
+        _id: 223,
+        name: 'Ghost of Christmas Future (Pete)',
+        appear_in: [16],
+        personified_by: [213]
+    },
+	 {
+        _id: 224,
+        name: 'Santa Claus (Big Bad Wolf)',
+        appear_in: [16],
+        personified_by: [213]
+    },
+	 {
+        _id: 225,
+        name: 'Weasel 2 (voice)',
+        appear_in: [16],
+        personified_by: [213]
+    },
+	 {
+        _id: 226,
+        name: 'Ghost of Christmas Past - Jiminy Cricket (voice) (as Eddy Carroll)',
+        appear_in: [16],
+        personified_by: [214]
+    },
+	 {
+        _id: 227,
+        name: 'Belle - Daisy Duck (voice) Dick Billingsley 	Tiny Tim (voice)',
+        appear_in: [16],
+        personified_by: [215]
+    },
+	 {
+        _id: 228,
+        name: 'Nephew Fred - Donald Duck (voice)',
+        appear_in: [16],
+        personified_by: [216]
+    },
+	 {
+        _id: 229,
+        name: 'Mickey Raymond',
+        appear_in: [17],
+        personified_by: [217]
+    },
+ 	 {
+        _id: 230,
+        name: 'Terry Leonard',
+        appear_in: [17],
+        personified_by: [218]
+    },
+	 {
+        _id: 231,
+        name: 'Inspector Stagnos',
+        appear_in: [17],
+        personified_by: [219]
+    },
+	 {
+        _id: 232,
+        name: 'Eva Werner',
+        appear_in: [17],
+        personified_by: [220]
+    },
+	 {
+        _id: 233,
+        name: 'Nino Tenucci',
+        appear_in: [17],
+        personified_by: [221]
+    },
+	 {
+        _id: 234,
+        name: 'Princess Aida',
+        appear_in: [17],
+        personified_by: [222]
+    },
+	 {
+        _id: 235,
+        name: 'Marquis De Pena',
+        appear_in: [17],
+        personified_by: [223]
+    },
+	 {
+        _id: 236,
+        name: 'Lizzy O Reilly (as Pauline Delany)',
+        appear_in: [17],
+        personified_by: [224]
+    },
+	 {
+        _id: 237,
+        name: 'Sean O Reilly',
+        appear_in: [17],
+        personified_by: [225]
+    },
+	 {
+        _id: 238,
+        name: 'Esteban Ortega',
+        appear_in: [17],
+        personified_by: [226]
+    },
+	 {
+        _id: 239,
+        name: 'Corporal Lascaris',
+        appear_in: [17],
+        personified_by: [227]
+    },
+	 {
+        _id: 240,
+        name: 'Afro-Dite',
+        appear_in: [17],
+        personified_by: [228]
+    },
+	 {
+        _id: 241,
+        name: 'Taxi Driver',
+        appear_in: [17],
+        personified_by: [229]
+    },
+	 {
+        _id: 242,
+        name: 'Boos Arab',
+        appear_in: [17],
+        personified_by: [230]
+    },
+	 {
+        _id: 243,
+        name: 'Laurie',
+        appear_in: [17],
+        personified_by: [231]
+    },
+    {
+        _id: 244,
+        name: 'Morris Frank',
+        appear_in: [18],
+        personified_by: [232]
+    },
+	 {
+        _id: 245,
+        name: 'Mrs. Eustes',
+        appear_in: [18],
+        personified_by: [233]
+    },
+	 {
+        _id: 246,
+        name: 'Mr. Frank',
+        appear_in: [18],
+        personified_by: [234]
+    },
+    {
+        _id: 247,
+        name: 'Lois',
+        appear_in: [18],
+        personified_by: [149]
+    },
+	 {
+        _id: 248,
+        name: 'Beth',
+        appear_in: [18],
+        personified_by: [235]
+    },
+    {
+        _id: 249,
+        name: 'Jack',
+        appear_in: [18],
+        personified_by: [236]
+    },
+	 {
+        _id: 250,
+        name: 'Blind Institute Director (as George D. Wallace)',
+        appear_in: [18],
+        personified_by: [237]
+    },
+	 {
+        _id: 251,
+        name: 'Hank',
+        appear_in: [18],
+        personified_by: [238]
+    },
+ 	 {
+        _id: 252,
+        name: 'Mike McShane',
+        appear_in: [18],
+        personified_by: [239]
+    },
+	 {
+        _id: 253,
+        name: 'Sen. Christi',
+        appear_in: [18],
+        personified_by: [240]
+    },
+	 {
+        _id: 254,
+        name: 'Sen. Brighton',
+        appear_in: [18],
+        personified_by: [241]
+    },
+	 {
+        _id: 255,
+        name: 'Mrs. Frank',
+        appear_in: [18],
+        personified_by: [242]
+    },
+	 {
+        _id: 256,
+        name: 'Buddy',
+        appear_in: [18],
+        personified_by: [243]
+    },
+    {
+        _id: 257,
+        name: 'Proprietor',
+        appear_in: [18],
+        personified_by: [244]
+    },
+	 {
+        _id: 258,
+        name: 'Jimmy',
+        appear_in: [18],
+        personified_by: [245]
+    },
+ 	 {
+        _id: 259,
+        name: 'Kenji, the Designer',
+        appear_in: [19],
+        personified_by: [246]
+    },
+ 	 {
+        _id: 260,
+        name: 'Robin',
+        appear_in: [19],
+        personified_by: [247]
+    },
+ 	 {
+        _id: 261,
+        name: 'Peepers',
+        appear_in: [19],
+        personified_by: [248]
+    },
+  	 {
+        _id: 262,
+        name: 'Zoom',
+        appear_in: [19],
+        personified_by: [249]
     }
-
 
 ];
 

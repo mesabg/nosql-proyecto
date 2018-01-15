@@ -22,7 +22,7 @@ const actors = [
         _id: 2,
         name: 'Charles Martin Smith',
         acted_in: [1],
-        personifies: [2]
+        personifies: [2,207]
     },{
         _id: 3,
         name: 'John Vernon',
@@ -897,7 +897,7 @@ const actors = [
         _id: 149,
         name: 'Glynnis O Connor',
         acted_in: [11],
-        personifies: [153]
+        personifies: [153,247]
     },
 	 {
         _id: 150,
@@ -1216,8 +1216,289 @@ const actors = [
         name: 'James Stacy',
         acted_in: [14],
         personifies: [206]
+    },
+	 {
+        _id: 203,
+        name: 'Brian Dennehy',
+        acted_in: [15],
+        personifies: [208]
+	 },
+	 {
+        _id: 204,
+        name: 'Zachary Ittimangnaq',
+        acted_in: [15],
+        personifies: [209]
+    },
+	 {
+        _id: 205,
+        name: 'Samson Jorah',
+        acted_in: [15],
+        personifies: [210]
+    },
+	 {
+        _id: 206,
+        name: 'Hugh Webster',
+        acted_in: [15],
+        personifies: [211]
+    },
+	 {
+        _id: 207,
+        name: 'Martha Ittimangnaq',
+        acted_in: [15],
+        personifies: [212]
+    },
+ 	 {
+        _id: 208,
+        name: 'Tom Dahlgren',
+        acted_in: [15],
+        personifies: [213]
+    },
+    {
+        _id: 209,
+        name: 'Walker Stuart',
+        acted_in: [15],
+        personifies: [214]
+    },
+	 {
+        _id: 210,
+        name: 'Alan Young',
+        acted_in: [16],
+        personifies: [215]
+    },
+	 {
+        _id: 211,
+        name: 'Wayne Allwine',
+        acted_in: [16],
+        personifies: [216,217,218]
+    },
+ 	 {
+        _id: 212,
+        name: 'Hal Smith',
+        acted_in: [16],
+        personifies: [219,220]
+    },
+	 {
+        _id: 213,
+        name: 'Will Ryan',
+        acted_in: [16],
+        personifies: [221,222,223,224,225]
+    },
+	 {
+        _id: 214,
+        name: 'Eddie Carroll',
+        acted_in: [16],
+        personifies: [226]
+    },
+	 {
+        _id: 215,
+        name: 'Patricia Parris',
+        acted_in: [16],
+        personifies: [227]
+    },
+	 {
+        _id: 216,
+        name: 'Clarence Nash',
+        acted_in: [16],
+        personifies: [228]
+    },
+	 {
+        _id: 217,
+        name: 'Margot Kidder',
+        acted_in: [17],
+        personifies: [229]
+    },
+ 	 {
+        _id: 218,
+        name: 'Robert Hays',
+        acted_in: [17],
+        personifies: [230]
+    },
+    {
+        _id: 219,
+        name: 'David Suchet',
+        acted_in: [17],
+        personifies: [231]
+    },
+	 {
+        _id: 220,
+        name: 'Gila von Weitershausen',
+        acted_in: [17],
+        personifies: [232]
+    },
+	 {
+        _id: 221,
+        name: 'Daniel Faraldo',
+        acted_in: [17],
+        personifies: [233]
+    },
+ 	 {
+        _id: 222,
+        name: 'Ronald Lacey',
+        acted_in: [17],
+        personifies: [234]
+    },
+	 {
+        _id: 223,
+        name: 'John Justin',
+        acted_in: [17],
+        personifies: [235]
+    },
+	 {
+        _id: 224,
+        name: 'Pauline Delaney',
+        acted_in: [17],
+        personifies: [236]
+    },
+	 {
+        _id: 225,
+        name: 'P.G. Stephens',
+        acted_in: [17],
+        personifies: [237]
+    },
+	 {
+        _id: 226,
+        name: 'Leopoldo Trieste',
+        acted_in: [17],
+        personifies: [238]
+    },
+	 {
+        _id: 227,
+        name: 'Brizio Montinaro',
+        acted_in: [17],
+        personifies: [239]
+    },
+	 {
+        _id: 228,
+        name: 'Martin Sorrentino',
+        acted_in: [17],
+        personifies: [240]
+    },
+	 {
+        _id: 229,
+        name: 'Luciano Crovato',
+        acted_in: [17],
+        personifies: [241]
+    },
+	 {
+        _id: 230,
+        name: 'Massimo Sarchielli',
+        acted_in: [17],
+        personifies: [242]
+    },
+	 {
+        _id: 231,
+        name: 'Jennifer Darling',
+        acted_in: [17],
+        personifies: [243]
+    },
+	 {
+        _id: 232,
+        name: 'Timothy Bottoms',
+        acted_in: [18],
+        personifies: [244]
+    },
+	 {
+        _id: 233,
+        name: 'Eva Marie Saint',
+        acted_in: [18],
+        personifies: [245]
+    },
+	 {
+        _id: 234,
+        name: 'Arthur Hill',
+        acted_in: [18],
+        personifies: [246]
+    },
+    {
+        _id: 235,
+        name: 'Susan Dey',
+        acted_in: [18],
+        personifies: [248]
+    },
+	 {
+        _id: 236,
+        name: 'Gerald Hiken',
+        acted_in: [18],
+        personifies: [249]
+    },
+    {
+        _id: 237,
+        name: 'George Wallace',
+        acted_in: [18],
+        personifies: [250]
+    },
+	 {
+        _id: 238,
+        name: 'Michael Anderson Jr.',
+        acted_in: [18],
+        personifies: [251]
+    },
+	 {
+        _id: 239,
+        name: 'Stephen Young',
+        acted_in: [18],
+        personifies: [252]
+    },
+ 	 {
+        _id: 240,
+        name: 'Ralph Bellamy',
+        acted_in: [18],
+        personifies: [253]
+    },
+	 {
+        _id: 241,
+        name: 'Ernest Borgnine',
+        acted_in: [18],
+        personifies: [254]
+    },
+	 {
+        _id: 242,
+        name: 'Patricia Neal',
+        acted_in: [18],
+        personifies: [255]
+    },
+	 {
+        _id: 243,
+        name: 'Pilot',
+        acted_in: [18],
+        personifies: [256]
+    },
+	 {
+        _id: 244,
+        name: 'Richard Roat',
+        acted_in: [18],
+        personifies: [257]
+    },
+    {
+        _id: 245,
+        name: 'Richard Speight Jr.',
+        acted_in: [18],
+        personifies: [258]
+    },
+	 {
+        _id: 246,
+        name: 'Sab Shimono',
+        acted_in: [19],
+        personifies: [259]
+    },
+ 	 {
+        _id: 247,
+        name: 'Erin Young',
+        acted_in: [19],
+        personifies: [260]
+    },
+ 	 {
+        _id: 248,
+        name: 'Jon Harvey',
+        acted_in: [19],
+        personifies: [261]
+    },
+  	 {
+        _id: 249,
+        name: 'Larry Wright',
+        acted_in: [19],
+        personifies: [262]
     }
-	
 	 
 ];
 

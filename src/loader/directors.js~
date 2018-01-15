@@ -72,7 +72,7 @@ const directors = [
     {
         _id: 12,
         name: 'Delbert Mann',
-        directed_in: [11]
+        directed_in: [11,18]
     },
     {
         _id: 13,
@@ -83,7 +83,33 @@ const directors = [
         _id: 14,
         name: 'Tim Hunter',
         directed_in: [13]
+    },
+	 {
+        _id: 15,
+        name: 'Jack Clayton',
+        directed_in: [14]
+    }, 
+	 {
+        _id: 16,
+        name: 'Carroll Ballard',
+        directed_in: [15]
+    },
+	 {
+        _id: 17,
+        name: 'Burny Mattinson',
+        directed_in: [16]
+    },
+	 {
+        _id: 18,
+        name: 'Michael Tuchner',
+        directed_in: [17]
+    },
+	 {
+        _id: 19,
+        name: 'Theodore Thomas',
+        directed_in: [18]
     }
+
 
 
 ];

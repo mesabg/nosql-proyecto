@@ -32,7 +32,7 @@ const awards = [
     {
         _id: 4,
         name: 'Academy Awards',
-        has_category: [18, 19, 28, 29]
+        has_category: [18, 19, 28, 29, 45]
     },
 	 {
         _id: 5,
@@ -68,7 +68,38 @@ const awards = [
         _id: 11,
         name: 'Avoriaz Fantastic Film Festival',
         has_category: [40]
+    },
+ 	 {
+        _id: 12,
+        name: 'Boston Society of Film Critics Awards',
+        has_category: [41]
+    },
+ 	 {
+        _id: 13,
+        name: 'Los Angeles Film Critics Association Awards',
+        has_category: [41]
+    },
+	 {
+        _id: 14,
+        name: 'Motion Picture Sound Editors',
+        has_category: [42]
+    },
+	 {
+        _id: 15,
+        name: 'National Society of Film Critics Awards',
+        has_category: [41]
+    },
+    {
+        _id: 16,
+        name: 'New York Film Critics Circle Awards',
+        has_category: [43]
+    },
+ 	 {
+        _id: 17,
+        name: 'Western Heritage Awards',
+        has_category: [44]
     }
+	
 
 ];
 

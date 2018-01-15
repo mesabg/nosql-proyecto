@@ -154,7 +154,7 @@ const categories = [
 	 {
         _id: 29,
         name: 'Best Sound',
-        present_in: [12]
+        present_in: [12,15]
     },
 	 {
         _id: 30,
@@ -210,7 +210,38 @@ const categories = [
         _id: 40,
         name: 'Avoriaz Fantastic Film Festival',
         present_in: [14]
+    },
+	 {
+        _id: 41,
+        name: 'Best Cinematography',
+        present_in: [15]
+    },
+	 {
+        _id: 42,
+        name: 'Best Sound Editing - Sound Effects',
+        present_in: [15]
+    },
+ 	 {
+        _id: 43,
+        name: 'Best Cinematographer',
+        present_in: [15]
+    },
+ 	 {
+        _id: 44,
+        name: 'Theatrical Motion Picture',
+        present_in: [15]
+    },
+	 {
+        _id: 45,
+        name: 'Best Short Film, Animated',
+        present_in: [16]
+    },
+	 {
+        _id: 46,
+        name: 'Childrens Program',
+        present_in: [19]
     }
+
 
 
 

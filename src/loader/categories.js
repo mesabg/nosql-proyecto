@@ -86,6 +86,16 @@ const categories = [
         name: 'Worst Screenplay',
         present_in: [5]
     },
+    {
+        _id: 16,
+        name: 'Best Young Motion Picture Actor',
+        present_in: [6]
+    },
+    {
+        _id: 17,
+        name: 'Best Motion Picture - Family Enjoyment',
+        present_in: [6]
+    }
 ];
 
 

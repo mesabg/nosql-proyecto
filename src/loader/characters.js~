@@ -328,7 +328,7 @@ const characters = [
         name: 'Sunshine',
         appear_in: [3],
         personified_by: [55]
-    }
+    },
     {
         _id: 56,
         name: 'Wally Thorpe',
@@ -475,7 +475,7 @@ const characters = [
     },
     {
         _id: 80,
-        name: 'Swee'pea',
+        name: 'Swee pea',
         appear_in: [5],
         personified_by: [80]
     },
@@ -484,8 +484,97 @@ const characters = [
         name: 'Ham Gravy, the Old Boyfriend',
         appear_in: [5],
         personified_by: [81]
+    },
+    {
+        _id: 82,
+        name: 'Amy Medford ',
+        appear_in: [6],
+        personified_by: [82]
+    },
+    {
+        _id: 83,
+        name: 'Dr. Ben Corcoran',
+        appear_in: [6],
+        personified_by: [83]
+    },
+    {
+        _id: 84,
+        name: 'Helen Gibbs',
+        appear_in: [6],
+        personified_by: [84]
+    },
+    {
+        _id: 85,
+        name: 'Elliot Medford',
+        appear_in: [6],
+        personified_by: [85]
+    },
+    {
+        _id: 86,
+        name: 'Lyle Ferguson',
+        appear_in: [6],
+        personified_by: [86]
+    },
+    {
+        _id: 86,
+        name: 'Hazel Johnson',
+        appear_in: [6],
+        personified_by: [86]
+    },
+    {
+        _id: 87,
+        name: 'Malvina',
+        appear_in: [6],
+        personified_by: [87]
+    },
+    {
+        _id: 88,
+        name: 'Edgar Wambuck',
+        appear_in: [6],
+        personified_by: [88]
+    },
+    {
+        _id: 89,
+        name: 'Rose Metcalf',
+        appear_in: [6],
+        personified_by: [89]
+    },
+    {
+        _id: 90,
+        name: 'Clyde Pruett',
+        appear_in: [6],
+        personified_by: [90]
+    },
+    {
+        _id: 91,
+        name: 'Virgil Goodloe',
+        appear_in: [6],
+        personified_by: [91]
+    },
+    {
+        _id: 92,
+        name: 'Mervin Grimes ',
+        appear_in: [6],
+        personified_by: [37]
+    },
+    {
+        _id: 93,
+        name: 'Molly Tribble',
+        appear_in: [6],
+        personified_by: [93]
+    },
+    {
+        _id: 94,
+        name: 'Caroline Chapman',
+        appear_in: [6],
+        personified_by: [94]
+    },
+ 	 {
+        _id: 95,
+        name: 'Mrs. Lindey',
+        appear_in: [6],
+        personified_by: [95]
     }
-
 
 ];
 

@@ -219,7 +219,7 @@ const actors = [
         _id: 37,
         name: 'Brian Frishman',
         acted_in: [3],
-        personifies: [37]
+        personifies: [37, 92]
     },
     {
         _id: 38,
@@ -484,6 +484,90 @@ const actors = [
         name: 'Bill Irwin',
         acted_in: [5],
         personifies: [81]
+    },
+    {
+        _id: 82,
+        name: 'Jenny Agutter',
+        acted_in: [6],
+        personifies: [82]
+    },
+    {
+        _id: 83,
+        name: 'Barry Newman',
+        acted_in: [6],
+        personifies: [83]
+    },
+    {
+        _id: 84,
+        name: 'Kathleen Nolan',
+        acted_in: [6],
+        personifies: [84]
+    },
+    {
+        _id: 85,
+        name: 'Chris Robinson',
+        acted_in: [6],
+        personifies: [85]
+    },
+    {
+        _id: 86,
+        name: 'Lou Fant',
+        acted_in: [6],
+        personifies: [86]
+    },
+    {
+        _id: 86,
+        name: 'Margaret O Brien',
+        acted_in: [6],
+        personifies: [86]
+    },
+    {
+        _id: 87,
+        name: 'Nanette Fabray',
+        acted_in: [6],
+        personifies: [87]
+    },
+    {
+        _id: 88,
+        name: 'Lance LeGault',
+        acted_in: [6],
+        personifies: [88]
+    },
+    {
+        _id: 89,
+        name: 'Lucille Benson',
+        acted_in: [6],
+        personifies: [89]
+    },
+    {
+        _id: 90,
+        name: 'Jonathan Daly',
+        acted_in: [6],
+        personifies: [90]
+    },
+    {
+        _id: 91,
+        name: 'Lonny Chapman',
+        acted_in: [6],
+        personifies: [91]
+    },
+    {
+        _id: 92,
+        name: 'Jane Daly',
+        acted_in: [6],
+        personifies: [93]
+    },
+    {
+        _id: 93,
+        name: 'Dawn Jeffory',
+        acted_in: [6],
+        personifies: [94]
+    },
+    {
+        _id: 94,
+        name: 'Frances Bay',
+        acted_in: [6],
+        personifies: [95]
     }
 
 ];

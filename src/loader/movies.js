@@ -481,7 +481,7 @@ const movies = [
             },{
                 character_id: 73,
                 actor_id: 73,
-                role: 'secondary'
+                role: 'antagonist'
             },{
                 character_id: 74,
                 actor_id: 74,
@@ -546,6 +546,98 @@ const movies = [
 			   {
                 category_id: 15,
                 award_id: 1,
+                won: false
+            }
+        ]
+    },
+	 {
+        _id: 6,
+        name:{
+            spanish: 'El Secreto de Amy',
+            original: 'Amy'
+        },
+        clasification: 'PG-13',
+        rating: 6.7,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1981, 3, 20),
+        genre: [
+				'Family',
+				'Drama'
+        ],
+        running_time: 100,
+        gross: 0,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 82,
+                actor_id: 82,
+                role: 'main'
+            },{
+                character_id: 83,
+                actor_id: 83,
+                role: 'main'
+            },{
+                character_id: 84,
+                actor_id: 84,
+                role: 'main'
+            },{
+                character_id: 85,
+                actor_id: 85,
+                role: 'main'
+            },{
+                character_id: 86,
+                actor_id: 86,
+                role: 'secondary'
+            },{
+                character_id: 87,
+                actor_id: 87,
+                role: 'antagonist'
+            },{
+                character_id: 88,
+                actor_id: 88,
+                role: 'secondary'
+            },{
+                character_id: 89,
+                actor_id: 89,
+                role: 'secondary'
+            },{
+                character_id: 90,
+                actor_id: 90,
+                role: 'secondary'
+            },{
+                character_id: 91,
+                actor_id: 91,
+                role: 'secondary'
+            },{
+                character_id: 92,
+                actor_id: 37,
+                role: 'secondary'
+            },{
+                character_id: 93,
+                actor_id: 93,
+                role: 'secondary'
+            },{
+                character_id: 94,
+                actor_id: 94,
+                role: 'secondary'
+            },{
+                character_id: 95,
+                actor_id: 95,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [1],
+        nominated_in:[
+            {
+                category_id: 16,
+                award_id: 2,
+                won: false
+            },
+            {
+                category_id: 17,
+                award_id: 2,
                 won: false
             }
         ]

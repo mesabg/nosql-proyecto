@@ -467,52 +467,52 @@ const movies = [
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
         personified_by: [
             {
-                character_id: 58,
-                actor_id: 58,
+                character_id: 70,
+                actor_id: 70,
                 role: 'main'
             },{
-                character_id: 59,
-                actor_id: 59,
+                character_id: 71,
+                actor_id: 71,
                 role: 'main'
             },{
-                character_id: 60,
-                actor_id: 60,
+                character_id: 72,
+                actor_id: 72,
                 role: 'main'
             },{
-                character_id: 61,
-                actor_id: 61,
-                role: 'main'
+                character_id: 73,
+                actor_id: 73,
+                role: 'antagonist'
             },{
-                character_id: 62,
-                actor_id: 62,
-                role: 'main'
-            },{
-                character_id: 63,
-                actor_id: 63,
+                character_id: 74,
+                actor_id: 74,
                 role: 'secondary'
             },{
-                character_id: 64,
-                actor_id: 64,
+                character_id: 75,
+                actor_id: 75,
                 role: 'secondary'
             },{
-                character_id: 65,
-                actor_id: 65,
+                character_id: 76,
+                actor_id: 76,
                 role: 'secondary'
             },{
-                character_id: 66,
-                actor_id: 66,
+                character_id: 77,
+                actor_id: 77,
                 role: 'secondary'
             },{
-                character_id: 67,
-                actor_id: 67,
+                character_id: 78,
+                actor_id: 78,
                 role: 'secondary'
             },{
-                character_id: 68,
-                actor_id: 68,
+                character_id: 79,
+                actor_id: 79,
                 role: 'secondary'
             },{
-                character_id: 69,
-                actor_id: 69,
+                character_id: 80,
+                actor_id: 80,
+                role: 'secondary'
+            },{
+                character_id: 81,
+                actor_id: 81,
                 role: 'secondary'
             }
         ],
@@ -546,6 +546,98 @@ const movies = [
 			   {
                 category_id: 15,
                 award_id: 1,
+                won: false
+            }
+        ]
+    },
+	 {
+        _id: 6,
+        name:{
+            spanish: 'El Secreto de Amy',
+            original: 'Amy'
+        },
+        clasification: 'PG-13',
+        rating: 6.7,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1981, 3, 20),
+        genre: [
+				'Family',
+				'Drama'
+        ],
+        running_time: 100,
+        gross: 0,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 82,
+                actor_id: 82,
+                role: 'main'
+            },{
+                character_id: 83,
+                actor_id: 83,
+                role: 'main'
+            },{
+                character_id: 84,
+                actor_id: 84,
+                role: 'main'
+            },{
+                character_id: 85,
+                actor_id: 85,
+                role: 'secondary'
+            },{
+                character_id: 86,
+                actor_id: 86,
+                role: 'secondary'
+            },{
+                character_id: 87,
+                actor_id: 87,
+                role: 'secondary'
+            },{
+                character_id: 88,
+                actor_id: 88,
+                role: 'secondary'
+            },{
+                character_id: 89,
+                actor_id: 89,
+                role: 'secondary'
+            },{
+                character_id: 90,
+                actor_id: 90,
+                role: 'secondary'
+            },{
+                character_id: 91,
+                actor_id: 91,
+                role: 'secondary'
+            },{
+                character_id: 92,
+                actor_id: 37,
+                role: 'secondary'
+            },{
+                character_id: 93,
+                actor_id: 93,
+                role: 'secondary'
+            },{
+                character_id: 94,
+                actor_id: 94,
+                role: 'secondary'
+            },{
+                character_id: 95,
+                actor_id: 95,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [1],
+        nominated_in:[
+            {
+                category_id: 16,
+                award_id: 2,
+                won: false
+            },
+            {
+                category_id: 17,
+                award_id: 2,
                 won: false
             }
         ]

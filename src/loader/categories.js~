@@ -67,10 +67,35 @@ const categories = [
         present_in: [5]
     },
     {
-        _id: 11,
+        _id: 12,
         name: 'Worst Remake',
         present_in: [5]
     },
+    {
+        _id: 13,
+        name: 'Worst Actor',
+        present_in: [5]
+    },
+    {
+        _id: 14,
+        name: 'Worst Sense of Direction (Stop them before they direct again!)',
+        present_in: [5]
+    },
+    {
+        _id: 15,
+        name: 'Worst Screenplay',
+        present_in: [5]
+    },
+    {
+        _id: 16,
+        name: 'Best Young Motion Picture Actor',
+        present_in: [6]
+    },
+    {
+        _id: 16,
+        name: 'Worst Screenplay',
+        present_in: [6]
+    }
 ];
 
 

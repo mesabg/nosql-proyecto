@@ -38,6 +38,11 @@ const directors = [
         _id: 5,
         name: 'John Hough',
         directed_in: [4]
+    },
+	 {
+        _id: 6,
+        name: 'Robert Altman',
+        directed_in: [5]
     }
 ];
 

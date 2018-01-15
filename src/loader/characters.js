@@ -890,92 +890,92 @@ const characters = [
 	 {
         _id: 148,
         name: 'Peter Strelzyk',
-        acted_in: [11],
-        personifies: [144]
+        appear_in: [11],
+        personified_by: [144]
     },
 	 {
         _id: 149,
         name: 'Doris Strelzyk',
-        acted_in: [11],
-        personifies: [145]
+        appear_in: [11],
+        personified_by: [145]
     },
 	 {
         _id: 150,
         name: 'Frank Strelzyk',
-        acted_in: [11],
-        personifies: [146]
+        appear_in: [11],
+        personified_by: [146]
     },
 	 {
         _id: 151,
         name: 'Fitscher Strelzyk',
-        acted_in: [11],
-        personifies: [147]
+        appear_in: [11],
+        personified_by: [147]
     },
 	 {
         _id: 152,
         name: 'Gunter Wetzel',
-        acted_in: [11],
-        personifies: [148]
+        appear_in: [11],
+        personified_by: [148]
     },
 	 {
         _id: 153,
         name: 'Petra Wetzel',
-        acted_in: [11],
-        personifies: [149]
+        appear_in: [11],
+        personified_by: [149]
     },
 	 {
         _id: 154,
         name: 'Little Peter Wetzel ',
-        acted_in: [11],
-        personifies: [150]
+        appear_in: [11],
+        personified_by: [150]
     },
  	 {
         _id: 155,
         name: 'Andreas Wetzel',
-        acted_in: [11],
-        personifies: [151]
+        appear_in: [11],
+        personified_by: [151]
     },
 	 {
         _id: 156,
         name: 'Josef Keller',
-        acted_in: [11],
-        personifies: [152]
+        appear_in: [11],
+        personified_by: [152]
     },
 	 {
         _id: 157,
         name: 'Magda Keller',
-        acted_in: [11],
-        personifies: [153]
+        appear_in: [11],
+        personified_by: [153]
     },
 	 {
         _id: 158,
         name: 'Lukas Keller',
-        acted_in: [11],
-        personifies: [154]
+        appear_in: [11],
+        personified_by: [154]
     },
  	 {
         _id: 159,
         name: 'Schmolk',
-        acted_in: [11],
-        personifies: [155]
+        appear_in: [11],
+        personified_by: [155]
     },
 	 {
         _id: 160,
         name: 'Major Koerner',
-        acted_in: [11],
-        personifies: [156]
+        appear_in: [11],
+        personified_by: [156]
     },
 	 {
         _id: 161,
         name: 'Ziegler (as Sky Dumont)',
-        acted_in: [11],
-        personifies: [157]
+        appear_in: [11],
+        personified_by: [157]
     },
 	 {
         _id: 162,
         name: 'Lt. Fehler',
-        acted_in: [11],
-        personifies: [158]
+        appear_in: [11],
+        personified_by: [158]
     }
 
 

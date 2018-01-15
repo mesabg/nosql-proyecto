@@ -328,7 +328,7 @@ const actors = [
         name: 'Kirsten Baker',
         acted_in: [3],
         personifies: [55]
-    }
+    },
     {
         _id: 56,
         name: 'John Fiedler',
@@ -340,6 +340,150 @@ const actors = [
         name: 'Ceil Gabot',
         acted_in: [3],
         personifies: [57]
+    },
+    {
+        _id: 58,
+        name: 'Bette Davis',
+        acted_in: [4],
+        personifies: [58]
+    },
+    {
+        _id: 59,
+        name: 'Lynn-Holly Johnson',
+        acted_in: [4],
+        personifies: [59]
+    },
+    {
+        _id: 60,
+        name: 'Kyle Richards',
+        acted_in: [4],
+        personifies: [60]
+    },
+    {
+        _id: 61,
+        name: 'Carroll Baker',
+        acted_in: [4],
+        personifies: [61]
+    },
+    {
+        _id: 62,
+        name: 'David McCallum',
+        acted_in: [4],
+        personifies: [62]
+    },
+    {
+        _id: 63,
+        name: 'Benedict Taylor',
+        acted_in: [4],
+        personifies: [63]
+    },
+    {
+        _id: 64,
+        name: 'Frances Cuka',
+        acted_in: [4],
+        personifies: [64]
+    },
+    {
+        _id: 65,
+        name: 'Richard Pasco',
+        acted_in: [4],
+        personifies: [65]
+    },
+    {
+        _id: 66,
+        name: 'Ian Bannen',
+        acted_in: [4],
+        personifies: [66]
+    },
+    {
+        _id: 67,
+        name: 'Katharine Levy',
+        acted_in: [4],
+        personifies: [67]
+    },
+    {
+        _id: 68,
+        name: 'Eleanor Summerfield',
+        acted_in: [4],
+        personifies: [68]
+    },
+    {
+        _id: 69,
+        name: 'Georgina Hale',
+        acted_in: [4],
+        personifies: [69]
+    },
+    {
+        _id: 70,
+        name: 'Robin Williams',
+        acted_in: [5],
+        personifies: [70]
+    },
+    {
+        _id: 71,
+        name: 'Shelley Duvall',
+        acted_in: [5],
+        personifies: [71]
+    },
+    {
+        _id: 72,
+        name: 'Paul Dooley',
+        acted_in: [5],
+        personifies: [72]
+    },
+    {
+        _id: 73,
+        name: 'Paul L. Smith',
+        acted_in: [5],
+        personifies: [73]
+    },
+    {
+        _id: 74,
+        name: 'Richard Libertini',
+        acted_in: [5],
+        personifies: [74]
+    },
+    {
+        _id: 75,
+        name: 'Donald Moffat',
+        acted_in: [5],
+        personifies: [75]
+    },
+    {
+        _id: 76,
+        name: 'MacIntyre Dixon',
+        acted_in: [5],
+        personifies: [76]
+    },
+    {
+        _id: 77,
+        name: 'Roberta Maxwell',
+        acted_in: [5],
+        personifies: [77]
+    },
+    {
+        _id: 78,
+        name: 'Donovan Scott',
+        acted_in: [5],
+        personifies: [78]
+    },
+    {
+        _id: 79,
+        name: 'Allan F. Nicholls',
+        acted_in: [5],
+        personifies: [79]
+    },
+    {
+        _id: 80,
+        name: 'Wesley Ivan Hurt',
+        acted_in: [5],
+        personifies: [80]
+    },
+    {
+        _id: 81,
+        name: 'Bill Irwin',
+        acted_in: [5],
+        personifies: [81]
     }
 
 ];

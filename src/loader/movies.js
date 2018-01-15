@@ -310,7 +310,7 @@ const movies = [
                 actor_id: 48,
                 role: 'main'
             },
-{
+				{
                 character_id: 49,
                 actor_id: 49,
                 role: 'main'
@@ -349,6 +349,206 @@ const movies = [
             }
         ],
         directed_by: [3,4]
+    },
+	 {
+        _id: 4,
+        name:{
+            spanish: 'Los Ojos del Bosque',
+            original: 'The Watcher in the Woods'
+        },
+        clasification: 'PG-13',
+        rating: 6.4,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1980, 12, 8),
+        genre: [
+            'Family', 
+				'Horror', 
+				'Mystery' 
+        ],
+        running_time: 84,
+        gross: 5000000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 58,
+                actor_id: 58,
+                role: 'main'
+            },{
+                character_id: 59,
+                actor_id: 59,
+                role: 'main'
+            },{
+                character_id: 60,
+                actor_id: 60,
+                role: 'main'
+            },{
+                character_id: 61,
+                actor_id: 61,
+                role: 'main'
+            },{
+                character_id: 62,
+                actor_id: 62,
+                role: 'main'
+            },{
+                character_id: 63,
+                actor_id: 63,
+                role: 'secondary'
+            },{
+                character_id: 64,
+                actor_id: 64,
+                role: 'secondary'
+            },{
+                character_id: 65,
+                actor_id: 65,
+                role: 'secondary'
+            },{
+                character_id: 66,
+                actor_id: 66,
+                role: 'secondary'
+            },{
+                character_id: 67,
+                actor_id: 67,
+                role: 'secondary'
+            },{
+                character_id: 68,
+                actor_id: 68,
+                role: 'secondary'
+            },{
+                character_id: 69,
+                actor_id: 69,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [1,5],
+        nominated_in:[
+            {
+                category_id: 6,
+                award_id: 3,
+                won: false
+            },
+            {
+                category_id: 7,
+                award_id: 3,
+                won: false
+            },
+				{
+                category_id: 8,
+                award_id: 1,
+                won: true
+            },
+				{
+                category_id: 9,
+                award_id: 2,
+                won: false
+            }
+        ]
+    },
+	 {
+        _id: 5,
+        name:{
+            spanish: 'Popeye',
+            original: 'Popeye'
+        },
+        clasification: 'PG-13',
+        rating: 5.2,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1980, 12, 12),
+        genre: [
+            'Adventure', 
+				'Comedy', 
+				'Family'
+        ],
+        running_time: 114,
+        gross: 49823057,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 70,
+                actor_id: 70,
+                role: 'main'
+            },{
+                character_id: 71,
+                actor_id: 71,
+                role: 'main'
+            },{
+                character_id: 72,
+                actor_id: 72,
+                role: 'main'
+            },{
+                character_id: 73,
+                actor_id: 73,
+                role: 'secondary'
+            },{
+                character_id: 74,
+                actor_id: 74,
+                role: 'secondary'
+            },{
+                character_id: 75,
+                actor_id: 75,
+                role: 'secondary'
+            },{
+                character_id: 76,
+                actor_id: 76,
+                role: 'secondary'
+            },{
+                character_id: 77,
+                actor_id: 77,
+                role: 'secondary'
+            },{
+                character_id: 78,
+                actor_id: 78,
+                role: 'secondary'
+            },{
+                character_id: 79,
+                actor_id: 79,
+                role: 'secondary'
+            },{
+                character_id: 80,
+                actor_id: 80,
+                role: 'secondary'
+            },{
+                character_id: 81,
+                actor_id: 81,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [6],
+        nominated_in:[
+            {
+                category_id: 10,
+                award_id: 1,
+                won: true
+            },
+            {
+                category_id: 11,
+                award_id: 1,
+                won: true
+            },
+				{
+                category_id: 12,
+                award_id: 1,
+                won: true
+            },
+				{
+                category_id: 13,
+                award_id: 1,
+                won: false
+            },
+			   {
+                category_id: 14,
+                award_id: 1,
+                won: false
+            },
+			   {
+                category_id: 15,
+                award_id: 1,
+                won: false
+            }
+        ]
     }
 	 
 ];

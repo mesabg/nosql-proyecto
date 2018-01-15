@@ -17,7 +17,7 @@ const awards = [
     {
         _id: 1,
         name: 'The Stinkers Bad Movie Awards',
-        has_category: [1, 2, 3, 8, 10, 11, 12, 13,14,15]
+        has_category: [1, 2, 3, 8]
     }, 
     {
         _id: 2,

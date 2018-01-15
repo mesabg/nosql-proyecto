@@ -340,8 +340,151 @@ const characters = [
         name: 'Mrs. Thorpe',
         appear_in: [3],
         personified_by: [57]
+    },
+    {
+        _id: 58,
+        name: 'Mrs. Aylwood',
+        appear_in: [4],
+        personified_by: [58]
+    },
+    {
+        _id: 59,
+        name: 'Jan Curtis',
+        appear_in: [4],
+        personified_by: [59]
+    },
+    {
+        _id: 60,
+        name: 'Ellie Curtis',
+        appear_in: [4],
+        personified_by: [60]
+    },
+    {
+        _id: 61,
+        name: 'Helen Curtis',
+        appear_in: [4],
+        personified_by: [61]
+    },
+    {
+        _id: 62,
+        name: 'Paul Curtis',
+        appear_in: [4],
+        personified_by: [62]
+    },
+    {
+        _id: 63,
+        name: 'Mike Fleming',
+        appear_in: [4],
+        personified_by: [63]
+    },
+    {
+        _id: 64,
+        name: 'Mary Fleming',
+        appear_in: [4],
+        personified_by: [64]
+    },
+    {
+        _id: 65,
+        name: 'Tom Colley',
+        appear_in: [4],
+        personified_by: [65]
+    },
+    {
+        _id: 66,
+        name: 'John Keller',
+        appear_in: [4],
+        personified_by: [66]
+    },
+    {
+        _id: 67,
+        name: 'Karen Aylwood',
+        appear_in: [4],
+        personified_by: [67]
+    },
+    {
+        _id: 68,
+        name: 'Mrs. Thayer',
+        appear_in: [4],
+        personified_by: [68]
+    },
+    {
+        _id: 69,
+        name: 'Mrs. Thayer',
+        appear_in: [4],
+        personified_by: [69]
+    },
+    {
+        _id: 70,
+        name: 'Popeye',
+        appear_in: [5],
+        personified_by: [70]
+    },
+    {
+        _id: 71,
+        name: 'Olive Oyl',
+        appear_in: [5],
+        personified_by: [71]
+    },
+    {
+        _id: 72,
+        name: 'Wimpy',
+        appear_in: [5],
+        personified_by: [72]
+    },
+    {
+        _id: 73,
+        name: 'Bluto',
+        appear_in: [5],
+        personified_by: [73]
+    },
+    {
+        _id: 74,
+        name: 'Geezil',
+        appear_in: [5],
+        personified_by: [74]
+    },
+    {
+        _id: 75,
+        name: 'The Taxman',
+        appear_in: [5],
+        personified_by: [75]
+    },
+    {
+        _id: 76,
+        name: 'Cole Oyl',
+        appear_in: [5],
+        personified_by: [76]
+    },
+    {
+        _id: 77,
+        name: 'Nana Oyl',
+        appear_in: [5],
+        personified_by: [77]
+    },
+    {
+        _id: 78,
+        name: 'Castor Oyl',
+        appear_in: [5],
+        personified_by: [78]
+    },
+    {
+        _id: 79,
+        name: 'Rough House (as Allan Nicholls) ',
+        appear_in: [5],
+        personified_by: [79]
+    },
+    {
+        _id: 80,
+        name: 'Swee'pea',
+        appear_in: [5],
+        personified_by: [80]
+    },
+    {
+        _id: 81,
+        name: 'Ham Gravy, the Old Boyfriend',
+        appear_in: [5],
+        personified_by: [81]
     }
-
 
 ];
 

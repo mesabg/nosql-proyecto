@@ -17,7 +17,7 @@ const directors = [
     {
         _id: 1,
         name: 'Vincent McEveety',
-        directed_in: [1]
+        directed_in: [1,4]
     },
     {
         _id: 2,
@@ -33,6 +33,16 @@ const directors = [
         _id: 4,
         name: 'David Wechter',
         directed_in: [3]
+    },    
+	 {
+        _id: 5,
+        name: 'John Hough',
+        directed_in: [4]
+    },
+	 {
+        _id: 6,
+        name: 'Robert Altman',
+        directed_in: [5]
     }
 ];
 

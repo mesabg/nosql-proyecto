@@ -1042,7 +1042,97 @@ const actors = [
         name: 'Bob Neill',
         acted_in: [12],
         personifies: [177]
-	 }
+	 },
+	 {
+        _id: 174,
+        name: 'Matt Dillon',
+        acted_in: [13],
+        personifies: [178]
+    },
+	 {
+        _id: 175,
+        name: 'Jim Metzler',
+        acted_in: [13],
+        personifies: [179]
+    },
+	 {
+        _id: 176,
+        name: 'Meg Tilly',
+        acted_in: [13],
+        personifies: [180]
+    },
+	 {
+        _id: 177,
+        name: 'Bill McKinney',
+        acted_in: [13],
+        personifies: [181]
+    },
+ 	 {
+        _id: 178,
+        name: 'Frances Lee McCain',
+        acted_in: [13],
+        personifies: [182]
+    },
+	 {
+        _id: 179,
+        name: 'Ben Johnson',
+        acted_in: [13],
+        personifies: [183]
+    },
+	 {
+        _id: 180,
+        name: 'Emilio Estevez',
+        acted_in: [13],
+        personifies: [184]
+    },
+	 {
+        _id: 181,
+        name: 'Jack Thibeau',
+        acted_in: [13],
+        personifies: [185]
+    },
+ 	 {
+        _id: 182,
+        name: 'Zeljko Ivanek',
+        acted_in: [13],
+        personifies: [186]
+    },
+	 {
+        _id: 183,
+        name: 'Tom Virtue',
+        acted_in: [13],
+        personifies: [187]
+	 },
+	 {
+        _id: 184,
+        name: 'Pamela Ludwig',
+        acted_in: [13],
+        personifies: [188]
+    },
+	 {
+        _id: 185,
+        name: 'Jeff Fleury',
+        acted_in: [13],
+        personifies: [189]
+    },
+	 {
+        _id: 186,
+        name: 'Suzanne Costollos',
+        acted_in: [13],
+        personifies: [190]
+    },
+	 {
+        _id: 187,
+        name: 'Marilyn Redfield',
+        acted_in: [13],
+        personifies: [191]
+    },
+ 	 {
+        _id: 188,
+        name: 'Mark Arnott',
+        acted_in: [13],
+        personifies: [192]
+    }
 	 
 ];
 

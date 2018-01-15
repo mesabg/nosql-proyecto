@@ -1231,6 +1231,107 @@ const movies = [
                 won: false
             }
         ]
+    },
+ 	 {
+        _id: 13,
+        name:{
+            spanish: 'Tex',
+            original: 'Tex'
+        },
+        clasification: 'PG-13',
+        rating: 6.6,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1982, 7, 30),
+        genre: [
+				 'Drama'
+        ],
+        running_time: 103,
+        gross: 7400000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 178,
+                actor_id: 174,
+                role: 'main'
+            },{
+                character_id: 179,
+                actor_id: 175,
+                role: 'main'
+            },{
+                character_id: 180,
+                actor_id: 176,
+                role: 'secondary'
+            },{
+                character_id: 181,
+                actor_id: 177,
+                role: 'secondary'
+            },{
+                character_id: 182,
+                actor_id: 178,
+                role: 'secondary'
+            },{
+                character_id: 183,
+                actor_id: 179,
+                role: 'secondary'
+            },{
+                character_id: 184,
+                actor_id: 180,
+                role: 'secondary'
+            },{
+                character_id: 185,
+                actor_id: 181,
+                role: 'secondary'
+            },{
+                character_id: 186,
+                actor_id: 182,
+                role: 'secondary'
+            },{
+                character_id: 187,
+                actor_id: 183,
+                role: 'secondary'
+            },{
+                character_id: 188,
+                actor_id: 184,
+                role: 'secondary'
+            },{
+                character_id: 189,
+                actor_id: 185,
+                role: 'secondary'
+            },{
+                character_id: 190,
+                actor_id: 186,
+                role: 'secondary'
+            },{
+                character_id: 191,
+                actor_id: 187,
+                role: 'secondary'
+            },{
+                character_id: 192,
+                actor_id: 188,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [14],
+		  nominated_in:[
+            {
+                category_id: 37,
+                award_id: 10,
+                won: false
+            },
+            {
+                category_id: 27,
+                award_id: 2,
+                won: false
+            },
+ 			   {
+                category_id: 16,
+                award_id: 2,
+                won: false
+            }
+           
+        ]
     }
 	 
 ];

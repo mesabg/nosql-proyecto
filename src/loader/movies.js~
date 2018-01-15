@@ -1117,65 +1117,65 @@ const movies = [
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
         personified_by: [
             {
-                character_id: 148,
-                actor_id: 144,
+                character_id: 163,
+                actor_id: 159,
                 role: 'main'
             },{
-                character_id: 149,
-                actor_id: 145,
+                character_id: 164,
+                actor_id: 160,
                 role: 'main'
             },{
-                character_id: 150,
-                actor_id: 146,
-                role: 'main'
-            },{
-                character_id: 151,
-                actor_id: 147,
-                role: 'main'
-            },{
-                character_id: 152,
-                actor_id: 148,
-                role: 'main'
-            },{
-                character_id: 153,
-                actor_id: 149,
-                role: 'main'
-            },{
-                character_id: 154,
-                actor_id: 150,
-                role: 'main'
-            },{
-                character_id: 155,
-                actor_id: 151,
-                role: 'main'
-            },{
-                character_id: 156,
-                actor_id: 152,
-                role: 'secondary'
-            },{
-                character_id: 157,
-                actor_id: 153,
-                role: 'secondary'
-            },{
-                character_id: 158,
-                actor_id: 154,
-                role: 'secondary'
-            },{
-                character_id: 159,
-                actor_id: 155,
-                role: 'secondary'
-            },{
-                character_id: 160,
-                actor_id: 156,
-                role: 'secondary'
-            },{
-                character_id: 161,
-                actor_id: 157,
-                role: 'secondary'
-            },{
-                character_id: 162,
-                actor_id: 158,
+                character_id: 165,
+                actor_id: 161,
                 role: 'antagonist'
+            },{
+                character_id: 166,
+                actor_id: 162,
+                role: 'main'
+            },{
+                character_id: 167,
+                actor_id: 163,
+                role: 'secondary'
+            },{
+                character_id: 168,
+                actor_id: 164,
+                role: 'secondary'
+            },{
+                character_id: 169,
+                actor_id: 165,
+                role: 'secondary'
+            },{
+                character_id: 170,
+                actor_id: 166,
+                role: 'secondary'
+            },{
+                character_id: 171,
+                actor_id: 167,
+                role: 'antagonist'
+            },{
+                character_id: 172,
+                actor_id: 168,
+                role: 'antagonist'
+            },{
+                character_id: 173,
+                actor_id: 169,
+                role: 'secondary'
+            },{
+                character_id: 174,
+                actor_id: 170,
+                role: 'secondary'
+            },{
+                character_id: 175,
+                actor_id: 171,
+                role: 'secondary'
+            },{
+                character_id: 176,
+                actor_id: 172,
+                role: 'secondary'
+            },{
+                character_id: 177,
+                actor_id: 173,
+                role: 'secondary'
             }
         ],
         directed_by: [13],
@@ -1230,6 +1230,107 @@ const movies = [
                 award_id: 2,
                 won: false
             }
+        ]
+    },
+ 	 {
+        _id: 13,
+        name:{
+            spanish: 'Tex',
+            original: 'Tex'
+        },
+        clasification: 'PG-13',
+        rating: 6.6,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1982, 7, 30),
+        genre: [
+				 'Drama'
+        ],
+        running_time: 103,
+        gross: 7400000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 163,
+                actor_id: 159,
+                role: 'main'
+            },{
+                character_id: 164,
+                actor_id: 160,
+                role: 'main'
+            },{
+                character_id: 165,
+                actor_id: 161,
+                role: 'antagonist'
+            },{
+                character_id: 166,
+                actor_id: 162,
+                role: 'main'
+            },{
+                character_id: 167,
+                actor_id: 163,
+                role: 'secondary'
+            },{
+                character_id: 168,
+                actor_id: 164,
+                role: 'secondary'
+            },{
+                character_id: 169,
+                actor_id: 165,
+                role: 'secondary'
+            },{
+                character_id: 170,
+                actor_id: 166,
+                role: 'secondary'
+            },{
+                character_id: 171,
+                actor_id: 167,
+                role: 'antagonist'
+            },{
+                character_id: 172,
+                actor_id: 168,
+                role: 'antagonist'
+            },{
+                character_id: 173,
+                actor_id: 169,
+                role: 'secondary'
+            },{
+                character_id: 174,
+                actor_id: 170,
+                role: 'secondary'
+            },{
+                character_id: 175,
+                actor_id: 171,
+                role: 'secondary'
+            },{
+                character_id: 176,
+                actor_id: 172,
+                role: 'secondary'
+            },{
+                character_id: 177,
+                actor_id: 173,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [14],
+		  nominated_in:[
+            {
+                category_id: 37,
+                award_id: 10,
+                won: false
+            },
+            {
+                category_id: 27,
+                award_id: 2,
+                won: false
+            },
+ 			   {
+                category_id: 16,
+                award_id: 2,
+                won: false
+            }
+           
         ]
     }
 	 

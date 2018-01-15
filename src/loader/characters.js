@@ -980,93 +980,183 @@ const characters = [
 	 {
         _id: 163,
         name: 'Kevin Flynn / Clu',
-        acted_in: [12],
-        personifies: [159]
+        appear_in: [12],
+        personified_by: [159]
     },
  	 {
         _id: 164,
         name: 'Alan Bradley / Tron',
-        acted_in: [12],
-        personifies: [160]
+        appear_in: [12],
+        personified_by: [160]
     },
 	 {
         _id: 165,
         name: 'Ed Dillinger / Sark / Master Control Program',
-        acted_in: [12],
-        personifies: [161]
+        appear_in: [12],
+        personified_by: [161]
     },
 	 {
         _id: 166,
         name: 'Lora / Yori',
-        acted_in: [12],
-        personifies: [162]
+        appear_in: [12],
+        personified_by: [162]
     },
 	 {
         _id: 167,
         name: 'Dr. Walter Gibbs / Dumont',
-        acted_in: [12],
-        personifies: [163]
+        appear_in: [12],
+        personified_by: [163]
     },
  	 {
         _id: 168,
         name: 'Ram / Popcorn Co-Worker',
-        acted_in: [12],
-        personifies: [164]
+        appear_in: [12],
+        personified_by: [164]
     },
 	 {
         _id: 169,
         name: 'Crom',
-        acted_in: [12],
-        personifies: [165]
+        appear_in: [12],
+        personified_by: [165]
     },
 	 {
         _id: 170,
         name: 'Peter / Sarks Lieutenant',
-        acted_in: [12],
-        personifies: [166]
+        appear_in: [12],
+        personified_by: [166]
     },
 	 {
         _id: 171,
         name: 'Warrior 1',
-        acted_in: [12],
-        personifies: [167]
+        appear_in: [12],
+        personified_by: [167]
     },
  	 {
         _id: 172,
         name: 'Warrior 2',
-        acted_in: [12],
-        personifies: [168]
+        appear_in: [12],
+        personified_by: [168]
     },
 	 {
         _id: 173,
         name: 'Expert Disc Warrior ',
-        acted_in: [12],
-        personifies: [169]
+        appear_in: [12],
+        personified_by: [169]
     },
 	 {
         _id: 174,
         name: 'Head Guard',
-        acted_in: [12],
-        personifies: [170]
+        appear_in: [12],
+        personified_by: [170]
     },
 	 {
         _id: 175,
         name: 'Factory Guard (as Dave Cass)',
-        acted_in: [12],
-        personifies: [171]
+        appear_in: [12],
+        personified_by: [171]
     },
  	 {
         _id: 176,
         name: 'Guard 1',
-        acted_in: [12],
-        personifies: [172]
+        appear_in: [12],
+        personified_by: [172]
     },
 	 {
         _id: 177,
         name: 'Guard 2',
-        acted_in: [12],
-        personifies: [173]
-	 }
+        appear_in: [12],
+        personified_by: [173]
+	 },
+	 {
+        _id: 178,
+        name: 'Tex McCormick',
+        appear_in: [13],
+        personified_by: [174]
+    },
+	 {
+        _id: 179,
+        name: 'Mason McCormick',
+        appear_in: [13],
+        personified_by: [175]
+    },
+	 {
+        _id: 180,
+        name: 'Jamie Collins',
+        appear_in: [13],
+        personified_by: [176]
+    },
+	 {
+        _id: 181,
+        name: 'Pop McCormick',
+        appear_in: [13],
+        personified_by: [177]
+    },
+ 	 {
+        _id: 182,
+        name: 'Mrs. Johnson',
+        appear_in: [13],
+        personified_by: [178]
+    },
+	 {
+        _id: 183,
+        name: 'Cole Collins',
+        appear_in: [13],
+        personified_by: [179]
+    },
+	 {
+        _id: 184,
+        name: 'Johnny Collins',
+        appear_in: [13],
+        personified_by: [180]
+    },
+	 {
+        _id: 185,
+        name: 'Coach Jackson',
+        appear_in: [13],
+        personified_by: [181]
+    },
+ 	 {
+        _id: 186,
+        name: 'Hitchhiker',
+        appear_in: [13],
+        personified_by: [182]
+    },
+	 {
+        _id: 187,
+        name: 'Bob Collins',
+        appear_in: [13],
+        personified_by: [183]
+	 },
+	 {
+        _id: 188,
+        name: 'Connie',
+        appear_in: [13],
+        personified_by: [184]
+    },
+	 {
+        _id: 189,
+        name: 'Roger',
+        appear_in: [13],
+        personified_by: [185]
+    },
+	 {
+        _id: 190,
+        name: 'Fortune Teller (as Suzanne Costallos)',
+        appear_in: [13],
+        personified_by: [186]
+    },
+	 {
+        _id: 191,
+        name: 'Ms. Carlson',
+        appear_in: [13],
+        personified_by: [187]
+    },
+ 	 {
+        _id: 192,
+        name: 'Kelly',
+        appear_in: [13],
+        personified_by: [188]
+    },
 
 
 ];

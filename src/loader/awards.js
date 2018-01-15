@@ -58,6 +58,11 @@ const awards = [
         _id: 9,
         name: 'Guinness World Record Award',
         has_category: [35]
+    },
+	 {
+        _id: 10,
+        name: 'Golden Globes',
+        has_category: [37]
     }
 
 ];

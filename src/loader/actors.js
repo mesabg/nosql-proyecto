@@ -141,7 +141,7 @@ const actors = [
         _id: 24,
         name: 'Dana Elcar',
         acted_in: [2],
-        personifies: [24]
+        personifies: [24, 101]
     },
     {
         _id: 25,
@@ -568,6 +568,48 @@ const actors = [
         name: 'Frances Bay',
         acted_in: [6],
         personifies: [95]
+    },
+    {
+        _id: 95,
+        name: 'Michael Crawford',
+        acted_in: [7],
+        personifies: [96]
+    },
+    {
+        _id: 96,
+        name: 'Oliver Reed',
+        acted_in: [7],
+        personifies: [97]
+    },
+    {
+        _id: 97,
+        name: 'Barbara Carrera',
+        acted_in: [7],
+        personifies: [98]
+    },
+    {
+        _id: 98,
+        name: 'James Hampton',
+        acted_in: [7],
+        personifies: [99]
+    },
+    {
+        _id: 99,
+        name: 'Jean-Pierre Kalfon',
+        acted_in: [7],
+        personifies: [100]
+    },
+    {
+        _id: 100,
+        name: 'Vernon Dobtcheff',
+        acted_in: [7],
+        personifies: [102]
+    },
+    {
+        _id: 101,
+        name: 'Robert Arden',
+        acted_in: [7],
+        personifies: [103]
     }
 
 ];

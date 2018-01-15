@@ -641,6 +641,63 @@ const movies = [
                 won: false
             }
         ]
+    },
+	 {
+        _id: 7,
+        name:{
+            spanish: 'Condorman',
+            original: 'Condorman'
+        },
+        clasification: 'PG-13',
+        rating: 5.8,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1981, 8, 1),
+        genre: [
+				 'Action', 
+				 'Adventure', 
+				 'Comedy' 
+        ],
+        running_time: 90,
+        gross: 0,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 96,
+                actor_id: 96,
+                role: 'main'
+            },{
+                character_id: 97,
+                actor_id: 97,
+                role: 'antagonist'
+            },{
+                character_id: 98,
+                actor_id: 98,
+                role: 'main'
+            },{
+                character_id: 99,
+                actor_id: 99,
+                role: 'secondary'
+            },{
+                character_id: 100,
+                actor_id: 100,
+                role: 'secondary'
+            },{
+                character_id: 101,
+                actor_id: 24,
+                role: 'secondary'
+            },{
+                character_id: 102,
+                actor_id: 102,
+                role: 'secondary'
+            },{
+                character_id: 103,
+                actor_id: 103,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [2]
     }
 	 
 ];

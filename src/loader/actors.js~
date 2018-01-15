@@ -141,7 +141,7 @@ const actors = [
         _id: 24,
         name: 'Dana Elcar',
         acted_in: [2],
-        personifies: [24]
+        personifies: [24, 102]
     },
     {
         _id: 25,
@@ -219,7 +219,7 @@ const actors = [
         _id: 37,
         name: 'Brian Frishman',
         acted_in: [3],
-        personifies: [37]
+        personifies: [37, 92]
     },
     {
         _id: 38,
@@ -553,21 +553,63 @@ const actors = [
     },
     {
         _id: 92,
-        name: 'Bill Irwin',
-        acted_in: [6],
-        personifies: [92]
-    },
-    {
-        _id: 93,
-        name: 'Lonny Chapman',
+        name: 'Jane Daly',
         acted_in: [6],
         personifies: [93]
     },
     {
-        _id: 94,
-        name: 'Bill Irwin',
+        _id: 93,
+        name: 'Dawn Jeffory',
         acted_in: [6],
         personifies: [94]
+    },
+    {
+        _id: 94,
+        name: 'Frances Bay',
+        acted_in: [6],
+        personifies: [95]
+    },
+    {
+        _id: 95,
+        name: 'Michael Crawford',
+        acted_in: [7],
+        personifies: [96]
+    },
+    {
+        _id: 96,
+        name: 'Oliver Reed',
+        acted_in: [7],
+        personifies: [97]
+    },
+    {
+        _id: 98,
+        name: 'Barbara Carrera',
+        acted_in: [7],
+        personifies: [99]
+    },
+    {
+        _id: 99,
+        name: 'James Hampton',
+        acted_in: [7],
+        personifies: [100]
+    },
+    {
+        _id: 100,
+        name: 'Jean-Pierre Kalfon',
+        acted_in: [7],
+        personifies: [101]
+    },
+    {
+        _id: 101,
+        name: 'Vernon Dobtcheff',
+        acted_in: [7],
+        personifies: [103]
+    },
+    {
+        _id: 102,
+        name: 'Robert Arden',
+        acted_in: [7],
+        personifies: [104]
     }
 
 ];

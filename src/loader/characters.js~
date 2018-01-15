@@ -487,7 +487,7 @@ const characters = [
     },
     {
         _id: 82,
-        name: 'Amy Medford ',
+        name: 'Amy Medford',
         appear_in: [6],
         personified_by: [82]
     },
@@ -574,6 +574,54 @@ const characters = [
         name: 'Mrs. Lindey',
         appear_in: [6],
         personified_by: [95]
+    },
+    {
+        _id: 96,
+        name: 'Woody Wilkins',
+        acted_in: [7],
+        personifies: [96]
+    },
+    {
+        _id: 97,
+        name: 'Krokov',
+        acted_in: [7],
+        personifies: [97]
+    },
+    {
+        _id: 98,
+        name: 'Natalia',
+        acted_in: [7],
+        personifies: [98]
+    },
+    {
+        _id: 99,
+        name: 'Harry Oslo',
+        acted_in: [7],
+        personifies: [99]
+    },
+    {
+        _id: 100,
+        name: 'Morovich',
+        acted_in: [7],
+        personifies: [100]
+    },
+    {
+        _id: 101,
+        name: 'Russ Devlin',
+        acted_in: [7],
+        personifies: [101]
+    },
+    {
+        _id: 102,
+        name: 'Russian Agent ',
+        acted_in: [7],
+        personifies: [102]
+    },
+    {
+        _id: 103,
+        name: 'CIA Chief',
+        acted_in: [7],
+        personifies: [103]
     }
 
 ];

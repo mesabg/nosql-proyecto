@@ -609,110 +609,202 @@ const characters = [
         _id: 101,
         name: 'Russ Devlin',
         appear_in: [7],
-       personified_by: [24]
+        personified_by: [24]
     },
     {
         _id: 102,
         name: 'Russian Agent',
         appear_in: [7],
-       personified_by: [100]
+        personified_by: [100]
     },
     {
         _id: 103,
         name: 'CIA Chief',
         appear_in: [7],
-       personified_by: [101]
+        personified_by: [101]
     },
     {
         _id: 104,
         name: 'Galen',
-        acted_in: [8],
-        personifies: [102]
+        appear_in: [8],
+        personified_by: [102]
     },
     {
         _id: 105,
         name: 'Valerian',
-        acted_in: [8],
-        personifies: [103]
+        appear_in: [8],
+        personified_by: [103]
     },
     {
         _id: 106,
         name: 'Ulrich',
-        acted_in: [8],
-        personifies: [104]
+        appear_in: [8],
+        personified_by: [104]
     },
     {
         _id: 107,
         name: 'Tyrian',
-        acted_in: [8],
-        personifies: [105]
+        appear_in: [8],
+        personified_by: [105]
     },
     {
         _id: 108,
         name: 'Casiodorus Rex',
-        acted_in: [8],
-        personifies: [106]
+        appear_in: [8],
+        personified_by: [106]
     },
     {
         _id: 109,
         name: 'Greil',
-        acted_in: [8],
-        personifies: [107]
+        appear_in: [8],
+        personified_by: [107]
     },
     {
         _id: 110,
         name: 'Hodge',
-        acted_in: [8],
-        personifies: [108]
+        appear_in: [8],
+        personified_by: [108]
     },
     {
         _id: 111,
         name: 'Princess Elspeth',
-        acted_in: [8],
-        personifies: [109]
+        appear_in: [8],
+        personified_by: [109]
     },
     {
         _id: 112,
         name: 'Valerian Father',
-        acted_in: [8],
-        personifies: [110]
+        appear_in: [8],
+        personified_by: [110]
     },
     {
         _id: 113,
         name: 'Horsrik',
-        acted_in: [8],
-        personifies: [111]
+        appear_in: [8],
+        personified_by: [111]
     },
     {
         _id: 114,
         name: 'Brother Jacopus',
-        acted_in: [8],
-        personifies: [112]
+        appear_in: [8],
+        personified_by: [112]
     },
     {
         _id: 115,
         name: 'Henchman',
-        acted_in: [8],
-        personifies: [113]
+        appear_in: [8],
+        personified_by: [113]
     },
 	 {
         _id: 116,
         name: 'Henchman',
-        acted_in: [8],
-        personifies: [114]
+        appear_in: [8],
+        personified_by: [114]
     },
     {
         _id: 117,
         name: 'Victim',
-        acted_in: [8],
-        personifies: [115]
+        appear_in: [8],
+        personified_by: [115]
     },
 	 {
         _id: 118,
         name: 'Urlander',
-        acted_in: [8],
-        personifies: [116]
+        appear_in: [8],
+        personified_by: [116]
+    },
+	 {
+        _id: 119,
+        name: 'Max Devlin',
+        appear_in: [9],
+        personified_by: [16]
+    },
+	 {
+        _id: 120,
+        name: 'Bill Cosby',
+        acted_in: [9],
+        personifies: [117]
+    },
+	 {
+        _id: 121,
+        name: 'Susan Anspach',
+        acted_in: [9],
+        personifies: [118]
+    },
+	 {
+        _id: 122,
+        name: 'Adam Rich',
+        acted_in: [9],
+        personifies: [119]
+    },
+	 {
+        _id: 123,
+        name: 'Julie Budd',
+        acted_in: [9],
+        personifies: [120]
+    },
+	 {
+        _id: 124,
+        name: 'Sonny Shroyer',
+        acted_in: [9],
+        personifies: [121]
+    },
+	 {
+        _id: 125,
+        name: 'David Knell',
+        acted_in: [9],
+        personifies: [122]
+    },
+	 {
+        _id: 126,
+        name: 'Chuck Shamata',
+        acted_in: [9],
+        personifies: [123]
+    },
+	 {
+        _id: 127,
+        name: 'Deborah Baltzell',
+        acted_in: [9],
+        personifies: [124]
+    },
+	 {
+        _id: 128,
+        name: 'Ronnie Schell',
+        acted_in: [9],
+        personifies: [125]
+    },
+	 {
+        _id: 129,
+        name: 'Jeannie Wilson',
+        acted_in: [9],
+        personifies: [126]
+    },
+	 {
+        _id: 130,
+        name: 'Stanley Brock',
+        acted_in: [9],
+        personifies: [127]
+    },
+	 {
+        _id: 131,
+        name: 'Ted Zeigler',
+        acted_in: [9],
+        personifies: [128]
+    },
+	 {
+        _id: 132,
+        name: 'Vic Dunlop',
+        acted_in: [9],
+        personifies: [129]
+    },
+	 {
+        _id: 133,
+        name: 'Reggie Nalder',
+        acted_in: [9],
+        personifies: [130]
     }
+
+
 ];
 
 

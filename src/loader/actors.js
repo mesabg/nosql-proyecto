@@ -93,7 +93,7 @@ const actors = [
         _id: 16,
         name: 'Elliott Gould',
         acted_in: [2],
-        personifies: [16]
+        personifies: [16,119]
     },
     {
         _id: 17,
@@ -700,8 +700,91 @@ const actors = [
         name: 'Douglas Cooper',
         acted_in: [8],
         personifies: [118]
+    },
+	 {
+        _id: 117,
+        name: 'Bill Cosby',
+        acted_in: [9],
+        personifies: [120]
+    },
+	 {
+        _id: 118,
+        name: 'Susan Anspach',
+        acted_in: [9],
+        personifies: [121]
+    },
+	 {
+        _id: 119,
+        name: 'Adam Rich',
+        acted_in: [9],
+        personifies: [122]
+    },
+	 {
+        _id: 120,
+        name: 'Julie Budd',
+        acted_in: [9],
+        personifies: [123]
+    },
+	 {
+        _id: 121,
+        name: 'Sonny Shroyer',
+        acted_in: [9],
+        personifies: [124]
+    },
+	 {
+        _id: 122,
+        name: 'David Knell',
+        acted_in: [9],
+        personifies: [125]
+    },
+	 {
+        _id: 123,
+        name: 'Chuck Shamata',
+        acted_in: [9],
+        personifies: [126]
+    },
+	 {
+        _id: 124,
+        name: 'Deborah Baltzell',
+        acted_in: [9],
+        personifies: [127]
+    },
+	 {
+        _id: 125,
+        name: 'Ronnie Schell',
+        acted_in: [9],
+        personifies: [128]
+    },
+	 {
+        _id: 126,
+        name: 'Jeannie Wilson',
+        acted_in: [9],
+        personifies: [129]
+    },
+	 {
+        _id: 127,
+        name: 'Stanley Brock',
+        acted_in: [9],
+        personifies: [130]
+    },
+	 {
+        _id: 128,
+        name: 'Ted Zeigler',
+        acted_in: [9],
+        personifies: [131]
+    },
+	 {
+        _id: 129,
+        name: 'Vic Dunlop',
+        acted_in: [9],
+        personifies: [132]
+    },
+	 {
+        _id: 130,
+        name: 'Reggie Nalder',
+        acted_in: [9],
+        personifies: [133]
     }
-
 
 
 ];

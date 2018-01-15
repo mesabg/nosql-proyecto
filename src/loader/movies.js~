@@ -616,15 +616,15 @@ const movies = [
                 role: 'secondary'
             },{
                 character_id: 93,
-                actor_id: 93,
+                actor_id: 92,
                 role: 'secondary'
             },{
                 character_id: 94,
-                actor_id: 94,
+                actor_id: 93,
                 role: 'secondary'
             },{
                 character_id: 95,
-                actor_id: 95,
+                actor_id: 94,
                 role: 'secondary'
             }
         ],
@@ -665,23 +665,23 @@ const movies = [
         personified_by: [
             {
                 character_id: 96,
-                actor_id: 96,
+                actor_id: 95,
                 role: 'main'
             },{
                 character_id: 97,
-                actor_id: 97,
+                actor_id: 96,
                 role: 'antagonist'
             },{
                 character_id: 98,
-                actor_id: 98,
+                actor_id: 97,
                 role: 'main'
             },{
                 character_id: 99,
-                actor_id: 99,
+                actor_id: 98,
                 role: 'secondary'
             },{
                 character_id: 100,
-                actor_id: 100,
+                actor_id: 99,
                 role: 'secondary'
             },{
                 character_id: 101,
@@ -689,11 +689,11 @@ const movies = [
                 role: 'secondary'
             },{
                 character_id: 102,
-                actor_id: 102,
+                actor_id: 100,
                 role: 'secondary'
             },{
                 character_id: 103,
-                actor_id: 103,
+                actor_id: 101,
                 role: 'secondary'
             }
         ],
@@ -710,7 +710,7 @@ const movies = [
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
         saga: '',
-        release: new Date(1982, 9, 3),
+        release: new Date(1981, 9, 3),
         genre: [
 				 'Action', 
 				 'Adventure', 
@@ -721,36 +721,64 @@ const movies = [
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
         personified_by: [
             {
-                character_id: 96,
-                actor_id: 96,
+                character_id: 104,
+                actor_id: 102,
                 role: 'main'
             },{
-                character_id: 97,
-                actor_id: 97,
+                character_id: 105,
+                actor_id: 103,
+                role: 'main'
+            },{
+                character_id: 106,
+                actor_id: 104,
+                role: 'main'
+            },{
+                character_id: 107,
+                actor_id: 105,
                 role: 'antagonist'
             },{
-                character_id: 98,
-                actor_id: 98,
-                role: 'main'
-            },{
-                character_id: 99,
-                actor_id: 99,
+                character_id: 108,
+                actor_id: 106,
                 role: 'secondary'
             },{
-                character_id: 100,
-                actor_id: 100,
+                character_id: 109,
+                actor_id: 107,
                 role: 'secondary'
             },{
-                character_id: 101,
-                actor_id: 24,
+                character_id: 110,
+                actor_id: 108,
                 role: 'secondary'
             },{
-                character_id: 102,
-                actor_id: 102,
+                character_id: 111,
+                actor_id: 109,
                 role: 'secondary'
             },{
-                character_id: 103,
-                actor_id: 103,
+                character_id: 112,
+                actor_id: 110,
+                role: 'secondary'
+            },{
+                character_id: 113,
+                actor_id: 111,
+                role: 'secondary'
+            },{
+                character_id: 114,
+                actor_id: 112,
+                role: 'secondary'
+            },{
+                character_id: 115,
+                actor_id: 113,
+                role: 'secondary'
+            },{
+                character_id: 116,
+                actor_id: 114,
+                role: 'secondary'
+            },{
+                character_id: 117,
+                actor_id: 115,
+                role: 'secondary'
+            },{
+                character_id: 118,
+                actor_id: 116,
                 role: 'secondary'
             }
         ],
@@ -792,6 +820,92 @@ const movies = [
                 won: false
             }
         ]
+    },
+	 {
+        _id: 9,
+        name:{
+            spanish: 'Un Pacto de Mil Demonios ',
+            original: 'The Devil and Max Devlin'
+        },
+        clasification: 'PG-13',
+        rating: 5.0,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1981, 3, 6),
+        genre: [
+				 'Comedy', 
+				 'Family', 
+				 'Fantasy' 
+        ],
+        running_time: 96,
+        gross: 16000000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 119,
+                actor_id: 16,
+                role: 'main'
+            },{
+                character_id: 120,
+                actor_id: 117,
+                role: 'antagonist'
+            },{
+                character_id: 121,
+                actor_id: 118,
+                role: 'secondary'
+            },{
+                character_id: 122,
+                actor_id: 119,
+                role: 'secondary'
+            },{
+                character_id: 123,
+                actor_id: 120,
+                role: 'secondary'
+            },{
+                character_id: 124,
+                actor_id: 121,
+                role: 'secondary'
+            },{
+                character_id: 125,
+                actor_id: 122,
+                role: 'secondary'
+            },{
+                character_id: 126,
+                actor_id: 123,
+                role: 'secondary'
+            },{
+                character_id: 127,
+                actor_id: 124,
+                role: 'secondary'
+            },{
+                character_id: 128,
+                actor_id: 125,
+                role: 'secondary'
+            },{
+                character_id: 129,
+                actor_id: 126,
+                role: 'secondary'
+            },{
+                character_id: 130,
+                actor_id: 127,
+                role: 'secondary'
+            },{
+                character_id: 131,
+                actor_id: 128,
+                role: 'secondary'
+            },{
+                character_id: 132,
+                actor_id: 129,
+                role: 'secondary'
+            },{
+                character_id: 133,
+                actor_id: 130,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [8]
+		 
     }
 	 
 ];

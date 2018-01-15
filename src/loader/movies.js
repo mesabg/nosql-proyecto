@@ -710,7 +710,7 @@ const movies = [
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
         saga: '',
-        release: new Date(1982, 9, 3),
+        release: new Date(1981, 9, 3),
         genre: [
 				 'Action', 
 				 'Adventure', 
@@ -820,6 +820,91 @@ const movies = [
                 won: false
             }
         ]
+    },
+	 {
+        _id: 9,
+        name:{
+            spanish: 'Un Pacto de Mil Demonios ',
+            original: 'The Devil and Max Devlin'
+        },
+        clasification: 'PG-13',
+        rating: 5.0,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1981, 3, 6),
+        genre: [
+				 'Comedy', 
+				 'Family', 
+				 'Fantasy' 
+        ],
+        running_time: 96,
+        gross: 16000000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 119,
+                actor_id: 16,
+                role: 'main'
+            },{
+                character_id: 120,
+                actor_id: 117,
+                role: 'antagonist'
+            },{
+                character_id: 121,
+                actor_id: 118,
+                role: 'secondary'
+            },{
+                character_id: 122,
+                actor_id: 119,
+                role: 'secondary'
+            },{
+                character_id: 123,
+                actor_id: 120,
+                role: 'secondary'
+            },{
+                character_id: 124,
+                actor_id: 121,
+                role: 'secondary'
+            },{
+                character_id: 125,
+                actor_id: 122,
+                role: 'secondary'
+            },{
+                character_id: 126,
+                actor_id: 123,
+                role: 'secondary'
+            },{
+                character_id: 127,
+                actor_id: 124,
+                role: 'secondary'
+            },{
+                character_id: 128,
+                actor_id: 125,
+                role: 'secondary'
+            },{
+                character_id: 129,
+                actor_id: 126,
+                role: 'secondary'
+            },{
+                character_id: 130,
+                actor_id: 127,
+                role: 'secondary'
+            },{
+                character_id: 131,
+                actor_id: 128,
+                role: 'secondary'
+            },{
+                character_id: 132,
+                actor_id: 129,
+                role: 'secondary'
+            },{
+                character_id: 133,
+                actor_id: 130,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [8] 
     }
 	 
 ];

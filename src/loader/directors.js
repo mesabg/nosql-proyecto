@@ -22,7 +22,7 @@ const directors = [
     {
         _id: 2,
         name: 'Charles Jarrott',
-        directed_in: [2]
+        directed_in: [2,7]
     },
     {
         _id: 3,
@@ -48,7 +48,13 @@ const directors = [
         _id: 7,
         name: 'Matthew Robbins',
         directed_in: [8]
+    },
+	 {
+        _id: 8,
+        name: 'Steven Hilliard Stern',
+        directed_in: [9]
     }
+
 ];
 
 

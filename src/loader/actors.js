@@ -1132,7 +1132,92 @@ const actors = [
         name: 'Mark Arnott',
         acted_in: [13],
         personifies: [192]
+    },
+    {
+        _id: 189,
+        name: 'Jason Robards',
+        acted_in: [14],
+        personifies: [193]
+    },
+	 {
+        _id: 190,
+        name: 'Jonathan Pryce',
+        acted_in: [14],
+        personifies: [194]
+    },
+	 {
+        _id: 191,
+        name: 'Royal Dano',
+        acted_in: [14],
+        personifies: [195]
+    },
+ 	 {
+        _id: 192,
+        name: 'Vidal Peterson',
+        acted_in: [14],
+        personifies: [196]
+    },
+	 {
+        _id: 193,
+        name: 'Shawn Carson',
+        acted_in: [14],
+        personifies: [197]
+	 },
+	 {
+        _id: 194,
+        name: 'Mary Grace Canfield',
+        acted_in: [14],
+        personifies: [198]
+    },
+	 {
+        _id: 195,
+        name: 'Richard Davalos',
+        acted_in: [14],
+        personifies: [199]
+    },
+	 {
+        _id: 196,
+        name: 'Jake Dengel',
+        acted_in: [14],
+        personifies: [200]
+    },
+	 {
+        _id: 197,
+        name: 'Jack Dodson',
+        acted_in: [14],
+        personifies: [201]
+    },
+ 	 {
+        _id: 198,
+        name: 'Bruce M. Fischer',
+        acted_in: [14],
+        personifies: [202]
+    },
+    {
+        _id: 199,
+        name: 'Ellen Geer',
+        acted_in: [14],
+        personifies: [203]
+    },
+	 {
+        _id: 200,
+        name: 'Pam Grier',
+        acted_in: [14],
+        personifies: [204]
+    },
+	 {
+        _id: 201,
+        name: 'Brendan Klinger',
+        acted_in: [14],
+        personifies: [205]
+    },
+ 	 {
+        _id: 202,
+        name: 'James Stacy',
+        acted_in: [14],
+        personifies: [206]
     }
+	
 	 
 ];
 

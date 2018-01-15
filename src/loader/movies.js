@@ -1332,6 +1332,129 @@ const movies = [
             }
            
         ]
+    },
+ 	 {
+        _id: 14,
+        name:{
+            spanish: 'El Carnaval De Las Tinieblas',
+            original: 'Something Wicked This Way Comes'
+        },
+        clasification: 'PG-13',
+        rating: 6.8,
+        studio: 'Walt Disney Productions',
+        distributor: 'Buena Vista Distribution',
+        saga: '',
+        release: new Date(1983, 4, 29),
+        genre: [
+				 'Fantasy', 'Mistery', 'Thriller'
+        ],
+        running_time: 95,
+        gross: 8400000,
+        preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
+        personified_by: [
+            {
+                character_id: 193,
+                actor_id: 189,
+                role: 'secondary'
+            },{
+                character_id: 194,
+                actor_id: 190,
+                role: 'antagonist'
+            },{
+                character_id: 195,
+                actor_id: 191,
+                role: 'secondary'
+            },{
+                character_id: 196,
+                actor_id: 192,
+                role: 'main'
+            },{
+                character_id: 197,
+                actor_id: 193,
+                role: 'main'
+            },{
+                character_id: 198,
+                actor_id: 194,
+                role: 'secondary'
+            },{
+                character_id: 199,
+                actor_id: 195,
+                role: 'secondary'
+            },{
+                character_id: 200,
+                actor_id: 196,
+                role: 'secondary'
+            },{
+                character_id: 201,
+                actor_id: 197,
+                role: 'secondary'
+            },{
+                character_id: 202,
+                actor_id: 198,
+                role: 'secondary'
+            },{
+                character_id: 203,
+                actor_id: 199,
+                role: 'secondary'
+            },{
+                character_id: 204,
+                actor_id: 200,
+                role: 'antagonist'
+            },{
+                character_id: 205,
+                actor_id: 201,
+                role: 'secondary'
+            },{
+                character_id: 206,
+                actor_id: 202,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [15],
+		  nominated_in:[
+            {
+                category_id: 38,
+                award_id: 3,
+                won: true
+            },
+            {
+                category_id: 20,
+                award_id: 3,
+                won: true
+            },
+ 			   {
+                category_id: 21,
+                award_id: 3,
+                won: false
+            },
+				{
+                category_id: 19,
+                award_id: 3,
+                won: false
+            },
+            {
+                category_id: 39,
+                award_id: 3,
+                won: false
+            },
+ 			   {
+                category_id: 8,
+                award_id: 3,
+                won: false
+            },
+				{
+                category_id: 24,
+                award_id: 5,
+                won: false
+            },
+ 			   {
+                category_id: 40,
+                award_id: 11,
+                won: false
+            }
+           
+           
+        ]
     }
 	 
 ];

@@ -1070,93 +1070,177 @@ const characters = [
 	 {
         _id: 178,
         name: 'Tex McCormick',
-        acted_in: [13],
-        personifies: [174]
+        appear_in: [13],
+        personified_by: [174]
     },
 	 {
         _id: 179,
         name: 'Mason McCormick',
-        acted_in: [13],
-        personifies: [175]
+        appear_in: [13],
+        personified_by: [175]
     },
 	 {
         _id: 180,
         name: 'Jamie Collins',
-        acted_in: [13],
-        personifies: [176]
+        appear_in: [13],
+        personified_by: [176]
     },
 	 {
         _id: 181,
         name: 'Pop McCormick',
-        acted_in: [13],
-        personifies: [177]
+        appear_in: [13],
+        personified_by: [177]
     },
  	 {
         _id: 182,
         name: 'Mrs. Johnson',
-        acted_in: [13],
-        personifies: [178]
+        appear_in: [13],
+        personified_by: [178]
     },
 	 {
         _id: 183,
         name: 'Cole Collins',
-        acted_in: [13],
-        personifies: [179]
+        appear_in: [13],
+        personified_by: [179]
     },
 	 {
         _id: 184,
         name: 'Johnny Collins',
-        acted_in: [13],
-        personifies: [180]
+        appear_in: [13],
+        personified_by: [180]
     },
 	 {
         _id: 185,
         name: 'Coach Jackson',
-        acted_in: [13],
-        personifies: [181]
+        appear_in: [13],
+        personified_by: [181]
     },
  	 {
         _id: 186,
         name: 'Hitchhiker',
-        acted_in: [13],
-        personifies: [182]
+        appear_in: [13],
+        personified_by: [182]
     },
 	 {
         _id: 187,
         name: 'Bob Collins',
-        acted_in: [13],
-        personifies: [183]
+        appear_in: [13],
+        personified_by: [183]
 	 },
 	 {
         _id: 188,
         name: 'Connie',
-        acted_in: [13],
-        personifies: [184]
+        appear_in: [13],
+        personified_by: [184]
     },
 	 {
         _id: 189,
         name: 'Roger',
-        acted_in: [13],
-        personifies: [185]
+        appear_in: [13],
+        personified_by: [185]
     },
 	 {
         _id: 190,
         name: 'Fortune Teller (as Suzanne Costallos)',
-        acted_in: [13],
-        personifies: [186]
+        appear_in: [13],
+        personified_by: [186]
     },
 	 {
         _id: 191,
         name: 'Ms. Carlson',
-        acted_in: [13],
-        personifies: [187]
+        appear_in: [13],
+        personified_by: [187]
     },
  	 {
         _id: 192,
         name: 'Kelly',
-        acted_in: [13],
-        personifies: [188]
+        appear_in: [13],
+        personified_by: [188]
     },
+    {
+        _id: 193,
+        name: 'Charles Halloway',
+        acted_in: [14],
+        personifies: [189]
+    },
+	 {
+        _id: 194,
+        name: 'Mr. Dark',
+        acted_in: [14],
+        personifies: [190]
+    },
+	 {
+        _id: 195,
+        name: 'Tom Fury',
+        acted_in: [14],
+        personifies: [191]
+    },
+ 	 {
+        _id: 196,
+        name: 'Will Halloway',
+        acted_in: [14],
+        personifies: [192]
+    },
+	 {
+        _id: 197,
+        name: 'Jim Nightshade',
+        acted_in: [14],
+        personifies: [193]
+	 },
+	 {
+        _id: 198,
+        name: 'Miss Foley',
+        acted_in: [14],
+        personifies: [194]
+    },
+	 {
+        _id: 199,
+        name: 'Mr. Crosetti',
+        acted_in: [14],
+        personifies: [195]
+    },
+	 {
+        _id: 200,
+        name: 'Mr. Tetley',
+        acted_in: [14],
+        personifies: [196]
+    },
+	 {
+        _id: 201,
+        name: 'Dr. Douglas',
+        acted_in: [14],
+        personifies: [197]
+    },
+ 	 {
+        _id: 202,
+        name: 'Mr. Cooger',
+        acted_in: [14],
+        personifies: [198]
+    },
+    {
+        _id: 203,
+        name: 'Mrs. Halloway',
+        acted_in: [14],
+        personifies: [199]
+    },
+	 {
+        _id: 204,
+        name: 'Dust Witch',
+        acted_in: [14],
+        personifies: [200]
+    },
+	 {
+        _id: 205,
+        name: 'Cooger as a Child',
+        acted_in: [14],
+        personifies: [201]
+    },
+ 	 {
+        _id: 206,
+        name: 'Ed, The Bartender',
+        acted_in: [14],
+        personifies: [202]
+    }
 
 
 ];

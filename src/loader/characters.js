@@ -1157,6 +1157,90 @@ const characters = [
         appear_in: [13],
         personified_by: [188]
     },
+    {
+        _id: 193,
+        name: 'Charles Halloway',
+        appear_in: [14],
+        personified_by: [189]
+    },
+	 {
+        _id: 194,
+        name: 'Mr. Dark',
+        appear_in: [14],
+        personified_by: [190]
+    },
+	 {
+        _id: 195,
+        name: 'Tom Fury',
+        appear_in: [14],
+        personified_by: [191]
+    },
+ 	 {
+        _id: 196,
+        name: 'Will Halloway',
+        appear_in: [14],
+        personified_by: [192]
+    },
+	 {
+        _id: 197,
+        name: 'Jim Nightshade',
+        appear_in: [14],
+        personified_by: [193]
+	 },
+	 {
+        _id: 198,
+        name: 'Miss Foley',
+        appear_in: [14],
+        personified_by: [194]
+    },
+	 {
+        _id: 199,
+        name: 'Mr. Crosetti',
+        appear_in: [14],
+        personified_by: [195]
+    },
+	 {
+        _id: 200,
+        name: 'Mr. Tetley',
+        appear_in: [14],
+        personified_by: [196]
+    },
+	 {
+        _id: 201,
+        name: 'Dr. Douglas',
+        appear_in: [14],
+        personified_by: [197]
+    },
+ 	 {
+        _id: 202,
+        name: 'Mr. Cooger',
+        appear_in: [14],
+        personified_by: [198]
+    },
+    {
+        _id: 203,
+        name: 'Mrs. Halloway',
+        appear_in: [14],
+        personified_by: [199]
+    },
+	 {
+        _id: 204,
+        name: 'Dust Witch',
+        appear_in: [14],
+        personified_by: [200]
+    },
+	 {
+        _id: 205,
+        name: 'Cooger as a Child',
+        appear_in: [14],
+        personified_by: [201]
+    },
+ 	 {
+        _id: 206,
+        name: 'Ed, The Bartender',
+        appear_in: [14],
+        personified_by: [202]
+    }
 
 
 ];

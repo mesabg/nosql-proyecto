@@ -104,32 +104,32 @@ const categories = [
     {
         _id: 19,
         name: 'Best Music, Original Score',
-        present_in: [8]
+        present_in: [8,14]
     },
     {
         _id: 20,
         name: 'Best Fantasy Film',
-        present_in: [6,10]
+        present_in: [6,10,14]
     },
     {
         _id: 21,
         name: 'Best Supporting Actor',
-        present_in: [8]
+        present_in: [8,14]
     },
     {
         _id: 22,
         name: 'Best Costumes',
-        present_in: [8,12]
+        present_in: [8,12,14]
     },
     {
         _id: 23,
         name: 'Best Special Effects',
-        present_in: [8]
+        present_in: [8,14]
     },
     {
         _id: 24,
         name: 'Best Dramatic Presentation',
-        present_in: [8]
+        present_in: [8,14]
     },
     {
         _id: 25,
@@ -195,6 +195,21 @@ const categories = [
         _id: 37,
         name: 'Best Actor in a Supporting Role - Motion Picture',
         present_in: [13]
+    },
+	 {
+        _id: 38,
+        name: 'Best Writing',
+        present_in: [14]
+    },
+	 {
+        _id: 39,
+        name: 'Best Make-Up',
+        present_in: [14]
+    },
+	 {
+        _id: 40,
+        name: 'Avoriaz Fantastic Film Festival',
+        present_in: [14]
     }
 
 

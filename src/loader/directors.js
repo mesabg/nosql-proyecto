@@ -84,6 +84,11 @@ const directors = [
         name: 'Tim Hunter',
         directed_in: [13]
     }
+	 {
+        _id: 15,
+        name: 'Jack Clayton',
+        directed_in: [14]
+    }
 
 
 ];

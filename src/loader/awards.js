@@ -27,7 +27,7 @@ const awards = [
     {
         _id: 3,
         name: 'Academy of Science Fiction, Fantasy & Horror Films, USA',
-        has_category: [6, 7, 20, 21, 22, 23,31,32]
+        has_category: [6, 7, 20, 21, 22, 23,31,32, 38, 19,39,8]
     },
     {
         _id: 4,
@@ -63,6 +63,11 @@ const awards = [
         _id: 10,
         name: 'Golden Globes',
         has_category: [37]
+    },
+	 {
+        _id: 11,
+        name: 'Avoriaz Fantastic Film Festival',
+        has_category: [40]
     }
 
 ];

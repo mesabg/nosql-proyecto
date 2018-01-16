@@ -99,7 +99,7 @@ const categories = [
     {
         _id: 18,
         name: 'Best Effects, Visual Effects',
-        present_in: [8]
+        present_in: [8, 4]
     },
     {
         _id: 19,
@@ -109,7 +109,7 @@ const categories = [
     {
         _id: 20,
         name: 'Best Fantasy Film',
-        present_in: [6,10,14]
+        present_in: [6, 10, 14, 3]
     },
     {
         _id: 21,
@@ -119,7 +119,7 @@ const categories = [
     {
         _id: 22,
         name: 'Best Costumes',
-        present_in: [8,12,14]
+        present_in: [8, 12, 14, 3]
     },
     {
         _id: 23,
@@ -149,7 +149,7 @@ const categories = [
 	 {
         _id: 28,
         name: 'Best Costume Design',
-        present_in: [12]
+        present_in: [12, 4]
     },
 	 {
         _id: 29,
@@ -164,7 +164,7 @@ const categories = [
 	 {
         _id: 31,
         name: 'Best Science Fiction Film',
-        present_in: [12]
+        present_in: [12, 3]
     },
 	 {
         _id: 32,
@@ -219,7 +219,7 @@ const categories = [
 	 {
         _id: 42,
         name: 'Best Sound Editing - Sound Effects',
-        present_in: [15]
+        present_in: [15, 14]
     },
  	 {
         _id: 43,
@@ -285,9 +285,77 @@ const categories = [
 	      _id: 55,
         name: 'Exceptional Performance by a Young Actress Starring in a Feature Film - Comedy or Drama',
         present_in: [20]
-    }
-
-
+    },
+    {
+        _id: 60,
+        name: 'Best Performance by a Younger Actor',
+        present_in: [3]
+    },
+    {
+        _id: 61,
+        name: 'Best Starring Performance by a Young Actress - Motion Picture',
+        present_in: [2]
+    },
+    {
+        _id: 62,
+        name: 'Best Director',
+        present_in: [3]
+    },
+    {
+        _id: 63,
+        name: 'Best Sound Editing - Animated Feature',
+        present_in: [14]
+    },
+    {
+        _id: 64,
+        name: 'Feature Film - Family',
+        present_in: [21]
+    },
+    {
+        _id: 65,
+        name: 'Best Family Motion Picture - Drama',
+        present_in: [2]
+    },
+    {
+        _id: 66,
+        name: 'Outstanding Animated Program',
+        present_in: [22]
+    },
+    {
+        _id: 67,
+        name: 'Dramatic',
+        present_in: [23]
+    },
+    {
+        _id: 68,
+        name: 'Best Achievement in Sound',
+        present_in: [24]
+    },
+    {
+        _id: 69,
+        name: 'Best Original Song - Motion Picture',
+        present_in: [10]
+    },
+    {
+        _id: 70,
+        name: 'Best Family Animation or Fantasy Motion Picture',
+        present_in: [2]
+    },
+    {
+        _id: 71,
+        name: 'Best Young Actor Starring in a Motion Picture',
+        present_in: [2]
+    },
+    {
+        _id: 72,
+        name: 'Best Music, Original Song',
+        present_in: [4]
+    },
+    {
+        _id: 73,
+        name: 'Best Music, Original Score',
+        present_in: [4]
+    },
 ];
 
 

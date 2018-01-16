@@ -8,9 +8,6 @@ const categories = require('./categories');
 const characters = require('./characters');
 const directors = require('./directors');
 const movies = require('./movies');
-const musicians = require('./musicians');
-const producers = require('./producers');
-const writters = require('./writters');
 
 module.exports = new Promise(async (resolve, reject) => {
     try {
@@ -20,10 +17,7 @@ module.exports = new Promise(async (resolve, reject) => {
             categories,
             characters,
             directors,
-            movies,
-            musicians,
-            producers,
-            writters
+            movies
         ]);
         resolve(response);
     } catch (error) {

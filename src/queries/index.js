@@ -36,12 +36,11 @@ db.movie.aggregate([
 
 /**
  * 3. Dado un rango (N, M) mostrar las películas que se encuentren en ese ranking según IMDB.
- * - Dado que el rango está en inglés, tenemos los siguientes valores: ['G', 'PG', 'PG-13', 'R', 'NC-17']
- * - Seleccionemos entre 1 y 3; ['G', 'PG', 'PG-13']  => ['A', 'B']
+ * - Supongamos ranking (3, 6.7)
  */
 db.movie.aggregate([
     {
-        $match: { rating: { $in:['G', 'PG', 'PG-13'] } }
+        $match: { rating: { $gt:3, $lt:6.7 } }
     }
 ]);
 
@@ -135,6 +134,12 @@ db.movie.aggregate([
             genre: 1,
             running_time: 1,
             gross: 1
+        }
+    },
+    {
+        $group : {
+            _id : "$saga",
+            movies: { $push: { _id: "$_id", name: "$name.original" } }
         }
     }
 ]);

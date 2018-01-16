@@ -97,7 +97,7 @@ const directors = [
 	 {
         _id: 17,
         name: 'Burny Mattinson',
-        directed_in: [16]
+        directed_in: [16, 25]
     },
 	 {
         _id: 18,
@@ -113,9 +113,77 @@ const directors = [
         _id: 20,
         name: 'Phillip Borsos',
         directed_in: [20]
-    }
-
-
+    },
+    {
+        _id: 21,
+        name: 'Ted Berman',
+        directed_in: [21]
+    },
+    {
+        _id: 22,
+        name: 'Richard Rich',
+        directed_in: [21]
+    },
+    {
+        _id: 23,
+        name: 'Walter Murch',
+        directed_in: [22]
+    },
+    {
+        _id: 24,
+        name: 'Jeremy Kagan',
+        directed_in: [23]
+    },
+    {
+        _id: 25,
+        name: 'Randal Klesier',
+        directed_in: [24]
+    },
+    {
+        _id: 26,
+        name: 'Ron Clements',
+        directed_in: [25, 32]
+    },
+    {
+        _id: 27,
+        name: 'Dave Michener',
+        directed_in: [25]
+    },
+    {
+        _id: 28,
+        name: 'Joe Camp',
+        directed_in: [26]
+    },
+    {
+        _id: 29,
+        name: 'Jerry Rees',
+        directed_in: [27]
+    },
+    {
+        _id: 30,
+        name: 'Geoff Burrowes',
+        directed_in: [28]
+    },
+    {
+        _id: 31,
+        name: 'George Scribner',
+        directed_in: [29]
+    },
+    {
+        _id: 32,
+        name: 'Joe Johnston',
+        directed_in: [30]
+    },
+    {
+        _id: 33,
+        name: 'Jeff Blyth',
+        directed_in: [31]
+    },
+    {
+        _id: 34,
+        name: 'John Musker',
+        directed_in: [32]
+    },
 ];
 
 

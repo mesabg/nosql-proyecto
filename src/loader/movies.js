@@ -99,9 +99,6 @@ const movies = [
             }
         ],
         directed_by: [1],
-        produced_by: [1, 2, 3],
-        written_by: [1, 2],
-        music_by: [1],
         nominated_in:[
             {
                 category_id: 1,
@@ -125,7 +122,7 @@ const movies = [
         rating: 5.8,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1980, 6, 25),
         genre: [
             'Adventure'
@@ -192,10 +189,6 @@ const movies = [
                 role: 'secondary'
             }
         ],
-        directed_by: [2],
-        produced_by: [2, 3],
-        written_by: [3],
-        music_by: [2],
         nominated_in:[
             {
                 category_id: 3,
@@ -224,7 +217,7 @@ const movies = [
         rating: 6.5,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1980, 2, 8),
         genre: [
             'Comedy'
@@ -360,7 +353,7 @@ const movies = [
         rating: 6.4,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1980, 12, 8),
         genre: [
             'Family', 
@@ -455,7 +448,7 @@ const movies = [
         rating: 5.2,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1980, 12, 12),
         genre: [
             'Adventure', 
@@ -560,7 +553,7 @@ const movies = [
         rating: 6.7,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1981, 3, 20),
         genre: [
 				'Family',
@@ -652,7 +645,7 @@ const movies = [
         rating: 5.8,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1981, 8, 1),
         genre: [
 				 'Action', 
@@ -709,7 +702,7 @@ const movies = [
         rating: 6.7,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1981, 9, 3),
         genre: [
 				 'Action', 
@@ -831,7 +824,7 @@ const movies = [
         rating: 5.0,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1981, 3, 6),
         genre: [
 				 'Comedy', 
@@ -1012,7 +1005,7 @@ const movies = [
         rating: 6.4,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1982, 2, 5),
         genre: [
 				 'Drama', 'History', 'Thriller', 'Family'
@@ -1242,7 +1235,7 @@ const movies = [
         rating: 6.6,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1982, 7, 30),
         genre: [
 				 'Drama'
@@ -1343,7 +1336,7 @@ const movies = [
         rating: 6.8,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1983, 4, 29),
         genre: [
 				 'Fantasy', 'Mistery', 'Thriller'
@@ -1466,7 +1459,7 @@ const movies = [
         rating: 7.6,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1983, 10, 10),
         genre: [
 				 'Drama', 'Adventure'
@@ -1559,7 +1552,7 @@ const movies = [
         rating: 8.1,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1983, 12, 16),
         genre: [
 				 'Animation', 'Short', 'Comedy'
@@ -1646,7 +1639,7 @@ const movies = [
         rating: 5.2,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1983, 3, 11),
         genre: [
 				 'Comedy', 'Mystery', 'Thriller'
@@ -1729,7 +1722,7 @@ const movies = [
         rating: 7.7,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1984, 10, 7),
         genre: [
 				 'Drama', 'Family', 'History'
@@ -1812,7 +1805,7 @@ const movies = [
         rating: 7.3,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1984, 11, 6),
         genre: [
 				  'Animation', 'Adventure', 'Family'
@@ -1859,7 +1852,7 @@ const movies = [
         rating: 6.6,
         studio: 'Walt Disney Productions',
         distributor: 'Buena Vista Distribution',
-        saga: '',
+        saga: 'N/A',
         release: new Date(1985, 11, 22),
         genre: [
 				  'Fantasy', 'Family'
@@ -1978,6 +1971,718 @@ const movies = [
                 won: false
             }
            
+        ]
+    },
+    {
+        _id: 21,
+        name:{
+            spanish: 'Taron y el Caldero Mágico',
+            original: 'The Black Cauldron'
+        },
+        clasification: 'PG',
+        rating: 6.5,
+        studio: 'Wlat Disney Pictures',
+        distributor: 'Buena Vista Distribution',
+        saga: 'N/A',
+        release: new Date(1985, 7, 24),
+        genre:[
+            'Animation',
+            'Action',
+            'Adventure'
+        ],
+        running_time: 80,
+        gross: 44000000,
+        preceded_by: null,
+        personified_by: [
+            {
+                actor_id: 270,
+                character_id: 280,
+                role: 'main'
+            },{
+                actor_id: 271,
+                character_id: 281,
+                role: 'main'
+            },{
+                actor_id: 272,
+                character_id: 282,
+                role: 'main'
+            },{
+                actor_id: 273,
+                character_id: 283,
+                role: 'main'
+            },{
+                actor_id: 274,
+                character_id: 284,
+                role: 'main'
+            },{
+                actor_id: 275,
+                character_id: 285,
+                role: 'secondary'
+            },{
+                actor_id: 276,
+                character_id: 286,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [21, 22],
+        nominated_in: []
+    },
+    {
+        _id: 22,
+        name:{
+            spanish: 'Oz, un mundo fantástico',
+            original: 'Return to Oz'
+        },
+        clasification: 'PG',
+        rating: 6.8,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Distribution',
+        saga: 'N/A',
+        release: new Date(1985, 6, 21),
+        genre: [
+            'Adventure',
+            'Family',
+            'Fantasy'
+        ],
+        running_time: 113,
+        gross: 28000000,
+        preceded_by: null,
+        personified_by:[
+            {
+                actor_id: 300,
+                character_id: 300,
+                role: 'main'
+            },
+            {
+                actor_id: 301,
+                character_id: 301,
+                role: 'main'
+            },
+            {
+                actor_id: 302,
+                character_id: 302,
+                role: 'main'
+            },
+            {
+                actor_id: 303,
+                character_id: 303,
+                role: 'secondary'
+            },
+            {
+                actor_id: 304,
+                character_id: 304,
+                role: 'secondary'
+            },
+            {
+                actor_id: 305,
+                character_id: 305,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [23],
+        nominated_in:[
+            {
+                award_id: 4,
+                category_id: 18,
+                won: false
+            },
+            {
+                award_id: 3,
+                category_id: 20,
+                won: false
+            },
+            {
+                award_id: 3,
+                category_id: 60,
+                won: false
+            },
+            {
+                award_id: 3,
+                category_id: 22,
+                won: false
+            }
+        ]
+    },
+    {
+        _id: 23,
+        name:{
+            spanish: 'Natty Gann',
+            original: 'The Journey Of Natty Gann'
+        },
+        clasification: 'PG',
+        rating: 7.0,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Distribution',
+        saga: 'N/A',
+        release: new Date(1985, 9, 27),
+        genre: [
+            'Family',
+            'Adventures'
+        ],
+        running_time: 101,
+        gross: 2135577,
+        preceded_by: null,
+        personified_by: [
+            {
+                actor_id: 350,
+                character_id: 350,
+                role: 'main'
+            },
+            {
+                actor_id: 351,
+                character_id: 351,
+                role: 'main'
+            },
+            {
+                actor_id: 352,
+                character_id: 352,
+                role: 'main'
+            },
+            {
+                actor_id: 353,
+                character_id: 353,
+                role: 'secondary'
+            },
+            {
+                actor_id: 354,
+                character_id: 354,
+                role: 'secondary'
+            },
+            {
+                actor_id: 355,
+                character_id: 355,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [24],
+        nominated_in:[
+            {
+                award_id: 4,
+                category_id: 28,
+                won: false
+            },
+            {
+                award_id: 2, 
+                category_id: 61,
+                won: true
+            }
+        ]
+    },
+    {
+        _id: 24,
+        name:{
+            spanish: 'El Vuelo del Navegante',
+            original: 'Flight of the Navigator'
+        },
+        clasification: 'PG',
+        rating: 6.9,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Distribution',
+        saga: 'N/A',
+        release: new Date(1986, 8, 1),
+        genre: [
+            'Family',
+            'Adventure',
+            'Sci-Fi'
+        ],
+        running_time: 90,
+        gross: 18564613,
+        preceded_by: null,
+        personified_by:[
+            {
+                actor_id: 400,
+                character_id: 400,
+                role: 'main'
+            },
+            {
+                actor_id: 401,
+                character_id: 401,
+                role: 'main'
+            },
+            {
+                actor_id: 402,
+                character_id: 402,
+                role: 'main'
+            },
+            {
+                actor_id: 403,
+                character_id: 403,
+                role: 'secondary'
+            },
+            {
+                actor_id: 404,
+                character_id: 404,
+                role: 'secondary'
+            },
+            {
+                actor_id: 405,
+                character_id: 405,
+                role: 'secondary'
+            },
+        ],
+        directed_by: [25],
+        nominated_in:[
+            {
+                award_id: 3,
+                category_id: 31,
+                won: false
+            },
+            {
+                award_id: 3,
+                category_id: 62,
+                won: true
+            }
+        ]
+    },
+    {
+        _id: 25,
+        name:{
+            spanish: 'Basil, el ratón superdetective',
+            original: 'The Great Mouse Detective'
+        },
+        clasification: 'G',
+        rating: 7.2,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Pictures Distribution',
+        saga: 'N/A',
+        release: new Date(1986, 7, 2),
+        genre:[
+            'Animation',
+            'Adventure',
+            'Family'
+        ],
+        running_time: 74,
+        gross: 38600000,
+        preceded_by: null,
+        personified_by: [
+            {
+                actor_id: 450,
+                character_id: 450,
+                role: 'main'
+            },
+            {
+                actor_id: 451,
+                character_id: 451,
+                role: 'main'
+            },
+            {
+                actor_id: 452,
+                character_id: 452,
+                role: 'main'
+            },
+            {
+                actor_id: 453,
+                character_id: 453,
+                role: 'secondary'
+            },
+            {
+                actor_id: 454,
+                character_id: 454,
+                role: 'secondary'
+            },
+            {
+                actor_id: 455,
+                character_id: 455,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [17, 26, 27],
+        nominated_in:[
+            {
+                award_id: 20,
+                category_id: 49,
+                won: false
+            },
+            {
+                award_id: 14,
+                category_id: 63,
+                won: true
+            }
+        ]
+    },
+    {
+        _id: 26,
+        name:{
+            spanish: 'Cuatro cachorros para salvar',
+            original: 'Benji the Hunted'
+        },
+        clasification: 'G',
+        rating: 6.3,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Distribution',
+        saga: 'N/A',
+        release: new Date(1987, 6, 5),
+        genre: [
+            'Adventure',
+            'Family'
+        ],
+        running_time: 89,
+        gross: 22257624,
+        preceded_by: null,
+        personified_by: [
+            {
+                actor_id: 500,
+                character_id: 500,
+                role: 'main'
+            },
+            {
+                actor_id: 501,
+                character_id: 501,
+                role: 'main'
+            },
+            {
+                actor_id: 502,
+                character_id: 502,
+                role: 'secondary'
+            },
+            {
+                actor_id: 503,
+                character_id: 503,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [28],
+        nominated_in:[
+            {
+                award_id: 21,
+                category_id: 64,
+                won: true
+            },
+            {
+                award_id: 2,
+                category_id: 65,
+                won: false
+            }
+        ]
+    },
+    {
+        _id: 27,
+        name:{
+            spanish: 'La tostadora valiente',
+            original: 'The Brave Little Toaster'
+        },
+        clasification: 'G',
+        rating: 7.3,
+        studio: 'Kushner-Locke Company',
+        distributor: 'Hyperion Pictures (USA)',
+        saga: 'N/A',
+        release: new Date(1987, 6, 19),
+        genre: [
+            'Animation',
+            'Adventure',
+            'Comedy'
+        ],
+        running_time: 90,
+        gross: 2300000,
+        preceded_by: null,
+        personified_by: [
+            {
+                actor_id: 550,
+                character_id: 550,
+                role: 'main'
+            },
+            {
+                actor_id: 551,
+                character_id: 551,
+                role: 'main'
+            },
+            {
+                actor_id: 552,
+                character_id: 552,
+                role: 'secondary'
+            },
+            {
+                actor_id: 553,
+                character_id: 553,
+                role: 'secondary'
+            },
+        ],
+        directed_by: [29],
+        nominated_in:[
+            {
+                award_id: 22,
+                category_id: 66,
+                won: false
+            },
+            {
+                award_id: 23,
+                category_id: 67,
+                won: true
+            },
+        ]
+    },
+    {
+        _id: 28,
+        name: {
+            spanish: 'La Saga del Indomable',
+            original: 'Return to Snowy River',
+        },
+        clasification: 'PG',
+        rating: 6.6,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Pictures',
+        saga: 'N/A',
+        release: new Date(1988, 4, 15),
+        genre: [
+            'Adventure',
+            'Drama',
+            'Wetern'
+        ],
+        running_time: 110,
+        gross: 13687027,
+        preceded_by: null,
+        personified_by:[
+            {
+                actor_id: 600,
+                character_id: 600,
+                role: 'main'
+            },
+            {
+                actor_id: 601,
+                character_id: 601,
+                role: 'main'
+            },
+            {
+                actor_id: 602,
+                character_id: 602,
+                role: 'secondary'
+            },
+            {
+                actor_id: 603,
+                character_id: 603,
+                role: 'secondary'
+            }
+        ],
+        directed_by: [30],
+        nominated_in: [
+            {
+                award_id: 24,
+                category_id: 68,
+                won: false
+            },
+            {
+                award_id: 14,
+                category_id: 42,
+                won: false
+            }
+        ]
+    },
+    {
+        _id: 29,
+        name:{
+            spanish: 'Oliver y su pandilla',
+            original: 'Oliver and Company'
+        },
+        clasification: 'G',
+        rating: 6.7,
+        studio: 'Walt Disney Feature Animation',
+        distributor: 'Buena Vista Pictures Distribution',
+        saga: 'N/A',
+        release: new Date(1988, 11, 18),
+        genre: [
+           'Animation',
+           'Adventure',
+           'Comedy' 
+        ],
+        running_time: 73,
+        gross: 74151346,
+        preceded_by: null,
+        personified_by:[
+            {
+                actor_id: 650,
+                character_id: 650,
+                role: 'main'
+            },
+            {
+                actor_id: 651,
+                character_id: 651,
+                role: 'main'
+            },
+            {
+                actor_id: 652,
+                character_id: 652,
+                role: 'secaondary'
+            },
+            {
+                actor_id: 653,
+                character_id: 653,
+                role: 'secondary'
+            },
+        ],
+        directed_by: [31],
+        nominated_in:[
+            {
+                award_id: 10,
+                category_id: 69,
+                won: false
+            },
+            {
+                award_id: 2,
+                category_id: 70,
+                won: false
+            },
+        ]
+    },
+    {
+        _id: 30,
+        name:{
+            spanish: 'Cariño, He Encogido a los Niños',
+            original: 'Honey, I Shrunk the Kids'
+        },
+        clasification: 'PG',
+        rating: 6.3,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Pictures Distribution',
+        saga: 'N/A',
+        release: new Date(1989, 6, 23),
+        genre: [
+            'Adventure',
+            'Comedy',
+            'Family'
+        ],
+        running_time: 93,
+        gross: 130724172,
+        preceded_by: null,
+        personified_by:[
+            {
+                actor_id: 700,
+                character_id: 700,
+                role: 'main'
+            },
+            {
+                actor_id: 701,
+                character_id: 701,
+                role: 'main'
+            },
+            {
+                actor_id: 702,
+                character_id: 702,
+                role: 'secaondary'
+            },
+            {
+                actor_id: 703,
+                character_id: 703,
+                role: 'secaondary'
+            },
+        ],
+        directed_by: [32],
+        nominated_in: [
+            {
+                award_id: 3,
+                category_id: 31,
+                won: false
+            },
+            {
+                award_id: 3,
+                category_id: 60,
+                won: false
+            },
+        ]
+    },
+    {
+        _id: 31,
+        name: {
+            spanish: 'Cheetah, Una Aventura en la Selva',
+            original: 'Cheetah'
+        },
+        clasification: 'G',
+        rating: 6.1,
+        studio: 'Walt Disney Pictures',
+        distributor: 'Buena Vista Pictures',
+        saga: 'N/A',
+        release: new Date(1989, 8, 1989),
+        genre: [
+            'Adventure',
+            'Family'
+        ],
+        running_time: 83,
+        gross: 8153677,
+        preceded_by: null,
+        personified_by:[
+            {
+                actor_id: 141,
+                character_id: 750,
+                role: 'main'
+            },
+            {
+                actor_id: 751,
+                character_id: 751,
+                role: 'main'
+            },
+            {
+                actor_id: 752,
+                character_id: 752,
+                role: 'secondary'
+            },
+            {
+                actor_id: 753,
+                character_id: 753,
+                role: 'secondary'
+            },
+        ],
+        directed_by: [33],
+        nominated_in: [
+            {
+                award_id: 2,
+                category_id: 71,
+                won: false
+            }
+        ]
+    },
+    {
+        _id: 32, 
+        name: {
+            spanish: 'La Sirenita',
+            original: 'The Little Mermaid'
+        },
+        clasification: 'G',
+        rating: 7.6,
+        studio: 'Walt Disney Feature Animation',
+        distributor: 'Buena Vista Pictures Distribution',
+        saga: 'The Little Mermaid',
+        release: new Date(1989, 11, 17),
+        genre: [
+            'Animation',
+            'Family',
+            'Fantasy'
+        ],
+        running_time: 82, 
+        gross: 211343479,
+        preceded_by: null,
+        personified_by:[
+            {
+                actor_id: 800,
+                character_id: 800,
+                role: 'main'
+            },
+            {
+                actor_id: 801,
+                character_id: 801,
+                role: 'main'
+            },
+            {
+                actor_id: 802,
+                character_id: 802,
+                role: 'secondary'
+            },
+            {
+                actor_id: 803,
+                character_id: 803,
+                role: 'secondary'
+            },
+        ], 
+        directed_by: [26, 34],
+        nominated_in: [
+            {
+                award_id: 4,
+                category_id: 72,
+                won: true
+            },
+            {
+                award_id: 4,
+                category_id: 73,
+                won: true
+            },
         ]
     }
 	

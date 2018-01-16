@@ -22,17 +22,17 @@ const awards = [
     {
         _id: 2,
         name: 'Young Artist Awards',
-        has_category: [4, 5, 9, 16, 17, 26, 27,36,54,55]
+        has_category: [4, 5, 9, 16, 17, 26, 27,36,54,55, 61, 65, 70, 71]
     },
     {
         _id: 3,
         name: 'Academy of Science Fiction, Fantasy & Horror Films, USA',
-        has_category: [6, 7, 20, 21, 22, 23,31,32, 38, 19,39,8]
+        has_category: [6, 7, 20, 21, 22, 23, 31, 32, 38, 19, 39, 8, 60]
     },
     {
         _id: 4,
         name: 'Academy Awards',
-        has_category: [18, 19, 28, 29, 45]
+        has_category: [18, 19, 28, 29, 45, 72, 73]
     },
 	 {
         _id: 5,
@@ -62,7 +62,7 @@ const awards = [
 	 {
         _id: 10,
         name: 'Golden Globes',
-        has_category: [37]
+        has_category: [69]
     },
 	 {
         _id: 11,
@@ -82,7 +82,7 @@ const awards = [
 	 {
         _id: 14,
         name: 'Motion Picture Sound Editors',
-        has_category: [42]
+        has_category: [42, 63]
     },
 	 {
         _id: 15,
@@ -108,7 +108,32 @@ const awards = [
         _id: 19,
         name: 'Genie Awards',
         has_category: [47,48,49,50,51,52,53]
-    }
+    },
+	{
+        _id: 20,
+        name: 'Edgar Allan Poe Awards',
+        has_category: [49]
+    },
+	{
+        _id: 21,
+        name: 'Genesis Awards',
+        has_category: [64]
+    },
+	{
+        _id: 22,
+        name: 'Primetime Emmy Awards',
+        has_category: [66]
+    },
+	{
+        _id: 23,
+        name: 'Sundance Film Festival',
+        has_category: [67]
+    },
+	{
+        _id: 24,
+        name: 'Australian Film Institute',
+        has_category: [68]
+    },
 
 ];
 

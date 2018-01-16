@@ -113,30 +113,6 @@ var MovieSchema = new Schema({
             required: [true, 'Director ID is required']
         }]
     },
-    produced_by:{
-        type:[{
-            type: Schema.Types.Number,
-            get: v => Math.round(v),
-            set: v => Math.round(v),
-            required: [true, 'Producer ID is required']
-        }]
-    },
-    written_by:{
-        type:[{
-            type: Schema.Types.Number,
-            get: v => Math.round(v),
-            set: v => Math.round(v),
-            required: [true, 'Writter ID is required']
-        }]
-    },
-    music_by:{
-        type:[{
-            type: Schema.Types.Number,
-            get: v => Math.round(v),
-            set: v => Math.round(v),
-            required: [true, 'Musician ID is required']
-        }]
-    },
     nominated_in:{
         type:[{
             category_id:{

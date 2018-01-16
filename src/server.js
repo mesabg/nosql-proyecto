@@ -17,6 +17,7 @@ MongoDB
 .then(async () => { 
     console.log("MongoDB Connection established successfully");
     await require('./loader');
+    console.log("Data has been saved");
 })
 .catch(async (error) => {
     console.log("MongoDB Connection error");

@@ -136,7 +136,7 @@ const characters = [
         name: 'Coslough ',
         appear_in: [2],
         personified_by: [23]
-    }
+    },
 	 {
         _id: 24,
         name: 'Benchley',
@@ -154,7 +154,7 @@ const characters = [
         name: 'Leipzig Manager',
         appear_in: [2],
         personified_by: [26]
-    }
+    },
 	 {
         _id: 27,
         name: 'Slabotsky',
@@ -1666,8 +1666,361 @@ const characters = [
         name: 'Mr. Noonan',
         appear_in: [20],
         personified_by: [263]
-    }
-
+    },
+    {
+        _id: 280,
+        name: 'Taran',
+        appear_in: [21],
+        personified_by: [270]
+    },
+    {
+        _id: 281,
+        name: 'Eilonwy',
+        appear_in: [21],
+        personified_by: [271]
+    },
+    {
+        _id: 282,
+        name: 'Dallben',
+        appear_in: [21],
+        personified_by: [272]
+    },
+    {
+        _id: 283,
+        name: 'Fflewddur Fflam',
+        appear_in: [21],
+        personified_by: [273]
+    },
+    {
+        _id: 284,
+        name: 'King Eidilleg',
+        appear_in: [21],
+        personified_by: [274]
+    },
+    {
+        _id: 285,
+        name: 'Gurgi',
+        appear_in: [21],
+        personified_by: [275]   
+    },
+    {
+        _id: 286,
+        name: 'Lindsay Rich',
+        appear_in: [21],
+        personified_by: [276]
+    },
+    {
+        _id: 300,
+        name: 'Dorothy',
+        appear_in: [22],
+        personified_by: [300]
+    },
+    {
+        _id: 301,
+        name: 'Dr. Worley',
+        appear_in: [22],
+        personified_by: [301]
+    },
+    {
+        _id: 302,
+        name: 'Nurse Wilson',
+        appear_in: [22],
+        personified_by: [302]
+    },
+    {
+        _id: 303,
+        name: 'Aunt Em',
+        appear_in: [22],
+        personified_by: [303]
+    },
+    {
+        _id: 304,
+        name: 'Uncle Henry',
+        appear_in: [22],
+        personified_by: [304]
+    },
+    {
+        _id: 305,
+        name: 'Tik-Tok',
+        appear_in: [22],
+        personified_by: [305]
+    },
+    {
+        _id: 350,
+        name: 'Natty Gann',
+        appear_in: [23],
+        personified_by: [350]
+    },
+    {
+        _id: 351,
+        name: 'Harry',
+        appear_in: [23],
+        personified_by: [351]
+    },
+    {
+        _id: 352,
+        name: 'Sol Gann',
+        appear_in: [23],
+        personified_by: [352]
+    },
+    {
+        _id: 353,
+        name: 'Connie Gann',
+        appear_in: [23],
+        personified_by: [353]
+    },
+    {
+        _id: 354,
+        name: 'Sherman',
+        appear_in: [23],
+        personified_by: [354]
+    },
+    {
+        _id: 355,
+        name: 'Parker',
+        appear_in: [23],
+        personified_by: [355]
+    },
+    {
+        _id: 400,
+        name: 'David Freeman',
+        appear_in: [24],
+        personified_by: [400]
+    },
+    {
+        _id: 401,
+        name: 'Paul Mall',
+        appear_in: [24],
+        personified_by: [401]
+    },
+    {
+        _id: 402,
+        name: 'Bill Freeman',
+        appear_in: [24],
+        personified_by: [402]
+    },
+    {
+        _id: 403,
+        name: 'Helen Freeman',
+        appear_in: [24],
+        personified_by: [403]
+    },
+    {
+        _id: 404,
+        name: 'Carolyn McAdams',
+        appear_in: [24],
+        personified_by: [404]
+    },
+    {
+        _id: 405,
+        name: 'Jeff (8 years)',
+        appear_in: [24],
+        personified_by: [405]
+    },
+    {
+        _id: 450,
+        name: 'Professor Ratigan',
+        appear_in: [25],
+        personified_by: [450]
+    },
+    {
+        _id: 451,
+        name: 'Bartholomew',
+        appear_in: [25],
+        personified_by: [451]
+    },
+    {
+        _id: 452,
+        name: 'Thug Guard',
+        appear_in: [25],
+        personified_by: [452]
+    },
+    {
+        _id: 453,
+        name: 'Olivia Flaversham',
+        appear_in: [25],
+        personified_by: [453]
+    },
+    {
+        _id: 454,
+        name: 'Fidget',
+        appear_in: [25],
+        personified_by: [454]
+    },
+    {
+        _id: 455,
+        name: 'Mrs. Judson',
+        appear_in: [25],
+        personified_by: [455]
+    },
+    {
+        _id: 500,
+        name: 'Benji',
+        appear_in: [26],
+        personified_by: [500]
+    },
+    {
+        _id: 501,
+        name: 'Frank Inn',
+        appear_in: [26],
+        personified_by: [501]
+    },
+    {
+        _id: 502,
+        name: 'Red Steagall',
+        appear_in: [26],
+        personified_by: [502]
+    },
+    {
+        _id: 503,
+        name: 'Nancy Francis',
+        appear_in: [26],
+        personified_by: [503]
+    },
+    {
+        _id: 550,
+        name: 'Radio (voice)',
+        appear_in: [27],
+        personified_by: [550]
+    },
+    {
+        _id: 551,
+        name: 'Lampy',
+        appear_in: [27],
+        personified_by: [551]
+    },
+    {
+        _id: 552,
+        name: 'Blanky',
+        appear_in: [27],
+        personified_by: [552]
+    },
+    {
+        _id: 553,
+        name: 'Kirby',
+        appear_in: [27],
+        personified_by: [553]
+    },
+    {
+        _id: 600,
+        name: 'Jim Craig',
+        appear_in: [28],
+        personified_by: [600]
+    },
+    {
+        _id: 601,
+        name: 'Jessica',
+        appear_in: [28],
+        personified_by: [601]
+    },
+    {
+        _id: 602,
+        name: 'Harrison',
+        appear_in: [28],
+        personified_by: [602]
+    },
+    {
+        _id: 603,
+        name: 'Alistair Patton',
+        appear_in: [28],
+        personified_by: [603]
+    },
+    {
+        _id: 650,
+        name: 'Oliver',
+        appear_in: [29],
+        personified_by: [650]
+    },
+    {
+        _id: 651,
+        name: 'Dodger',
+        appear_in: [29],
+        personified_by: [651]
+    },
+    {
+        _id: 652,
+        name: 'Tito',
+        appear_in: [29],
+        personified_by: [652]
+    },
+    {
+        _id: 653,
+        name: 'Einstein',
+        appear_in: [29],
+        personified_by: [653]
+    },
+    {
+        _id: 700,
+        name: 'Wayne Szalinski',
+        appear_in: [30],
+        personified_by: [700]
+    },
+    {
+        _id: 701,
+        name: 'Big Russ Thompson',
+        appear_in: [30],
+        personified_by: [701]
+    },
+    {
+        _id: 702,
+        name: 'Diane Szalinski',
+        appear_in: [30],
+        personified_by: [702]
+    },
+    {
+        _id: 703,
+        name: 'Mae Thompson',
+        appear_in: [30],
+        personified_by: [703]
+    },
+    {
+        _id: 750,
+        name: 'Ted',
+        appear_in: [31],
+        personified_by: [141]
+    },
+    {
+        _id: 751,
+        name: 'Susan',
+        appear_in: [31],
+        personified_by: [751]
+    },
+    {
+        _id: 752,
+        name: 'Morogo',
+        appear_in: [31],
+        personified_by: [752]
+    },
+    {
+        _id: 753,
+        name: 'Earl Johnson',
+        appear_in: [31],
+        personified_by: [753]
+    },
+    {
+        _id: 800,
+        name: 'Ariel',
+        appear_in: [32],
+        personified_by: [800]
+    },
+    {
+        _id: 801,
+        name: 'Louis',
+        appear_in: [32],
+        personified_by: [801]
+    },
+    {
+        _id: 802,
+        name: 'Eric',
+        appear_in: [32],
+        personified_by: [802]
+    },
+    {
+        _id: 803,
+        name: 'Ursula',
+        appear_in: [32],
+        personified_by: [803]
+    },
 ];
 
 

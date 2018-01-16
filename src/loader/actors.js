@@ -848,8 +848,8 @@ const actors = [
 	 {
         _id: 141,
         name: 'Keith Coogan',
-        acted_in: [10],
-        personifies: [145]
+        acted_in: [10, 31],
+        personifies: [145, 750]
     },
 	 {
         _id: 142,
@@ -1582,8 +1582,355 @@ const actors = [
         name: 'John Friesen',
         acted_in: [20],
         personifies: [277]
-    }
-
+    },
+    {
+        _id: 270,
+        name: 'Grant Bardsley',
+        acted_in: [21],
+        personifies: [280]
+    },
+    {
+        _id: 271,
+        name: 'Susan Sheridan',
+        acted_in: [21],
+        personifies: [281]
+    },
+    {
+        _id: 272,
+        name: 'Freddie Jones',
+        acted_in: [21],
+        personifies: [282]
+    },
+    {
+        _id: 273,
+        name: 'Nigel Hawthorne',
+        acted_in: [21],
+        personifies: [283]
+    },
+    {
+        _id: 274,
+        name: 'Arthur Malet',
+        acted_in: [21],
+        personifies: [284]
+    },
+    {
+        _id: 275,
+        name: 'John Byner',
+        acted_in: [21],
+        personifies: [285]
+    },
+    {
+        _id: 276,
+        name: 'Lindsay Rich',
+        acted_in: [21],
+        personifies: [286]
+    },
+    {
+        _id: 300,
+        name: 'Fairuza Balk',
+        acted_in: [22],
+        personifies: [300]
+    },
+    {
+        _id: 301,
+        name: 'Nicol Williamson',
+        acted_in: [22],
+        personifies: [301]
+    },
+    {
+        _id: 302,
+        name: 'Jean Marsh',
+        acted_in: [22],
+        personifies: [302]
+    },
+    {
+        _id: 303,
+        name: 'Piper Laurie',
+        acted_in: [22],
+        personifies: [303]
+    },
+    {
+        _id: 304,
+        name: 'Matt Clark',
+        acted_in: [22],
+        personifies: [304]
+    },
+    {
+        _id: 305,
+        name: 'Michael Sundin',
+        acted_in: [22],
+        personifies: [305]
+    },
+    {
+        _id: 350,
+        name: 'Meredith Salenger',
+        acted_in: [23],
+        personifies: [350]
+    },
+    {
+        _id: 351,
+        name: 'John Cusack',
+        acted_in: [23],
+        personifies: [351]
+    },
+    {
+        _id: 352,
+        name: 'Ray Wise',
+        acted_in: [23],
+        personifies: [352]
+    },
+    {
+        _id: 353,
+        name: 'Lainie Kazan',
+        acted_in: [23],
+        personifies: [353]
+    },
+    {
+        _id: 354,
+        name: 'Scatman Crothers',
+        acted_in: [23],
+        personifies: [354]
+    },
+    {
+        _id: 355,
+        name: 'Barry Miller',
+        acted_in: [23],
+        personifies: [355]
+    },
+    {
+        _id: 400,
+        name: 'Joey Cramer',
+        acted_in: [24],
+        personifies: [400]
+    },
+    {
+        _id: 401,
+        name: 'Paul Reubens',
+        acted_in: [24],
+        personifies: [401]
+    },
+    {
+        _id: 402,
+        name: 'Cliff De Young',
+        acted_in: [24],
+        personifies: [402]
+    },
+    {
+        _id: 403,
+        name: 'Veronica Cartwright',
+        acted_in: [24],
+        personifies: [403]
+    },
+    {
+        _id: 404,
+        name: 'Sarah Jessica Parker',
+        acted_in: [24],
+        personifies: [404]
+    },
+    {
+        _id: 405,
+        name: 'Albie Whitaker',
+        acted_in: [24],
+        personifies: [405]
+    },
+    {
+        _id: 450,
+        name: 'Vincent Price',
+        acted_in: [25],
+        personifies: [450]
+    },
+    {
+        _id: 451,
+        name: 'Barrie Ingham',
+        acted_in: [25],
+        personifies: [451]
+    },
+    {
+        _id: 452,
+        name: 'Val Bettin',
+        acted_in: [25],
+        personifies: [452]
+    },
+    {
+        _id: 453,
+        name: 'Susanne Pollatschek',
+        acted_in: [25],
+        personifies: [453]
+    },
+    {
+        _id: 454,
+        name: 'Candy Candido',
+        acted_in: [25],
+        personifies: [454]
+    },
+    {
+        _id: 455,
+        name: 'Diana Chesney',
+        acted_in: [25],
+        personifies: [455]
+    },
+    {
+        _id: 500,
+        name: 'Benji',
+        acted_in: [26],
+        personifies: [500]
+    },
+    {
+        _id: 501,
+        name: 'Frank Inn',
+        acted_in: [26],
+        personifies: [501]
+    },
+    {
+        _id: 502,
+        name: 'Red Steagall',
+        acted_in: [26],
+        personifies: [502]
+    },
+    {
+        _id: 503,
+        name: 'Nancy Francis',
+        acted_in: [26],
+        personifies: [503]
+    },
+    {
+        _id: 550,
+        name: 'Jon Lovitz',
+        acted_in: [27],
+        personifies: [550]
+    },
+    {
+        _id: 551,
+        name: 'Timothy Stack',
+        acted_in: [27],
+        personifies: [551]
+    },
+    {
+        _id: 552,
+        name: 'Timothy E. Day',
+        acted_in: [27],
+        personifies: [552]
+    },
+    {
+        _id: 553,
+        name: 'Thurl Ravenscroft',
+        acted_in: [27],
+        personifies: [553]
+    },
+    {
+        _id: 600,
+        name: 'Tom Burlinson',
+        acted_in: [28],
+        personifies: [600]
+    },
+    {
+        _id: 601,
+        name: 'Sigrid Thornton',
+        acted_in: [28],
+        personifies: [601]
+    },
+    {
+        _id: 602,
+        name: 'Brian Dennehy',
+        acted_in: [28],
+        personifies: [602]
+    },
+    {
+        _id: 603,
+        name: 'Nicholas Eadie',
+        acted_in: [28],
+        personifies: [603]
+    },
+    {
+        _id: 650,
+        name: 'Joey Lawrence',
+        acted_in: [29],
+        personifies: [650]
+    },
+    {
+        _id: 651,
+        name: 'Billy Joel',
+        acted_in: [29],
+        personifies: [651]
+    },
+    {
+        _id: 652,
+        name: 'Cheech Marin',
+        acted_in: [29],
+        personifies: [652]
+    },
+    {
+        _id: 653,
+        name: 'Richard Mulligan',
+        acted_in: [29],
+        personifies: [653]
+    },
+    {
+        _id: 700,
+        name: 'Rick Moranis',
+        acted_in: [30],
+        personifies: [700]
+    },
+    {
+        _id: 701,
+        name: 'Matt Frewer',
+        acted_in: [30],
+        personifies: [701]
+    },
+    {
+        _id: 702,
+        name: 'Marcia Strassman',
+        acted_in: [30],
+        personifies: [702]
+    },
+    {
+        _id: 703,
+        name: 'Kristine Sutherland',
+        acted_in: [30],
+        personifies: [703]
+    },
+    {
+        _id: 751,
+        name: 'Lucy Deakins',
+        acted_in: [31],
+        personifies: [751]
+    },
+    {
+        _id: 752,
+        name: 'Colin Mothupi',
+        acted_in: [31],
+        personifies: [752]
+    },
+    {
+        _id: 753,
+        name: 'Timothy Landfield',
+        acted_in: [31],
+        personifies: [753]
+    },
+    {
+        _id: 800,
+        name: 'Jodi Benson',
+        acted_in: [32],
+        personifies: [800]
+    },
+    {
+        _id: 801,
+        name: 'Rene Auberjonois',
+        acted_in: [32],
+        personifies: [801]
+    },
+    {
+        _id: 802,
+        name: 'Christopher Daniel Barnes',
+        acted_in: [32],
+        personifies: [802]
+    },
+    {
+        _id: 803,
+        name: 'Pat Carroll',
+        acted_in: [32],
+        personifies: [803]
+    },
 ];
 
 

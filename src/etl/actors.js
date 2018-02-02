@@ -28,17 +28,17 @@ async function attributes(){
             {
                 $project: {
                     _id: 1,
-                    data: {
-                        name: "$name"
-                    } 
+                    name: "$name"
                 }
             }
         ]);
         let actor = null;
         let statements = [];
+        await Neo4j.runStatement(`CREATE INDEX ON :Actor(_id))`);
         for(let i=1; (actor = await actorsCursor.next()) != null; i++ ){
-            console.log("[ETL] - [%d] saving actor [%s - %d]", i, actor.data.name, actor._id);
-            statements.push(`(actor_${actor._id}:Actor ${parseCypher(actor.data)})`);
+            console.log("[ETL] - [%d] saving actor [%s - %d]", i, actor.name, actor._id);
+            statements.push(`(actor_${actor._id}:Actor ${parseCypher(actor)})`);
+            await Neo4j.runStatement(`CREATE (:Actor ${parseCypher(actor)})`);
         }
         
         console.log("[ETL] - Actors loaded successfully!");
@@ -77,6 +77,9 @@ async function relations(){
         for(let i=1; (actor = await actorsCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving actor(acted_in) [%d - %d]", i, actor._id, actor.movie_id);
             statements.push(`(actor_${actor._id})-[:ACTED_IN]->(movie_${actor.movie_id})`);
+            await Neo4j.runStatement(`
+                MATCH (actor:Actor {_id: '${actor._id}'}), (movie:Movie {_id: '${actor.movie_id}'})
+                CREATE (actor)-[:ACTED_IN]->(movie)`);
         }
 
 
@@ -96,6 +99,9 @@ async function relations(){
         for(let i=1; (actor = await actorsCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving actor(personifies) [%d - %d]", i, actor._id, actor.character_id);
             statements.push(`(actor_${actor._id})-[:PERSONIFIES]->(character_${actor.character_id})`);
+            await Neo4j.runStatement(`
+                MATCH (actor:Actor {_id: '${actor._id}'}), (character:Character {_id: '${actor.character_id}'})
+                CREATE (actor)-[:PERSONIFIES]->(character)`);
         }
         
         console.log("[ETL] - Actor relations loaded successfully!");

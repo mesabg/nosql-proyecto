@@ -29,16 +29,16 @@ async function attributes(){
             {
                 $project: {
                     _id: 1,
-                    data: {
-                        name: "$name"
-                    } 
+                    name: "$name"
                 }
             }
         ]);
         let category = null;
+        await Neo4j.runStatement(`CREATE INDEX ON :Category(_id))`);
         for(let i=1; (category = await categoriesCursor.next()) != null; i++ ){
-            console.log("[ETL] - [%d] saving category [%s - %d]", i, category.data.name, category._id);
-            statements.push(`(category_${category._id}:Category ${parseCypher(category.data)})`);
+            console.log("[ETL] - [%d] saving category [%s - %d]", i, category.name, category._id);
+            statements.push(`(category_${category._id}:Category ${parseCypher(category)})`);
+            await Neo4j.runStatement(`CREATE (:Category ${parseCypher(category)})`);
         }
         
         console.log("[ETL] - Categories loaded successfully!");
@@ -77,6 +77,9 @@ async function relations(){
         for(let i=1; (category = await categoriesCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving category(present_in) [%d - %d]", i, category._id, category.award_id);
             statements.push(`(category_${category._id})-[:PRESENT_IN]->(award_${category.award_id})`);
+            await Neo4j.runStatement(`
+                MATCH (category:Category {_id: '${category._id}'}), (award:Award {_id: '${category.award_id}'})
+                CREATE (category)-[:PRESENT_IN]->(award)`);
         }
         
         console.log("[ETL] - Category relations loaded successfully!");

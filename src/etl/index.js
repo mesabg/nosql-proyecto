@@ -20,6 +20,10 @@ const movies = require('./movies');
 module.exports = new Promise(async (resolve, reject) => {
     try {
         console.log("[ETL] - process starting...");
+        //-- Start spinner
+        let spinner = new Spinner('processing... %s');
+        spinner.setSpinnerString('|/-\\');
+        spinner.start();
 
         //-- Clear database
         await Neo4j.runStatement(`MATCH (n) DETACH DELETE n`);
@@ -42,10 +46,6 @@ module.exports = new Promise(async (resolve, reject) => {
         statements = statements.concat(await directors.relationsLoader());
         statements = statements.concat(await movies.relationsLoader());
 
-        //-- Start spinner
-        let spinner = new Spinner('processing... %s');
-        spinner.setSpinnerString('|/-\\');
-        spinner.start();
 
         //-- Save statements on a file
         await new Promise((resolve, reject) => {
@@ -62,7 +62,7 @@ module.exports = new Promise(async (resolve, reject) => {
         });
 
         //-- Run statement
-        await Neo4j.runStatement(`CREATE ${statements.join()}`);
+        //await Neo4j.runStatement(`CREATE ${statements.join()}`);
 
         console.log("[ETL] - process finished successfully!");
         spinner.stop();

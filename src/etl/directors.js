@@ -29,16 +29,16 @@ async function attributes(){
             {
                 $project: {
                     _id: 1,
-                    data: {
-                        name: "$name"
-                    } 
+                    name: "$name"
                 }
             }
         ]);
         let director = null;
+        await Neo4j.runStatement(`CREATE INDEX ON :Director(_id))`);
         for(let i=1; (director = await directorsCursor.next()) != null; i++ ){
-            console.log("[ETL] - [%d] saving director [%s - %d]", i, director.data.name, director._id);
-            statements.push(`(director_${director._id}:Director ${parseCypher(director.data)})`);
+            console.log("[ETL] - [%d] saving director [%s - %d]", i, director.name, director._id);
+            statements.push(`(director_${director._id}:Director ${parseCypher(director)})`);
+            await Neo4j.runStatement(`CREATE (:Director ${parseCypher(director)})`);
         }
         
         console.log("[ETL] - Directors loaded successfully!");
@@ -77,6 +77,9 @@ async function relations(){
         for(let i=1; (director = await directorsCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving director(directed_in) [%d - %d]", i, director._id, director.movie_id);
             statements.push(`(director_${director._id})-[:DIRECTED_IN]->(movie_${director.movie_id})`);
+            await Neo4j.runStatement(`
+                MATCH (director:Director {_id: '${director._id}'}), (movie:Movie {_id: '${director.movie_id}'})
+                CREATE (director)-[:DIRECTED_IN]->(movie)`);
         }
         
         console.log("[ETL] - Director relations loaded successfully!");

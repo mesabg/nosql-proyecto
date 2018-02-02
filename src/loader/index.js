@@ -1,5 +1,5 @@
 /**
- * Load default data
+ * Load default data - to mongo db
  */
 
 const actors = require('./actors');

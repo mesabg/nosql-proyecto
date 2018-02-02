@@ -32,7 +32,9 @@ class Neo4j {
 
     static async runStatement(statement = '', params = {}){
         try {
-            return await Neo4j.getInstance().createSession().run(statement, params);
+            let response = await Neo4j.getInstance().createSession().run(statement, params);
+            await Neo4j.getInstance().closeSession();
+            return response;
         } catch (reason) {
             console.log("An error ocurred trying to run this statement");
             console.log("Statement [- %s -]\nParams [- %s -]", statement, JSON.stringify(params));

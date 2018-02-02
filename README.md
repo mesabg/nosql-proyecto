@@ -153,11 +153,11 @@ Todas las consultas se encuentran en orden en el archivo **src/queries/index.js*
 
 [logo]: https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png "MongoDB"
 
-[Q1]: images/Q1.png
-[Q2]: images/Q2.png
-[Q3]: images/Q3.png
-[Q4]: images/Q4.png
-[Q5]: images/Q5.png
-[Q6]: images/Q6.png
-[Q7]: images/Q7.png
-[Q8]: images/Q8.png
+[Q1]: images/mongo/Q1.png
+[Q2]: images/mongo/Q2.png
+[Q3]: images/mongo/Q3.png
+[Q4]: images/mongo/Q4.png
+[Q5]: images/mongo/Q5.png
+[Q6]: images/mongo/Q6.png
+[Q7]: images/mongo/Q7.png
+[Q8]: images/mongo/Q8.png

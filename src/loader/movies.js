@@ -35,7 +35,7 @@ const movies = [
         running_time: 100,
         gross: 18000000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 1,
                 actor_id: 1,
@@ -130,7 +130,7 @@ const movies = [
         running_time: 97,
         gross: 11000000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 16,
                 actor_id: 16,
@@ -225,7 +225,7 @@ const movies = [
         running_time: 112,
         gross: 2900000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 30,
                 actor_id: 30,
@@ -363,7 +363,7 @@ const movies = [
         running_time: 84,
         gross: 5000000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 58,
                 actor_id: 58,
@@ -458,7 +458,7 @@ const movies = [
         running_time: 114,
         gross: 49823057,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 70,
                 actor_id: 70,
@@ -562,7 +562,7 @@ const movies = [
         running_time: 100,
         gross: 0,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 82,
                 actor_id: 82,
@@ -655,7 +655,7 @@ const movies = [
         running_time: 90,
         gross: 0,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 96,
                 actor_id: 95,
@@ -712,7 +712,7 @@ const movies = [
         running_time: 108,
         gross: 14110013,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 104,
                 actor_id: 102,
@@ -834,7 +834,7 @@ const movies = [
         running_time: 96,
         gross: 16000000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 119,
                 actor_id: 16,
@@ -917,7 +917,7 @@ const movies = [
         running_time: 83,
         gross: 63456988,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 134,
                 actor_id: 131,
@@ -1013,7 +1013,7 @@ const movies = [
         running_time: 105,
         gross: 8000000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 148,
                 actor_id: 144,
@@ -1108,7 +1108,7 @@ const movies = [
         running_time: 96,
         gross: 33000000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 163,
                 actor_id: 159,
@@ -1243,7 +1243,7 @@ const movies = [
         running_time: 103,
         gross: 7400000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 178,
                 actor_id: 174,
@@ -1344,7 +1344,7 @@ const movies = [
         running_time: 95,
         gross: 8400000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 193,
                 actor_id: 189,
@@ -1467,7 +1467,7 @@ const movies = [
         running_time: 105,
         gross: 29600000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 207,
                 actor_id: 2,
@@ -1560,7 +1560,7 @@ const movies = [
         running_time: 26,
         gross:  21000000,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 215,
                 actor_id: 210,
@@ -1647,7 +1647,7 @@ const movies = [
         running_time: 91,
         gross:  4304286,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 229,
                 actor_id: 217,
@@ -1730,7 +1730,7 @@ const movies = [
         running_time: 99,
         gross:  0,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 244,
                 actor_id: 232,
@@ -1813,7 +1813,7 @@ const movies = [
         running_time: 58,
         gross:  0,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 259,
                 actor_id: 246,
@@ -1860,7 +1860,7 @@ const movies = [
         running_time: 89,
         gross:  13677222,
         preceded_by: null, //-- La precede una pelicula fuera del rango de nuestro caso
-        personified_by: [
+        acted_by: [
             {
                 character_id: 263,
                 actor_id: 250,
@@ -1993,7 +1993,7 @@ const movies = [
         running_time: 80,
         gross: 44000000,
         preceded_by: null,
-        personified_by: [
+        acted_by: [
             {
                 actor_id: 270,
                 character_id: 280,
@@ -2047,7 +2047,7 @@ const movies = [
         running_time: 113,
         gross: 28000000,
         preceded_by: null,
-        personified_by:[
+        acted_by:[
             {
                 actor_id: 300,
                 character_id: 300,
@@ -2122,7 +2122,7 @@ const movies = [
         running_time: 101,
         gross: 2135577,
         preceded_by: null,
-        personified_by: [
+        acted_by: [
             {
                 actor_id: 350,
                 character_id: 350,
@@ -2188,7 +2188,7 @@ const movies = [
         running_time: 90,
         gross: 18564613,
         preceded_by: null,
-        personified_by:[
+        acted_by:[
             {
                 actor_id: 400,
                 character_id: 400,
@@ -2254,7 +2254,7 @@ const movies = [
         running_time: 74,
         gross: 38600000,
         preceded_by: null,
-        personified_by: [
+        acted_by: [
             {
                 actor_id: 450,
                 character_id: 450,
@@ -2319,7 +2319,7 @@ const movies = [
         running_time: 89,
         gross: 22257624,
         preceded_by: null,
-        personified_by: [
+        acted_by: [
             {
                 actor_id: 500,
                 character_id: 500,
@@ -2375,7 +2375,7 @@ const movies = [
         running_time: 90,
         gross: 2300000,
         preceded_by: null,
-        personified_by: [
+        acted_by: [
             {
                 actor_id: 550,
                 character_id: 550,
@@ -2431,7 +2431,7 @@ const movies = [
         running_time: 110,
         gross: 13687027,
         preceded_by: null,
-        personified_by:[
+        acted_by:[
             {
                 actor_id: 600,
                 character_id: 600,
@@ -2487,7 +2487,7 @@ const movies = [
         running_time: 73,
         gross: 74151346,
         preceded_by: null,
-        personified_by:[
+        acted_by:[
             {
                 actor_id: 650,
                 character_id: 650,
@@ -2543,7 +2543,7 @@ const movies = [
         running_time: 93,
         gross: 130724172,
         preceded_by: null,
-        personified_by:[
+        acted_by:[
             {
                 actor_id: 700,
                 character_id: 700,
@@ -2598,7 +2598,7 @@ const movies = [
         running_time: 83,
         gross: 8153677,
         preceded_by: null,
-        personified_by:[
+        acted_by:[
             {
                 actor_id: 141,
                 character_id: 750,
@@ -2649,7 +2649,7 @@ const movies = [
         running_time: 82, 
         gross: 211343479,
         preceded_by: null,
-        personified_by:[
+        acted_by:[
             {
                 actor_id: 800,
                 character_id: 800,

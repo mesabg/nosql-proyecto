@@ -85,7 +85,7 @@ var MovieSchema = new Schema({
         set: v => Math.round(v),
         default: null
     },
-    personified_by:{
+    acted_by:{
         type:[{
             character_id:{
                 type: Schema.Types.Number,

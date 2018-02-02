@@ -34,7 +34,7 @@ async function attributes(){
             }
         ]);
         let category = null;
-        await Neo4j.runStatement(`CREATE INDEX ON :Category(_id))`);
+        await Neo4j.runStatement(`CREATE INDEX ON :Category(_id)`);
         for(let i=1; (category = await categoriesCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving category [%s - %d]", i, category.name, category._id);
             statements.push(`(category_${category._id}:Category ${parseCypher(category)})`);

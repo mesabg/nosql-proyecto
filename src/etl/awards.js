@@ -34,7 +34,7 @@ async function attributes(){
             }
         ]);
         let award = null;
-        await Neo4j.runStatement(`CREATE INDEX ON :Award(_id))`);
+        await Neo4j.runStatement(`CREATE INDEX ON :Award(_id)`);
         for(let i=1; (award = await awardsCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving award [%s - %d]", i, award.name, award._id);
             statements.push(`(award_${award._id}:Award ${parseCypher(award)})`);

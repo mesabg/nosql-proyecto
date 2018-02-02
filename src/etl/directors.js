@@ -34,7 +34,7 @@ async function attributes(){
             }
         ]);
         let director = null;
-        await Neo4j.runStatement(`CREATE INDEX ON :Director(_id))`);
+        await Neo4j.runStatement(`CREATE INDEX ON :Director(_id)`);
         for(let i=1; (director = await directorsCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving director [%s - %d]", i, director.name, director._id);
             statements.push(`(director_${director._id}:Director ${parseCypher(director)})`);

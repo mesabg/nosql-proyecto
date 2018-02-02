@@ -67,20 +67,9 @@ async function relations(){
                 $unwind: "$present_in"
             },
             {
-                $lookup: {
-                    from: 'award',
-                    localField: 'present_in',
-                    foreignField: '_id',
-                    as: 'award'
-                }
-            },
-            {
-                $unwind: "$award"
-            },
-            {
                 $project: {
                     _id: 1,
-                    award_id: "$award._id"
+                    award_id: "$present_in"
                 }
             }
         ]);

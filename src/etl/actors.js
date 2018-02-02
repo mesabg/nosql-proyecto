@@ -67,20 +67,9 @@ async function relations(){
                 $unwind: "$acted_in"
             },
             {
-                $lookup: {
-                    from: 'movie',
-                    localField: 'acted_in',
-                    foreignField: '_id',
-                    as: 'movie'
-                }
-            },
-            {
-                $unwind: "$movie"
-            },
-            {
                 $project: {
                     _id: 1,
-                    movie_id: "$movie._id"
+                    movie_id: "$acted_in"
                 }
             }
         ]);
@@ -97,20 +86,9 @@ async function relations(){
                 $unwind: "$personifies"
             },
             {
-                $lookup: {
-                    from: 'character',
-                    localField: 'personifies',
-                    foreignField: '_id',
-                    as: 'character'
-                }
-            },
-            {
-                $unwind: "$character"
-            },
-            {
                 $project: {
                     _id: 1,
-                    character_id: "$character._id"
+                    character_id: "$personifies"
                 }
             }
         ]);

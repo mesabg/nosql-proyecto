@@ -67,20 +67,9 @@ async function relations(){
                 $unwind: "$has_category"
             },
             {
-                $lookup: {
-                    from: 'category',
-                    localField: 'has_category',
-                    foreignField: '_id',
-                    as: 'category'
-                }
-            },
-            {
-                $unwind: "$category"
-            },
-            {
                 $project: {
                     _id: 1,
-                    category_id: "$category._id"
+                    category_id: "$has_category"
                 }
             }
         ]);

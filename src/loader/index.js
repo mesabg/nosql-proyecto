@@ -8,6 +8,8 @@ const categories = require('./categories');
 const characters = require('./characters');
 const directors = require('./directors');
 const movies = require('./movies');
+const states = require('./states');
+const studios = require('./studios');
 
 module.exports = new Promise(async (resolve, reject) => {
     try {
@@ -17,7 +19,9 @@ module.exports = new Promise(async (resolve, reject) => {
             categories,
             characters,
             directors,
-            movies
+            movies,
+            states,
+            studios
         ]);
         resolve(response);
     } catch (error) {

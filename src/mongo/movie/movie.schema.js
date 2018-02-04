@@ -45,11 +45,6 @@ var MovieSchema = new Schema({
         type: Schema.Types.Number,
         required: [true, 'Rating stars are required']
     },
-    studio:{
-        type: Schema.Types.String,
-        index: true,
-        required: [true, 'Studio is required']
-    },
     distributor:{
         type: Schema.Types.String,
         index: true,
@@ -78,6 +73,13 @@ var MovieSchema = new Schema({
     gross:{
         type: Schema.Types.Number,
         required: [true, 'Gross is required']
+    },
+    created_in:{
+        type: Schema.Types.Number,
+        get: v => Math.round(v),
+        set: v => Math.round(v),
+        index: true,
+        required: [true, 'Studio ID is required']
     },
     preceded_by:{
         type: Schema.Types.Number,

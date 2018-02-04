@@ -7,5 +7,7 @@ module.exports = {
     Category: require('./category'),
     Character: require('./character'),
     Director: require('./director'),
-    Movie: require('./movie')
+    Movie: require('./movie'),
+    State: require('./state'),
+    Studio: require('./studio')
 };

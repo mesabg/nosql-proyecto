@@ -33,7 +33,6 @@ async function attributes(){
                     name_spanish: "$name.spanish",
                     clasification: "$clasification",
                     rating: "$rating",
-                    studio: "$studio",
                     distributor: "$director",
                     saga: "$saga",
                     release: "$release",
@@ -176,6 +175,28 @@ async function relations(){
             await Neo4j.runStatement(`
                 MATCH (movieA:Movie {_id: '${movie._id}'}), (movieB:Movie {_id: '${movie.movie_id}'})
                 CREATE (movieA)-[:PRECEDED_BY]->(movieB)`);
+        }
+
+
+        //-- created_in relation
+        moviesCursor = movieCollection.aggregate([
+            {
+                $match: { created_in: { $ne: null } }
+            },
+            {
+                $project: {
+                    _id: 1,
+                    studio_id: "$created_in"
+                }
+            }
+        ]);
+        movie = null;
+        for(let i=1; (movie = await moviesCursor.next()) != null; i++ ){
+            console.log("[ETL] - [%d] saving movie(created_in) [%d - %d]", i, movie._id, movie.studio_id);
+            statements.push(`(movie_${movie._id})-[:CREATED_IN]->(studio_${movie.studio_id})`);
+            await Neo4j.runStatement(`
+                MATCH (movie:Movie {_id: '${movie._id}'}), (studio:Studio {_id: '${movie.studio_id}'})
+                CREATE (movie)-[:CREATED_IN]->(studio)`);
         }
         
         console.log("[ETL] - Movie relations loaded successfully!");

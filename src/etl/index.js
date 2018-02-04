@@ -15,6 +15,8 @@ const categories = require('./categories');
 const characters = require('./characters');
 const directors = require('./directors');
 const movies = require('./movies');
+const states = require('./states');
+const studios = require('./studios');
 
 
 module.exports = new Promise(async (resolve, reject) => {
@@ -37,6 +39,8 @@ module.exports = new Promise(async (resolve, reject) => {
         statements = statements.concat(await characters.attributesLoader());
         statements = statements.concat(await directors.attributesLoader());
         statements = statements.concat(await movies.attributesLoader());
+        statements = statements.concat(await states.attributesLoader());
+        statements = statements.concat(await studios.attributesLoader());
         
         //-- Load edges
         statements = statements.concat(await actors.relationsLoader());
@@ -45,6 +49,8 @@ module.exports = new Promise(async (resolve, reject) => {
         statements = statements.concat(await characters.relationsLoader());
         statements = statements.concat(await directors.relationsLoader());
         statements = statements.concat(await movies.relationsLoader());
+        statements = statements.concat(await states.relationsLoader());
+        statements = statements.concat(await studios.relationsLoader());
 
 
         //-- Save statements on a file

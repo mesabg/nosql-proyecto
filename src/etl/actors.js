@@ -35,6 +35,7 @@ async function attributes(){
         let actor = null;
         let statements = [];
         await Neo4j.runStatement(`CREATE INDEX ON :Actor(_id)`);
+        await Neo4j.runStatement(`CREATE INDEX ON :Actor(name)`);
         for(let i=1; (actor = await actorsCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving actor [%s - %d]", i, actor.name, actor._id);
             statements.push(`(actor_${actor._id}:Actor ${parseCypher(actor)})`);

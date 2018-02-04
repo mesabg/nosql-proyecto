@@ -44,6 +44,7 @@ async function attributes(){
         ]);
         let movie = null;
         await Neo4j.runStatement(`CREATE INDEX ON :Movie(_id)`);
+        await Neo4j.runStatement(`CREATE INDEX ON :Movie(name)`);
         for(let i=1; (movie = await moviesCursor.next()) != null; i++ ){
             console.log("[ETL] - [%d] saving movie [%s - %d]", i, movie.name, movie._id);
             statements.push(`(movie_${movie._id}:Movie ${parseCypher(movie)})`);

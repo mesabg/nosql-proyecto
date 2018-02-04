@@ -19,9 +19,9 @@ MongoDB
 
     /**
      * UNCOMMENT THIS TO RELOAD DROP MONGODB DATABASE AND RELOAD THE DATA
-     * await require('./loader');
-     * console.log("Data has been saved");
      */
+    await require('./loader');
+    console.log("Data has been saved");
 
     /**
      * ETL, DATA GOES FROM MONGO TO NEO4J

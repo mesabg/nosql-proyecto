@@ -33,6 +33,6 @@ var StudioSchema = new Schema({
             required: [true, 'Movie ID is required']
         }]
     }
-}, {collection: 'state'});
+}, {collection: 'studio'});
 
-module.exports = StateSchema;
+module.exports = StudioSchema;

@@ -11,7 +11,7 @@ class General {
     
     static parseCypher(json){
         return '{' + Object.keys(json).map(key => {
-            if (json[key] instanceof Array) return `${key}: ${arrayToString(json[key])}`;
+            if (json[key] instanceof Array) return `${key}: ${General.arrayToString(json[key])}`;
             else if (typeof json[key] == 'number') return `${key}: ${json[key]}`;
             return `${key}: '${json[key]}'`;
         }).join() + '}';

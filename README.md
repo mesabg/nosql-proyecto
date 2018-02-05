@@ -21,99 +21,6 @@ CREATE (category)-[:PRESENT_IN]->(award)
 7. NOTA: Se modificó el esquema para añadir la parte de los estados
 
 #### Referente al modelo de datos
-El modelo utilizado fue el siguiente:
-
-```javascript
-//-- ACTOR
-//-- Usando el esquema referenciado para relaciones N:N
-actor: {
-    _id:Number,
-    name:String,
-    acted_in:[Number],
-    personifies:[Number]
-}
-//-- Logica usada: Saber en que peliculas ha actuado un actor y que papeles a representado
-
-
-
-//-- CHARACTER
-//-- Usando el esquema referenciado para relaciones N:N
-character: {
-    _id:Number,
-    name:String,
-    appear_in:[Number],
-    personified_by:[Number]
-}
-//-- Logica usada: Saber en en que peliculas ha aparecido un personaje y quien a actuado a ese personaje
-
-
-//-- DIRECTOR
-//-- Usando el esquema referenciado para relaciones N:N
-director: {
-    _id:Number,
-    name:String,
-    directed_in:[Number]
-}
-//-- Logica usada: Saber que peliculas ha dirigido un director
-
-
-//-- AWARD
-//-- Usando el esquema referenciado para relaciones N:N
-award: {
-    _id:Number,
-    name:String,
-    has_category:[Number]
-}
-//-- Logica usada: Saber que categorias tiene un premio
-
-
-//-- CATEGORY
-//-- Usando el esquema referenciado para relaciones N:N
-category: {
-    _id:Number,
-    name:String,
-    present_in:[Number]
-}
-//-- Logica usada: Aber a que premios pertenece una categoria
-
-
-//-- MOVIE
-//-- Usando el esquema referenciado para relaciones N:N
-movie: {
-    _id:Number,
-    name: {
-        spanish:String,
-        original:String,
-    }
-    clasification:String,
-    rating:Number,
-    studio:String,
-    distributor:String,
-    saga:String,
-    release:Date,
-    genre:[String],
-    running_time:Number,
-    gross:Number,
-    preceded_by:Number,
-    personified_by:[{
-        actor_id:Number,
-        character_id:Number,
-        role:String
-    }],
-    directed_by:[Number],
-    nominated_in:[{
-        award_id:Number,
-        category_id:Number,
-        won:Boolean
-    }]
-}
-//-- Logica usada: 
-//-- Saber las peliculas que preceden
-//-- Saber los personajes y actores
-//-- Saber quien la ha dirigido
-//-- Saber las nominaciones que tiene
-
-```
 
 
 #### Referente a los queries
@@ -146,13 +53,13 @@ Todas las consultas se encuentran en orden en el archivo **src/queries/index.js*
 
 [logo]: https://neo4j.com/wp-content/themes/neo4jweb/assets/images/neo4j-logo-2015.png "Neo4j"
 
-[Q1]: images/neo4j/A1.png
-[Q1]: images/neo4j/A2.png
-[Q1]: images/neo4j/A3.png
-[Q1]: images/neo4j/A4.png
-[Q1]: images/neo4j/A5.png
-[Q1]: images/neo4j/A6.png
-[Q1]: images/neo4j/A7.png
-[Q1]: images/neo4j/A8.png
-[Q1]: images/neo4j/A9.png
-[Q1]: images/neo4j/A10.png
+[A1]: images/neo4j/A1.png
+[A2]: images/neo4j/A2.png
+[A3]: images/neo4j/A3.png
+[A4]: images/neo4j/A4.png
+[A5]: images/neo4j/A5.png
+[A6]: images/neo4j/A6.png
+[A7]: images/neo4j/A7.png
+[A8]: images/neo4j/A8.png
+[A9]: images/neo4j/A9.png
+[A10]: images/neo4j/A10.png

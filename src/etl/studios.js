@@ -79,7 +79,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving studio(has_movie) [%d - %d]", i, studio._id, studio.movie_id);
             statements.push(`(studio_${studio._id})-[:HAS_MOVIE]->(movie_${studio.movie_id})`);
             await Neo4j.runStatement(`
-                MATCH (studio:Studio {_id: '${studio._id}'}), (movie:Movie {_id: '${studio.movie_id}'})
+                MATCH (studio:Studio {_id: ${studio._id}}), (movie:Movie {_id: ${studio.movie_id}})
                 CREATE (studio)-[:HAS_MOVIE]->(movie)`);
         }
 
@@ -101,7 +101,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving studio(has_state) [%d - %d]", i, studio._id, studio.state_id);
             statements.push(`(studio_${studio._id})-[:HAS_STATE]->(state_${studio.state_id})`);
             await Neo4j.runStatement(`
-                MATCH (studio:Studio {_id: '${studio._id}'}), (state:State {_id: '${studio.state_id}'})
+                MATCH (studio:Studio {_id: ${studio._id}}), (state:State {_id: ${studio.state_id}})
                 CREATE (studio)-[:HAS_STATE]->(state)`);
         }
 

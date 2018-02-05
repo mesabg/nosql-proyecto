@@ -93,12 +93,12 @@ async function relations(){
             console.log("[ETL] - [%d] saving movie(acted_by) [%d - %d]", i, movie._id, movie.actor_id);
             statements.push(`(movie_${movie._id})-[:ACTED_BY ${parseCypher(movie.data)}]->(actor_${movie.actor_id})`);
             await Neo4j.runStatement(`
-                MATCH (movie:Movie {_id: '${movie._id}'}), (actor:Actor {_id: '${movie.actor_id}'})
+                MATCH (movie:Movie {_id: ${movie._id}}), (actor:Actor {_id: ${movie.actor_id}})
                 CREATE (movie)-[:ACTED_BY ${parseCypher(movie.data)}]->(actor)`);
             console.log("[ETL] - [%d] saving movie(character_is) [%d - %d]", i, movie._id, movie.character_id);
             statements.push(`(movie_${movie._id})-[:CHARACTER_IS ${parseCypher(movie.data)}]->(character_${movie.character_id})`);
             await Neo4j.runStatement(`
-                MATCH (movie:Movie {_id: '${movie._id}'}), (character:Character {_id: '${movie.character_id}'})
+                MATCH (movie:Movie {_id: ${movie._id}}), (character:Character {_id: ${movie.character_id}})
                 CREATE (movie)-[:CHARACTER_IS ${parseCypher(movie.data)}]->(character)`);
         }
 
@@ -125,12 +125,12 @@ async function relations(){
             console.log("[ETL] - [%d] saving movie(nominated_in) [%d - %d]", i, movie._id, movie.award_id);
             statements.push(`(movie_${movie._id})-[:NOMINATED_IN ${parseCypher(movie.data)}]->(award_${movie.award_id})`);
             await Neo4j.runStatement(`
-                MATCH (movie:Movie {_id: '${movie._id}'}), (award:Award {_id: '${movie.award_id}'})
+                MATCH (movie:Movie {_id: ${movie._id}}), (award:Award {_id: ${movie.award_id}})
                 CREATE (movie)-[:NOMINATED_IN ${parseCypher(movie.data)}]->(award)`);
             console.log("[ETL] - [%d] saving movie(category_is) [%d - %d]", i, movie._id, movie.category_id);
             statements.push(`(movie_${movie._id})-[:CATEGORY_IS ${parseCypher(movie.data)}]->(category_${movie.category_id})`);
             await Neo4j.runStatement(`
-                MATCH (movie:Movie {_id: '${movie._id}'}), (category:Category {_id: '${movie.category_id}'})
+                MATCH (movie:Movie {_id: ${movie._id}}), (category:Category {_id: ${movie.category_id}})
                 CREATE (movie)-[:CATEGORY_IS ${parseCypher(movie.data)}]->(category)`);
         }
 
@@ -152,7 +152,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving movie(directed_by) [%d - %d]", i, movie._id, movie.director_id);
             statements.push(`(movie_${movie._id})-[:DIRECTED_BY]->(director_${movie.director_id})`);
             await Neo4j.runStatement(`
-                MATCH (movie:Movie {_id: '${movie._id}'}), (director:Director {_id: '${movie.director_id}'})
+                MATCH (movie:Movie {_id: ${movie._id}}), (director:Director {_id: ${movie.director_id}})
                 CREATE (movie)-[:DIRECTED_BY]->(director)`);
         }
 
@@ -174,7 +174,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving movie(preceded_by) [%d - %d]", i, movie._id, movie.movie_id);
             statements.push(`(movie_${movie._id})-[:PRECEDED_BY]->(movie_${movie.movie_id})`);
             await Neo4j.runStatement(`
-                MATCH (movieA:Movie {_id: '${movie._id}'}), (movieB:Movie {_id: '${movie.movie_id}'})
+                MATCH (movieA:Movie {_id: ${movie._id}}), (movieB:Movie {_id: ${movie.movie_id}})
                 CREATE (movieA)-[:PRECEDED_BY]->(movieB)`);
         }
 
@@ -196,7 +196,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving movie(created_in) [%d - %d]", i, movie._id, movie.studio_id);
             statements.push(`(movie_${movie._id})-[:CREATED_IN]->(studio_${movie.studio_id})`);
             await Neo4j.runStatement(`
-                MATCH (movie:Movie {_id: '${movie._id}'}), (studio:Studio {_id: '${movie.studio_id}'})
+                MATCH (movie:Movie {_id: ${movie._id}}), (studio:Studio {_id: ${movie.studio_id}})
                 CREATE (movie)-[:CREATED_IN]->(studio)`);
         }
         

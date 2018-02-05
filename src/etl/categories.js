@@ -79,7 +79,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving category(present_in) [%d - %d]", i, category._id, category.award_id);
             statements.push(`(category_${category._id})-[:PRESENT_IN]->(award_${category.award_id})`);
             await Neo4j.runStatement(`
-                MATCH (category:Category {_id: '${category._id}'}), (award:Award {_id: '${category.award_id}'})
+                MATCH (category:Category {_id: ${category._id}}), (award:Award {_id: ${category.award_id}})
                 CREATE (category)-[:PRESENT_IN]->(award)`);
         }
         

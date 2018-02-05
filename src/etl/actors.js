@@ -79,7 +79,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving actor(acted_in) [%d - %d]", i, actor._id, actor.movie_id);
             statements.push(`(actor_${actor._id})-[:ACTED_IN]->(movie_${actor.movie_id})`);
             await Neo4j.runStatement(`
-                MATCH (actor:Actor {_id: '${actor._id}'}), (movie:Movie {_id: '${actor.movie_id}'})
+                MATCH (actor:Actor {_id: ${actor._id}}), (movie:Movie {_id: ${actor.movie_id}})
                 CREATE (actor)-[:ACTED_IN]->(movie)`);
         }
 
@@ -101,7 +101,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving actor(personifies) [%d - %d]", i, actor._id, actor.character_id);
             statements.push(`(actor_${actor._id})-[:PERSONIFIES]->(character_${actor.character_id})`);
             await Neo4j.runStatement(`
-                MATCH (actor:Actor {_id: '${actor._id}'}), (character:Character {_id: '${actor.character_id}'})
+                MATCH (actor:Actor {_id: ${actor._id}}), (character:Character {_id: ${actor.character_id}})
                 CREATE (actor)-[:PERSONIFIES]->(character)`);
         }
         

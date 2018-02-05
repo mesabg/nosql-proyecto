@@ -79,7 +79,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving director(directed_in) [%d - %d]", i, director._id, director.movie_id);
             statements.push(`(director_${director._id})-[:DIRECTED_IN]->(movie_${director.movie_id})`);
             await Neo4j.runStatement(`
-                MATCH (director:Director {_id: '${director._id}'}), (movie:Movie {_id: '${director.movie_id}'})
+                MATCH (director:Director {_id: ${director._id}}), (movie:Movie {_id: ${director.movie_id}})
                 CREATE (director)-[:DIRECTED_IN]->(movie)`);
         }
         

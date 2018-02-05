@@ -79,7 +79,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving award(has_category) [%d - %d]", i, award._id, award.category_id);
             statements.push(`(award_${award._id})-[:HAS_CATEGORY]->(category_${award.category_id})`);
             await Neo4j.runStatement(`
-                MATCH (award:Award {_id: '${award._id}'}), (category:Category {_id: '${award.category_id}'})
+                MATCH (award:Award {_id: ${award._id}}), (category:Category {_id: ${award.category_id}})
                 CREATE (award)-[:HAS_CATEGORY]->(category)`);
         }
         

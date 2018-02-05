@@ -82,7 +82,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving state(next_to) [%d - %d]", i, state._id, state.state_id);
             statements.push(`(state_${state._id})-[:NEXT_TO ${parseCypher(state.data)}]->(state_${state.state_id})`);
             await Neo4j.runStatement(`
-                MATCH (stateA:State {_id: '${state._id}'}), (stateB:State {_id: '${state.state_id}'})
+                MATCH (stateA:State {_id: ${state._id}}), (stateB:State {_id: ${state.state_id}})
                 CREATE (stateA)-[:NEXT_TO ${parseCypher(state.data)}]->(stateB)`);
         }
 
@@ -104,7 +104,7 @@ async function relations(){
             console.log("[ETL] - [%d] saving state(has_studio) [%d - %d]", i, state._id, state.studio_id);
             statements.push(`(state_${state._id})-[:HAS_STUDIO]->(studio_${state.studio_id})`);
             await Neo4j.runStatement(`
-                MATCH (state:State {_id: '${state._id}'}), (studio:Studio {_id: '${state.studio_id}'})
+                MATCH (state:State {_id: ${state._id}}), (studio:Studio {_id: ${state.studio_id}})
                 CREATE (state)-[:HAS_STUDIO]->(studio)`);
         }
 
